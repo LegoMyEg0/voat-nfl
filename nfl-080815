@@ -456,27 +456,27 @@ body {
   cursor: pointer;
   width: 10px;
   height: 25px;
-  background: url('http://i.imgur.com/8vVJxet.png');
+  background: url('https://i.imgur.com/8vVJxet.png');
  opacity: 0.5;
 }
 .arrow-upvoted {
   cursor: pointer;
   width: 10px;
   height: 25px;
-  background: url('http://i.imgur.com/O5cb6q0.png');
+  background: url('https://i.imgur.com/O5cb6q0.png');
 }
 .arrow-downvote {
   cursor: pointer;
   width: 20px;
   height: 20px;
-  background: url('http://i.imgur.com/Ndvd5xa.png');
+  background: url('https://i.imgur.com/Ndvd5xa.png');
  opacity: 0.5;
 }
 .arrow-downvoted {
   cursor: pointer;
   width: 20px;
   height: 20px;
-  background: url('http://i.imgur.com/006WURl.png');
+  background: url('https://i.imgur.com/006WURl.png');
 }
 /* === ANNOUNCEMENT ALERT WITH LINKS AND STYLES === */
 	.side .titlebox .usertext h6:nth-of-type(1) {
