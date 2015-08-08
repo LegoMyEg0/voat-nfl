@@ -1,3 +1,4 @@
+<?php header("Content-type: text/css"); ?>
 /* === /v/NFL stylesheet designed primarily by /u/LegoMyEgo  inspired by the Scribble theme === */
 /*
 SCRIBBLE VERSION 1.4.3
