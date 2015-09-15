@@ -621,7 +621,8 @@ a[href="/user/PM_me_your_tacos"]:not(.upvoatsGiven)::after,
 a[href="/user/DankAmerican"]:not(.upvoatsGiven)::after {
 	background-position: 0 -300px;
 }
-/* denver alt */ {
+/* denver alt */ 
+a[href="/user/LegoMyEgo"]:not(.upvoatsGiven)::after {
 	background-position: 0 -320px;
 }
 /* detroit */
