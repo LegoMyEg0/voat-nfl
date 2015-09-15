@@ -516,8 +516,7 @@ a[href="/user/audiogarden"]:not(.upvoatsGiven)::after,
 a[href="/user/BrickHardCheese"]:not(.upvoatsGiven)::after {
 	background-position: 0 -20px;
 }
-/* atlanta alt */ 
-a[href="/user/LegoMyEgo"]:not(.upvoatsGiven)::after {
+/* atlanta alt */ {
 	background-position: 0 -40px;
 }
 /* baltimore */
