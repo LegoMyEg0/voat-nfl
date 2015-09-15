@@ -1262,7 +1262,7 @@ a[href="/user/CaMelGuY"]:not(.upvoatsGiven)::after {
 	}
 }
 /* Pig */
-a[href="/user/Maskedsaturn"]:not(.upvoatsGiven)::after {
+/* a[href="/user/Maskedsaturn"]:not(.upvoatsGiven)::after */{
 	background-position: 0 0;
 }
 
