@@ -633,6 +633,7 @@ a[href="/user/RobotOverlord"]:not(.upvoatsGiven)::after {
 	background-position: 0 -340px;
 }
 /* greenbay */
+a[href="/user/Maskedsaturn"]:not(.upvoatsGiven)::after,
 a[href="/user/The_Ugliest_Man_Ever"]:not(.upvoatsGiven)::after,
 a[href="/user/SemiNormal"]:not(.upvoatsGiven)::after,
 a[href="/user/ThatsMyGimmick"]:not(.upvoatsGiven)::after,
@@ -1239,7 +1240,7 @@ a[href="/user/CaMelGuY"]:not(.upvoatsGiven)::after {
 a[href="/user/CaMelGuY"]:not(.upvoatsGiven)::after {
 	background-position: 0 0;
 }
-a[href="/user/Maskedsaturn"]:not(.upvoatsGiven)::after {
+/* a[href="/user/Maskedsaturn"]:not(.upvoatsGiven)::after */ {
 	display: inline-block;				
     content: ""; 
     background-repeat: no-repeat;
