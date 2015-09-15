@@ -913,6 +913,7 @@ a[href="/user/Spectre42"]:not(.upvoatsGiven)::after {
 }
 
 /* ===== Start goat flair ===== */
+a[href="/user/wellendowedduckling"]:not(.upvoatsGiven)::after,
 a[href="/user/fat_memories"]:not(.upvoatsGiven)::after,
 a[href="/user/Arotaes_Forgehammer"]:not(.upvoatsGiven)::after,
 a[href="/user/Setnal"]:not(.upvoatsGiven)::after,
@@ -1104,7 +1105,8 @@ a[href="/user/chakan2"]:not(.upvoatsGiven)::after,
 a[href="/user/BirdLawyer"]:not(.upvoatsGiven)::after {
 	background-position: 0 -899px;
 }
-/* ravens goat2 */ {
+/* ravens goat2 */ 
+a[href="/user/wellendowedduckling"]:not(.upvoatsGiven)::after {
 	background-position: 0 -930px;
 }
 /* redskins goat */
