@@ -241,6 +241,7 @@ a[href="/user/russizm"]:not(.upvoatsGiven)::after {
 }
 
 /* ==== Start image flair ==== */
+a[href="/user/TwentySeven"]:not(.upvoatsGiven)::after,
 a[href="/user/Elway_Be_Thy_Name"]:not(.upvoatsGiven)::after,
 a[href="/user/methodamericon"]:not(.upvoatsGiven)::after,
 a[href="/user/Billswinthesuperbowl"]:not(.upvoatsGiven)::after,
@@ -740,6 +741,7 @@ a[href="/user/ABearWithABeer"]:not(.upvoatsGiven)::after {
 	background-position: 0 -560px;
 }
 /* newengland alt */
+a[href="/user/TwentySeven"]:not(.upvoatsGiven)::after,
 a[href="/user/Karkrash66"]:not(.upvoatsGiven)::after,
 a[href="/user/dukeOvandals"]:not(.upvoatsGiven)::after, 
 a[href="/user/relevantseinfeldlink"]:not(.upvoatsGiven)::after,
@@ -913,6 +915,7 @@ a[href="/user/Spectre42"]:not(.upvoatsGiven)::after {
 }
 
 /* ===== Start goat flair ===== */
+a[href="/user/pocketForceNapkin"]:not(.upvoatsGiven)::after,
 a[href="/user/wellendowedduckling"]:not(.upvoatsGiven)::after,
 a[href="/user/fat_memories"]:not(.upvoatsGiven)::after,
 a[href="/user/Arotaes_Forgehammer"]:not(.upvoatsGiven)::after,
@@ -1046,6 +1049,7 @@ a[href="/user/TheRedBeard"]:not(.upvoatsGiven)::after {
 	background-position: 0 -496px;
 }
 /* eagles goat2 */
+a[href="/user/pocketForceNapkin"]:not(.upvoatsGiven)::after,
 a[href="/user/abear"]:not(.upvoatsGiven)::after {
 	background-position: 0 -527px;
 }
