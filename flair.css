@@ -241,6 +241,7 @@ a[href="/user/russizm"]:not(.upvoatsGiven)::after {
 }
 
 /* ==== Start image flair ==== */
+a[href="/user/l-emmerdeur"]:not(.upvoatsGiven)::after,
 a[href="/user/Maskedsaturn"]:not(.upvoatsGiven)::after,
 a[href="/user/TwentySeven"]:not(.upvoatsGiven)::after,
 a[href="/user/Elway_Be_Thy_Name"]:not(.upvoatsGiven)::after,
@@ -588,6 +589,7 @@ a[href="/user/Brother_Morphine"]:not(.upvoatsGiven)::after {
 	background-position: 0 -260px;
 }
 /* dallas */
+a[href="/user/l-emmerdeur"]:not(.upvoatsGiven)::after,
 a[href="/user/Bootsy"]:not(.upvoatsGiven)::after,
 a[href="/user/CaptainHadley"]:not(.upvoatsGiven)::after,
 a[href="/user/Gracchi"]:not(.upvoatsGiven)::after,
