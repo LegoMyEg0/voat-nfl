@@ -242,7 +242,6 @@ a[href="/user/russizm"]:not(.upvoatsGiven)::after {
 
 /* ==== Start image flair ==== */
 a[href="/user/l-emmerdeur"]:not(.upvoatsGiven)::after,
-a[href="/user/Maskedsaturn"]:not(.upvoatsGiven)::after,
 a[href="/user/TwentySeven"]:not(.upvoatsGiven)::after,
 a[href="/user/Elway_Be_Thy_Name"]:not(.upvoatsGiven)::after,
 a[href="/user/methodamericon"]:not(.upvoatsGiven)::after,
@@ -1251,7 +1250,7 @@ a[href="/user/CaMelGuY"]:not(.upvoatsGiven)::after {
 a[href="/user/CaMelGuY"]:not(.upvoatsGiven)::after {
 	background-position: 0 0;
 }
-/* a[href="/user/Maskedsaturn"]:not(.upvoatsGiven)::after */ {
+a[href="/user/Maskedsaturn"]:not(.upvoatsGiven)::after {
 	display: inline-block;				
     content: ""; 
     background-repeat: no-repeat;
@@ -1273,7 +1272,7 @@ a[href="/user/CaMelGuY"]:not(.upvoatsGiven)::after {
 	}
 }
 /* Pig */
-/* a[href="/user/Maskedsaturn"]:not(.upvoatsGiven)::after */{
+a[href="/user/Maskedsaturn"]:not(.upvoatsGiven)::after {
 	background-position: 0 0;
 }
 
