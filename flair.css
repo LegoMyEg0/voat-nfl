@@ -461,6 +461,7 @@ a[href="/user/superbeans"]:not(.upvoatsGiven)::after,
 a[href="/user/FightingIrish"]:not(.upvoatsGiven)::after,
 a[href="/user/hotelbrowanda"]:not(.upvoatsGiven)::after,
 a[href="/user/RyanDP"]:not(.upvoatsGiven)::after,
+a[href="/user/shreksmum"]:not(.upvoatsGiven)::after,
 a[href="/user/CaptNemo131"]:not(.upvoatsGiven)::after,
 a[href="/user/hgust"]:not(.upvoatsGiven)::after,
 a[href="/user/DankAmerican"]:not(.upvoatsGiven)::after,
@@ -483,6 +484,7 @@ a[href="/user/mrmeowme0w"]:not(.upvoatsGiven)::after,
 a[href="/user/baneofretail"]:not(.upvoatsGiven)::after,
 a[href="/user/Gracchi"]:not(.upvoatsGiven)::after,
 a[href="/user/Bootsy"]:not(.upvoatsGiven)::after,
+a[href="/user/NCAA_Fan"]:not(.upvoatsGiven)::after,
 a[href="/user/LegoMyEgo"]:not(.upvoatsGiven)::after {
 	display: inline-block;				
     content: ""; 
@@ -669,6 +671,7 @@ a[href="/user/Sirpadington"]:not(.upvoatsGiven)::after {
 	background-position: 0 -380px;
 }
 /* indy */
+a[href="/user/shreksmum"]:not(.upvoatsGiven)::after,
 a[href="/user/LanceArmstrong"]:not(.upvoatsGiven)::after,
 a[href="/user/Sinz226"]:not(.upvoatsGiven)::after,
 a[href="/user/attackontitian"]:not(.upvoatsGiven)::after,
@@ -751,6 +754,7 @@ a[href="/user/JuliusSeizure"]:not(.upvoatsGiven)::after {
 	background-position: 0 -580px;
 }
 /* neworleans */
+a[href="/user/NCAA_Fan"]:not(.upvoatsGiven)::after,
 a[href="/user/ji"]:not(.upvoatsGiven)::after,
 a[href="/user/chubnubbin"]:not(.upvoatsGiven)::after,
 a[href="/user/JUST_ANOTHER_NOBODY"]:not(.upvoatsGiven)::after,
@@ -963,6 +967,7 @@ a[href="/user/pembo210"]:not(.upvoatsGiven)::after,
 a[href="/user/brdy"]:not(.upvoatsGiven)::after,
 a[href="/user/Cornbread52"]:not(.upvoatsGiven)::after,
 a[href="/user/TheRedBeard"]:not(.upvoatsGiven)::after,
+a[href="/user/cheatch"]:not(.upvoatsGiven)::after,
 a[href="/user/ShagginTurtles"]:not(.upvoatsGiven)::after {
 	display: inline-block;				
     content: ""; 
@@ -1044,6 +1049,7 @@ a[href="/user/ladygagadisco"]:not(.upvoatsGiven)::after {
 	background-position: 0 -434px;
 }
 /* cowboys goat */
+a[href="/user/cheatch"]:not(.upvoatsGiven)::after,
 a[href="/user/Cassiekin"]:not(.upvoatsGiven)::after,
 a[href="/user/tentonaraft"]:not(.upvoatsGiven)::after {
 	background-position: 0 -465px;
