@@ -484,6 +484,7 @@ a[href="/user/mrmeowme0w"]:not(.upvoatsGiven)::after,
 a[href="/user/baneofretail"]:not(.upvoatsGiven)::after,
 a[href="/user/Gracchi"]:not(.upvoatsGiven)::after,
 a[href="/user/Bootsy"]:not(.upvoatsGiven)::after,
+a[href="/user/BreesusLovesYou"]:not(.upvoatsGiven)::after,
 a[href="/user/NCAA_Fan"]:not(.upvoatsGiven)::after,
 a[href="/user/LegoMyEgo"]:not(.upvoatsGiven)::after {
 	display: inline-block;				
@@ -754,6 +755,7 @@ a[href="/user/JuliusSeizure"]:not(.upvoatsGiven)::after {
 	background-position: 0 -580px;
 }
 /* neworleans */
+a[href="/user/BreesusLovesYou"]:not(.upvoatsGiven)::after,
 a[href="/user/NCAA_Fan"]:not(.upvoatsGiven)::after,
 a[href="/user/ji"]:not(.upvoatsGiven)::after,
 a[href="/user/chubnubbin"]:not(.upvoatsGiven)::after,
