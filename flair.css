@@ -1234,16 +1234,16 @@ a[href="/user/CaMelGuY"]:not(.upvoatsGiven)::after {
     margin: 0px;  
     margin-left: 5px;
     background-color: transparent; 
-    background-image: url("https://i.imgur.com/w90BP6W.png"); 
+    background-image: url("http://i.imgur.com/nFEL7O6.png"); 
     width: 40px; 
-    height: 29px;
+    height: 28px;
     vertical-align: middle;
 }
 
 @media (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
 	.sprite {
-		 background-image: url("https://i.imgur.com/w90BP6W.png");
-		 background-size: 40px 29px;
+		 background-image: url("http://i.imgur.com/nFEL7O6.png");
+		 background-size: 40px 28px;
 	}
 }
 /* Smokes */
