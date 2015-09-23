@@ -608,7 +608,8 @@ a[href="/user/CowboyRob"]:not(.upvoatsGiven)::after,
 a[href="/user/PanicHouse"]:not(.upvoatsGiven)::after,
 a[href="/user/FightingIrish"]:not(.upvoatsGiven)::after,
 a[href="/user/Geckles"]:not(.upvoatsGiven)::after,
-a[href="/user/cinderblock"]:not(.upvoatsGiven)::after {
+a[href="/user/cinderblock"]:not(.upvoatsGiven)::after,
+a[href="/user/LegoMyEgo"]:not(.upvoatsGiven)::after {
 	background-position: 0 -280px;
 }
 /* denver */
@@ -918,7 +919,7 @@ a[href="/user/Spectre42"]:not(.upvoatsGiven)::after {
 	background-position: 0 -1100px;
 }
 /* fireball */ 
-a[href="/user/LegoMyEgo"]:not(.upvoatsGiven)::after {
+ {
 	background-position: 0 -1120px;
 }
 
