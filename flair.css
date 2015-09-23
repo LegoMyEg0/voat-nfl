@@ -1285,16 +1285,16 @@ a[href="/user/ShagginTurtles"]:not(.upvoatsGiven)::after {
     margin: 0px;  
     margin-left: 5px;
     background-color: transparent; 
-    background-image: url("http://i.imgur.com/bWKo0p3.png"); 
+    background-image: url("http://i.imgur.com/y0NrI3l.png"); 
     width: 40px; 
-    height: 30px;
+    height: 25px;
     vertical-align: middle;
 }
 
 @media (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
 	.sprite {
-		 background-image: url("http://i.imgur.com/bWKo0p3.png");
-		 background-size: 40px 30px;
+		 background-image: url("http://i.imgur.com/y0NrI3l.png");
+		 background-size: 40px 25px;
 	}
 }
 /* Crown */
