@@ -486,6 +486,7 @@ a[href="/user/Gracchi"]:not(.upvoatsGiven)::after,
 a[href="/user/Bootsy"]:not(.upvoatsGiven)::after,
 a[href="/user/BreesusLovesYou"]:not(.upvoatsGiven)::after,
 a[href="/user/NCAA_Fan"]:not(.upvoatsGiven)::after,
+a[href="/user/mrmagoo512"]:not(.upvoatsGiven)::after,
 a[href="/user/LegoMyEgo"]:not(.upvoatsGiven)::after {
 	display: inline-block;				
     content: ""; 
@@ -770,6 +771,7 @@ a[href="/user/hgust"]:not(.upvoatsGiven)::after {
 	background-position: 0 -620px;
 }
 /* newyorkgiants blue */
+a[href="/user/mrmagoo512"]:not(.upvoatsGiven)::after,
 a[href="/user/ILoveSeaFood"]:not(.upvoatsGiven)::after,
 a[href="/user/cthulhu_stories"]:not(.upvoatsGiven)::after,
 a[href="/user/rco"]:not(.upvoatsGiven)::after,
