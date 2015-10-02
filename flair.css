@@ -489,6 +489,8 @@ a[href="/user/Gracchi"]:not(.upvoatsGiven)::after,
 a[href="/user/Bootsy"]:not(.upvoatsGiven)::after,
 a[href="/user/BreesusLovesYou"]:not(.upvoatsGiven)::after,
 a[href="/user/NCAA_Fan"]:not(.upvoatsGiven)::after,
+a[href="/user/livejamie"]:not(.upvoatsGiven)::after,
+a[href="/user/Roland_B_Luntz"]:not(.upvoatsGiven)::after,
 a[href="/user/mrmagoo512"]:not(.upvoatsGiven)::after,
 a[href="/user/LegoMyEgo"]:not(.upvoatsGiven)::after {
 	display: inline-block;				
@@ -513,6 +515,7 @@ a[href="/user/LegoMyEgo"]:not(.upvoatsGiven)::after {
 }
 /* arizona */
 a[href="/user/JunOS"]:not(.upvoatsGiven)::after,
+a[href="/user/livejamie"]:not(.upvoatsGiven)::after,
 a[href="/user/lobsterxcore"]:not(.upvoatsGiven)::after,
 a[href="/user/Launch_"]:not(.upvoatsGiven)::after {
 	background-position: 0 0;
@@ -636,6 +639,7 @@ a[href="/user/DankAmerican"]:not(.upvoatsGiven)::after {
 	background-position: 0 -320px;
 }
 /* detroit */
+a[href="/user/Roland_B_Luntz"]:not(.upvoatsGiven)::after,
 a[href="/user/RevolverOcelot"]:not(.upvoatsGiven)::after,
 a[href="/user/Bu11DawgNC"]:not(.upvoatsGiven)::after,
 a[href="/user/Apocalyptical"]:not(.upvoatsGiven)::after,
