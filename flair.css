@@ -1294,7 +1294,7 @@ a[href="/user/Maskedsaturn"]:not(.upvoatsGiven)::after {
 	background-position: 0 0;
 }
 
-a[href="/user/ShagginTurtles"]:not(.upvoatsGiven)::after {
+ {
 	display: inline-block;				
     content: ""; 
     background-repeat: no-repeat;
