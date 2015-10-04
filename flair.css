@@ -492,7 +492,8 @@ a[href="/user/NCAA_Fan"]:not(.upvoatsGiven)::after,
 a[href="/user/livejamie"]:not(.upvoatsGiven)::after,
 a[href="/user/Roland_B_Luntz"]:not(.upvoatsGiven)::after,
 a[href="/user/mrmagoo512"]:not(.upvoatsGiven)::after,
-a[href="/user/LegoMyEgo"]:not(.upvoatsGiven)::after {
+a[href="/user/LegoMyEgo"]:not(.upvoatsGiven)::after
+a[href="/user/ShagginTurtles"]:not(.upvoatsGiven)::after{
 	display: inline-block;				
     content: ""; 
     background-repeat: no-repeat;
@@ -567,7 +568,8 @@ a[href="/user/TheStonerOne"]:not(.upvoatsGiven)::after,
 a[href="/user/st3"]:not(.upvoatsGiven)::after,
 a[href="/user/776et"]:not(.upvoatsGiven)::after,
 a[href="/user/HankRHill"]:not(.upvoatsGiven)::after,
-a[href="/user/superbeans"]:not(.upvoatsGiven)::after {
+a[href="/user/superbeans"]:not(.upvoatsGiven)::after
+a[href="/user/ShagginTurtles"]:not(.upvoatsGiven)::after{
 	background-position: 0 -140px;
 }
 /* chicago alt */
@@ -985,7 +987,7 @@ a[href="/user/brdy"]:not(.upvoatsGiven)::after,
 a[href="/user/Cornbread52"]:not(.upvoatsGiven)::after,
 a[href="/user/TheRedBeard"]:not(.upvoatsGiven)::after,
 a[href="/user/cheatch"]:not(.upvoatsGiven)::after,
-a[href="/user/ShagginTurtles"]:not(.upvoatsGiven)::after {
+ {
 	display: inline-block;				
     content: ""; 
     background-repeat: no-repeat;
