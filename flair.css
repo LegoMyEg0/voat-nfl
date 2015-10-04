@@ -1127,7 +1127,7 @@ a[href="/user/Daeavorn"]:not(.upvoatsGiven)::after {
 a[href="/user/Mr_Weebles"]:not(.upvoatsGiven)::after,
 a[href="/user/ALViper"]:not(.upvoatsGiven)::after,
 a[href="/user/Caddis"]:not(.upvoatsGiven)::after,
-a[href="/user/ShagginTurtles"]:not(.upvoatsGiven)::after {
+ {
 	background-position: 0 -837px;
 }
 /* raiders goat */ {
@@ -1316,7 +1316,7 @@ a[href="/user/Maskedsaturn"]:not(.upvoatsGiven)::after {
 	}
 }
 /* Crown */
-a[href="/user/ShagginTurtles"]:not(.upvoatsGiven)::after {
+ {
 	background-position: 0 0;
 }
 
