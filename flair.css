@@ -942,6 +942,7 @@ a[href="/user/Spectre42"]:not(.upvoatsGiven)::after {
 }
 
 /* ===== Start goat flair ===== */
+a[href="/user/tentonaraft"]:not(.upvoatsGiven)::after,
 a[href="/user/pocketForceNapkin"]:not(.upvoatsGiven)::after,
 a[href="/user/wellendowedduckling"]:not(.upvoatsGiven)::after,
 a[href="/user/fat_memories"]:not(.upvoatsGiven)::after,
@@ -1071,7 +1072,6 @@ a[href="/user/ladygagadisco"]:not(.upvoatsGiven)::after {
 /* cowboys goat */
 a[href="/user/cheatch"]:not(.upvoatsGiven)::after,
 a[href="/user/Cassiekin"]:not(.upvoatsGiven)::after,
-a[href="/user/tentonaraft"]:not(.upvoatsGiven)::after,
 a[href="/user/tentonaraft"]:not(.upvoatsGiven)::after {
 	background-position: 0 -465px;
 }
