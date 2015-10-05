@@ -492,6 +492,7 @@ a[href="/user/NCAA_Fan"]:not(.upvoatsGiven)::after,
 a[href="/user/livejamie"]:not(.upvoatsGiven)::after,
 a[href="/user/Roland_B_Luntz"]:not(.upvoatsGiven)::after,
 a[href="/user/mrmagoo512"]:not(.upvoatsGiven)::after,
+a[href="/user/tentonaraft"]:not(.upvoatsGiven)::after,
 a[href="/user/LegoMyEgo"]:not(.upvoatsGiven)::after,
 a[href="/user/ShagginTurtles"]:not(.upvoatsGiven)::after {
 	display: inline-block;				
@@ -1070,6 +1071,7 @@ a[href="/user/ladygagadisco"]:not(.upvoatsGiven)::after {
 /* cowboys goat */
 a[href="/user/cheatch"]:not(.upvoatsGiven)::after,
 a[href="/user/Cassiekin"]:not(.upvoatsGiven)::after,
+a[href="/user/tentonaraft"]:not(.upvoatsGiven)::after,
 a[href="/user/tentonaraft"]:not(.upvoatsGiven)::after {
 	background-position: 0 -465px;
 }
