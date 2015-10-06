@@ -996,7 +996,7 @@ a[href="/user/cheatch"]:not(.upvoatsGiven)::after,
     margin: 0px;  
     margin-left: 5px;
     background-color: transparent; 
-    background-image: url("https://i.imgur.com/ZxiqyPJ.png"); 
+    background-image: url("https://i.imgur.com/so73wsx.png"); 
     width: 40px; 
     height: 31px;
     vertical-align: middle;
@@ -1004,7 +1004,7 @@ a[href="/user/cheatch"]:not(.upvoatsGiven)::after,
 
 @media (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
 	.sprite {
-		 background-image: url("https://i.imgur.com/ZxiqyPJ.png");
+		 background-image: url("https://i.imgur.com/so73wsx.png");
 		 background-size: 40px 1209px;
 	}
 }
