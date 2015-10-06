@@ -986,8 +986,8 @@ a[href="/user/pembo210"]:not(.upvoatsGiven)::after,
 a[href="/user/brdy"]:not(.upvoatsGiven)::after,
 a[href="/user/Cornbread52"]:not(.upvoatsGiven)::after,
 a[href="/user/TheRedBeard"]:not(.upvoatsGiven)::after,
-a[href="/user/cheatch"]:not(.upvoatsGiven)::after,
-a[href="/user/ShagginTurtles"]:not(.upvoatsGiven)::after {
+a[href="/user/cheatch"]:not(.upvoatsGiven)::after
+/* a[href="/user/ShagginTurtles"]:not(.upvoatsGiven)::after */ {
 	display: inline-block;				
     content: ""; 
     background-repeat: no-repeat;
