@@ -986,8 +986,7 @@ a[href="/user/pembo210"]:not(.upvoatsGiven)::after,
 a[href="/user/brdy"]:not(.upvoatsGiven)::after,
 a[href="/user/Cornbread52"]:not(.upvoatsGiven)::after,
 a[href="/user/TheRedBeard"]:not(.upvoatsGiven)::after,
-a[href="/user/cheatch"]:not(.upvoatsGiven)::after
-/* a[href="/user/ShagginTurtles"]:not(.upvoatsGiven)::after */ {
+a[href="/user/cheatch"]:not(.upvoatsGiven)::after {
 	display: inline-block;				
     content: ""; 
     background-repeat: no-repeat;
@@ -1126,8 +1125,7 @@ a[href="/user/Daeavorn"]:not(.upvoatsGiven)::after {
 /* patriots goat */ 
 a[href="/user/Mr_Weebles"]:not(.upvoatsGiven)::after,
 a[href="/user/ALViper"]:not(.upvoatsGiven)::after,
-a[href="/user/Caddis"]:not(.upvoatsGiven)::after,
-/* a[href="/user/ShagginTurtles"]:not(.upvoatsGiven)::after */ {
+a[href="/user/Caddis"]:not(.upvoatsGiven)::after {
 	background-position: 0 -837px;
 }
 /* raiders goat */ {
