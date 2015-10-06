@@ -241,6 +241,7 @@ a[href="/user/russizm"]:not(.upvoatsGiven)::after {
 }
 
 /* ==== Start image flair ==== */
+a[href="/user/ShagginTurtles"]:not(.upvoatsGiven)::after,
 a[href="/user/l-emmerdeur"]:not(.upvoatsGiven)::after,
 a[href="/user/TwentySeven"]:not(.upvoatsGiven)::after,
 a[href="/user/Elway_Be_Thy_Name"]:not(.upvoatsGiven)::after,
@@ -561,6 +562,7 @@ a[href="/user/I_am_the_voat"]:not(.upvoatsGiven)::after {
 	background-position: 0 -120px;
 }
 /* chicago */
+a[href="/user/ShagginTurtles"]:not(.upvoatsGiven)::after,
 a[href="/user/LordVaderKush"]:not(.upvoatsGiven)::after,
 a[href="/user/iAMtheBelvedere"]:not(.upvoatsGiven)::after,
 a[href="/user/TheStonerOne"]:not(.upvoatsGiven)::after,
@@ -1125,7 +1127,7 @@ a[href="/user/Daeavorn"]:not(.upvoatsGiven)::after {
 a[href="/user/Mr_Weebles"]:not(.upvoatsGiven)::after,
 a[href="/user/ALViper"]:not(.upvoatsGiven)::after,
 a[href="/user/Caddis"]:not(.upvoatsGiven)::after,
-a[href="/user/ShagginTurtles"]:not(.upvoatsGiven)::after {
+/* a[href="/user/ShagginTurtles"]:not(.upvoatsGiven)::after */ {
 	background-position: 0 -837px;
 }
 /* raiders goat */ {
@@ -1292,7 +1294,7 @@ a[href="/user/Maskedsaturn"]:not(.upvoatsGiven)::after {
 	background-position: 0 0;
 }
 
-a[href="/user/ShagginTurtles"]:not(.upvoatsGiven)::after {
+/* a[href="/user/ShagginTurtles"]:not(.upvoatsGiven)::after */ {
 	display: inline-block;				
     content: ""; 
     background-repeat: no-repeat;
@@ -1314,6 +1316,6 @@ a[href="/user/ShagginTurtles"]:not(.upvoatsGiven)::after {
 	}
 }
 /* Crown */
-a[href="/user/ShagginTurtles"]:not(.upvoatsGiven)::after {
+/* a[href="/user/ShagginTurtles"]:not(.upvoatsGiven)::after */ {
 	background-position: 0 0;
 }
