@@ -564,7 +564,6 @@ a[href="/user/I_am_the_voat"]:not(.upvoatsGiven)::after {
 	background-position: 0 -120px;
 }
 /* chicago */
-a[href="/user/ShagginTurtles"]:not(.upvoatsGiven)::after,
 a[href="/user/LordVaderKush"]:not(.upvoatsGiven)::after,
 a[href="/user/iAMtheBelvedere"]:not(.upvoatsGiven)::after,
 a[href="/user/TheStonerOne"]:not(.upvoatsGiven)::after,
