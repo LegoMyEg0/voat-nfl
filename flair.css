@@ -1321,3 +1321,18 @@ a[href="/user/Maskedsaturn"]:not(.upvoatsGiven)::after {
 /* a[href="/user/ShagginTurtles"]:not(.upvoatsGiven)::after */ {
 	background-position: 0 0;
 }
+
+a[href="/user/Bu11DawgNC"]:not(.upvoatsGiven)::after {
+    display: inline-block;				
+    content: ""; 
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding: 0px; 
+    margin: 0px;  
+    margin-left: 5px;
+    background-color: transparent; 
+    background-image: url("https://i.imgur.com/x0XU1yJ.png"); 
+    width: 31px; 
+    height: 40px;
+    vertical-align: middle;
+}
