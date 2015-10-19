@@ -120,6 +120,11 @@ a[href="/user/DEKENv2"]:not(.upvoatsGiven)::after {
     content: " RISE UP RED SEA ";  
 }
 
+a[href="/user/ShagginTurtles"]:not(.upvoatsGiven)::after {
+    color: #002C5F;
+    content: " Inventor of Puntsanity ";  
+}
+
 a[href="/user/Rommel79"]:not(.upvoatsGiven)::after {
     color: #000066;
     content: " Cowboys ";  
@@ -1294,7 +1299,7 @@ a[href="/user/Maskedsaturn"]:not(.upvoatsGiven)::after {
 	background-position: 0 0;
 }
 
-a[href="/user/ShagginTurtles"]:not(.upvoatsGiven)::after {
+a[href="/user/"]:not(.upvoatsGiven)::after {
 	display: inline-block;				
     content: ""; 
     background-repeat: no-repeat;
@@ -1316,7 +1321,7 @@ a[href="/user/ShagginTurtles"]:not(.upvoatsGiven)::after {
 	}
 }
 /* Crown */
-a[href="/user/ShagginTurtles"]:not(.upvoatsGiven)::after {
+a[href="/user/"]:not(.upvoatsGiven)::after {
 	background-position: 0 0;
 }
 
