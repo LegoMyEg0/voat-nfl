@@ -454,14 +454,14 @@ body {
 .arrow-upvote {
   cursor: pointer;
   width: 25px;
-  height: 21px;
+  height: 22px;
   background: url('http://i.imgur.com/XsUx0Lj.png');
  opacity: 0.5;
 }
 .arrow-upvoted {
   cursor: pointer;
   width: 25px;
-  height: 21px;
+  height: 22px;
   background: url('http://i.imgur.com/um4jIVT.png');
 }
 .arrow-downvote {
