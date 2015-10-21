@@ -1,0 +1,960 @@
+/*
+SCRIBBLE VERSION 1.4.3
+OPEN SOURCE PROJECT UNDER MIT LICENSE
+DESIGNED BY /U/HEWITT. VISIT US AT HTTPS://VOAT.CO/V/SCRIBBLE
+*/
+
+/*-------------------------------------------------------------------
+--------- YOU DON'T NEED TO CHANGE ANYTHING IN THIS SECTION ---------
+---------- WHEN A NEW UPDATE IS RELEASED, REPLACE THE NEXT ----------
+---------- SECTION ENTIRELY. ANY CUSTOM CSS SHOULD BE DONE ----------
+--------- BELOW THIS CORE GROUPING OF CSS RULES. THANK YOU. ---------
+-------------------------------------------------------------------*/
+
+	.pagename a {
+		color: white;
+	}
+	#header {
+		height: 180px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		background-color: #0A7285;
+	}
+	.pagename {
+		display: block;
+		position: absolute;
+		top: -104px;
+		margin: 0;
+		width: 100%;
+		text-align: center;
+	}
+	/* .pagename a {
+		font-size: 30px;
+		line-height: 105px;
+		color: white !important;
+	} */
+	.pagename a:hover {
+		color: #eee;
+	}
+	.tabmenu li a {
+		padding: 4px 6px;
+	}
+	.side {
+		top: -191px;
+		padding-top: 190px;
+		height: calc(100vh - 21px);
+	}
+	a:hover, .link a.author:hover {
+		color: #4A4A4A;
+	}
+	a, a:visited, .link a.author, .link a.author:visited {
+		color: #4aabe7;
+	}
+	#sr-bar li a {
+		color: white;
+	}
+	#sr-header-area:hover #sr-bar li a {
+		color: #eee;
+	}
+	.sr-list li a { /* PRIORITY LINKS */
+		color: white;
+	}
+	#sr-bar li a { /* SUBVERSE LINKS */
+		color: white;
+	}
+	#sr-more-link {
+		top: 0;
+		height: 24px;
+	}
+	#sr-more-link:hover {
+		background: #125A67;
+	}
+	span#q-error {
+	  display: block;
+	}
+	.titlebox h1 {
+		font-size: 20px;
+	}
+	.whoaversename.hover a:first-child:before {
+		content: "/v/";
+	}
+	.btn-whoaverse-paging:active {
+		top: 0;
+	}
+	.side button, .btn-whoaverse.contribute, .pagination-container .btn-whoaverse-paging a, .btn-whoaverse-paging {
+		border-width: 1px;
+		background: #0A7285;
+		border-color: transparent;
+		color: white !important;
+	}
+	.side button:hover, .btn-whoaverse.contribute:hover, .pagination-container .btn-whoaverse-paging a:hover, .btn-whoaverse-paging:hover {
+		background: white;
+		background: -webkit-linear-gradient(top,#fff,#fafafa);
+		background: -moz-linear-gradient(top,#fff,#fafafa);
+		background: -ms-linear-gradient(top,#fff,#fafafa);
+		background: -o-linear-gradient(top,#fff,#fafafa);
+		border: 1px solid #ccc !important;
+		color: black !important;
+	}
+	.btn-whoaverse-paging:focus {
+		color: black !important;
+		background-color: white;
+		border: 1px solid #0A7285;
+	}
+	#sr-header-area {
+		border-bottom: 0;
+		background: rgba(255,255,255,0.1);
+		color: white;
+		font-size: 12px;
+		height: 24px;
+		line-height: 22px;
+		text-transform: none;
+		white-space: nowrap;
+	}
+	#sr-header-area .selected a {
+		color: white;
+	}
+	span.subscribers {
+		display: block;
+		margin-top: 5px;
+	}
+	.minimum-ccp-downvote > p:nth-child(1) {
+		display: none;
+	}
+	.alert-h1 {
+		border-bottom: 0;
+		/* color: #cacaca; */
+	}
+	.footer:after {
+	  content: "Design: Scribble (v1.4.3) for Voat - /v/Scribble. Modified by /u/LegoMyEgo";
+	  color: #6d6d6d;
+	}
+	.titlebox.submissioninfo > div:nth-child(3) {
+	  display: none;
+	}
+	#moderation_tools {
+		position: relative;
+		margin-bottom: 80px;
+	}
+	#moderation_tools a[href$="/about/edit/"]:after {
+		content: " ";
+		position: absolute;
+		bottom: -83px;
+		right: 0;
+		width: 280px;
+		display: block;
+		background: url('http://mh1.co/scribble/alerts/1.4.3.png') 50% no-repeat;
+		height: 73px;
+	}
+	.promoted {
+		background: #0A7285;
+		border: 1px solid #0A7285;
+		font-weight: bold;
+	}
+	.comment a.submitter.author, /* .comment a.moderator.author */ {
+		/* background-color: none; */
+		padding: 3px 16px;
+		border-radius: 4px;
+		color: #6f64ba !important;
+		font-weight: bold;
+	}
+	.comment a.moderator.author {
+		color: #3fbf4c;
+	}
+	.markdownEditorSubMenu {
+		margin-top: -4px;
+		margin-bottom: 11px;
+		border: 1px solid rgb(216, 216, 216);
+		border-radius: 3px;
+	}
+	.commenttextarea {
+		min-height: 150px;
+	}
+	.whoaSubscriptionMenu li ul {
+		z-index: 1000;
+		margin-top: -8px;
+	}
+	.whoaSubscriptionMenu li ul {
+		min-width: 60%;
+	}
+	.whoaSubscriptionMenu li ul a {
+		padding: 10px 6px !important;
+	}
+	.link .flair {
+		font-size: x-small;
+		margin-top: -1px;
+		background-color: #0A7285;
+		display: none;
+		padding: 1px 8px;
+		border-radius: 3px;
+		color: white;
+		font-weight: bold;
+		border: 0;
+	}
+	.link .flair[title] {
+		display: inline-block;
+	}
+	.drop-arrow {
+		border-color: white transparent transparent;
+	}
+
+	@media (min-width: 871px) {
+		#container, #header-banner {
+			max-width: 98%;
+		}
+		#container {
+			position: relative;
+			top: -175px;
+			z-index: 900;
+			margin-bottom: -175px;
+		}
+		#header-banner {
+			top: -20px;
+		}
+		img#header-img {
+			visibility: hidden;
+			width: 71px;
+			margin: 47px 0 10px 0px;
+			vertical-align: unset;
+			position: relative;
+			left: -12px;
+		}
+		#header-banner > a:after {
+			content: " ";
+			background: url('https://i.imgur.com/NK49svv.png'); // VOAT ICON
+			display: block;
+			height: 71px;
+			width: 71px;
+			position: absolute;
+			top: 15px;
+			left: 0;
+		}
+		#header {
+			height: 290px;
+			position: static;
+		}
+		#header-container {
+			background: transparent;
+			border-bottom: 0;
+			border-top: 0;
+			top: 44px;
+			height: 58px;
+			position: absolute;
+			width: 100%;
+			z-index: 1;
+		}
+		.pagename {
+			position: static;
+			display: inline-block;
+			margin-left: auto;
+			width: auto;
+		}
+		.pagename a {
+			font-size: 30px;
+			line-height:71px;
+		}
+		.form-control {
+			height: 40px;
+			line-height: 40px;
+		}
+		.btn-whoaverse {
+			padding: 10px 12px;
+		}
+		#header-account {
+			top: 27px;
+			font-size: 12px;
+		}
+		#header-account a {
+			color: white !important;
+		}
+		.tabmenu {
+			line-height: 81px;
+		}
+		.tabmenu li a {
+			padding: 10px 28px;
+		}
+		.tabmenu li.selected a {
+			padding: 10px 28px;
+			border: 0;
+			border-bottom: 5px solid rgba(246, 246, 246, 0.34902);
+			border-radius: 0px;
+			background: transparent;
+			color: white;
+		}
+		.tabmenu li.disabled a.contribute {
+			background: rgba(246,246,246,0.35);
+			border: 0;
+			padding: 10px 19px 12px;
+			color: white;
+		}
+		.tabmenu li.disabled a {
+			color: white;
+		}
+		.tabmenu li.selected a:hover, .tabmenu li.disabled a:hover, .tabmenu li.disabled a.contribute:hover, .tabmenu li.selected a.contribute, .tabmenu li.selected a.contribute:hover {
+			background: rgba(246,246,246,1);
+			color: #444;
+			border-width: 0px 1px;
+			border-radius: 3px;
+			border-color: transparent;
+		}
+		.tabmenu li.selected a.contribute, .tabmenu li.selected a.contribute:hover {
+			padding: 10px 19px 12px;
+			font-weight: normal;
+		}
+		.logged-in, .logged-out {
+			background: rgba(246,246,246,0.1);
+			border: 0;
+			padding: 10px 19px 12px;
+			color: white;
+		}
+		.side {
+			padding-top: 0;
+			height: auto;
+		}
+		.titlebox.submissioninfo div:nth-child(6) .h6 {
+			text-align: center;
+		}
+		.titlebox.submissioninfo div:nth-child(6) .h6:first-child {
+			font-size: 0;
+		}
+		.titlebox.submissioninfo div:nth-child(6) .h6:first-child b {
+			font-size: 20px;
+			display: block;
+		}
+		.whoaSubscriptionMenu li ul {
+			min-width: initial;
+		}
+		.whoaSubscriptionMenu li ul a {
+			padding: 1px 6px !important;
+		}
+		.modal-body .col-md-4 input.form-control {
+			line-height: 36px;
+		}
+		.modal-backdrop.in {
+			display: none;
+		}
+	}
+
+	@media (min-width: 871px) and (max-width: 1150px) {
+		.tabmenu {
+			line-height: 149px;
+			right: 0;
+			position: absolute;
+		}
+		#header-account {
+			top: 1px;
+			right: -4px;
+			padding: 6px;
+			height: 52px;
+		}
+	}
+
+/*-------------------------------------------------------------------
+--------- END OF CORE CSS RULES. PLACE YOUR CUSTOM CSS AND ----------
+---------- CSS ADDONS BELOW THIS LINE. LOVE, /v/SCRIBBLE. -----------
+-------------------------------------------------------------------*/
+
+	
+#header {
+  background-color: #3d59ab;
+}
+/* #header-container {
+  top: 64px;
+} */
+#header-banner > a:after {
+  content: " ";
+  background: url('https://i.imgur.com/Smypmlg.png');
+  height: 74px;
+  width: 71px;
+  position: absolute;
+  top: 1px;
+  left: 0;
+} 
+.side button, .btn-whoaverse.contribute, .pagination-container .btn-whoaverse-paging a, .btn-whoaverse-paging {
+  border-width: 1px;
+  background: #3d59ab;
+  border-color: transparent;
+  color: (255,255,255,0.25);
+}
+.light #container {
+  background: #e5e5e5;
+  border: 2px solid #cd0000;
+}
+body {
+  background-color: #ababab;
+}
+.dark a:hover, .dark .link a.author:hover {
+  color: white;
+}
+.comment a.submitter.author, .comment a.moderator.author {
+  background-color: none;
+  padding: 3px 3px;
+}
+.comment a.moderator {
+  color: #3fbf4c
+}
+@media (min-width: 871px);
+#header {
+  background: -webkit-linear-gradient(#3d59ab, #ababab); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#3d59ab, #ababab); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#3d59ab, #ababab); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#3d59ab, #ababab); /* Standard syntax */
+}
+
+
+
+   /* CHANGE THE NAME OF SUBVERSE SUBSCRIBERS */
+	.subscribers .number:after {
+		content: " Bench Warmers";
+	}
+	.users-online .number:after {
+		content: " Leading A Drive";
+	}
+	.subscribers .word {
+		display: none;
+	}
+	.users-online .word {
+		display: none;
+	}
+
+/* Hide Submit/Discuss Buttons from the top */
+
+.tabmenu .contribute{display:none;}
+
+/* HIDE CHAT AND ANNOUNCEMENTS SIDEBAR */
+	.spacer.spacersection {
+		display: none;
+	}
+
+/* ADD "/v/" BEFORE SUBVERSE TEXT LOGO */
+	.pagename a:before {
+		content: "/v/";
+	}
+
+.pagename a {
+  background: url(http://i.imgur.com/ZTaOhEt.png)no-repeat;
+  width: 100px;
+  height: 90px;
+  font-size: 0px;
+}
+
+/* EDIT MODERATOR BOX */
+.side .helplink + .title h1 { display: none; }
+.side .helplink + .title::before { 
+    content: 'Replacement Refs';  
+    display: block;
+    font-size: 125%;
+    font-weight: bold;
+    color: green;
+    text-transform: uppercase;
+}
+
+/*Upvotes and Downvotes*/
+.arrow-upvote {
+  cursor: pointer;
+  width: 10px;
+  height: 25px;
+  background: url('https://i.imgur.com/8vVJxet.png');
+ opacity: 0.5;
+}
+.arrow-upvoted {
+  cursor: pointer;
+  width: 10px;
+  height: 25px;
+  background: url('https://i.imgur.com/O5cb6q0.png');
+}
+.arrow-downvote {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  background: url('https://i.imgur.com/Ndvd5xa.png');
+ opacity: 0.5;
+}
+.arrow-downvoted {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  background: url('https://i.imgur.com/006WURl.png');
+}
+
+
+/* === ANNOUNCEMENT ALERT WITH LINKS AND STYLES === */
+/* === add an h6 heading text to sidebar text === */
+	.side .titlebox .usertext h6:nth-of-type(1) {
+		font-style: normal;
+		font-size: 13px;
+		position: absolute;
+		top: 180px;
+		padding: 10px;
+		width: 262px;
+		border-radius: 3px;
+		font-style: normal;
+                text-align: center;
+	}
+	.light .side .titlebox .usertext h6:nth-of-type(1) {
+		/* background-color: #f8f8f8; */
+		color: #4a4a4a;
+	}	
+	.dark .side .titlebox .usertext h6:nth-of-type(1) {
+		/* background-color: #2e2e2e; */
+		color: #c3c3c3;
+	}	
+	.side .titlebox .usertext h6:nth-of-type(1) a {
+		color: #4399cd;
+	}
+	@media (max-width: 870px) {
+		.side.show-mobile-sidebar {
+			left: -1px;
+			padding-top: 280px;
+		}
+	}
+	@media (min-width: 871px) {
+		#container {
+			padding-top: 71px;
+		}
+		.side .titlebox .usertext h6:nth-of-type(1) {
+			top: 0px;
+			left: 20px;
+			width: calc(100% - 40px);
+			border-radius: 3px;
+			padding: 8px 20px;
+		}
+	}
+
+
+/*------------------Zeb's Edits ----------------*/ 
+.link .usertext .md h2, .side .md h2 { 
+	background: #27408B; 
+	border-radius: 9px 9px 0px 0px; 
+	color: #FFFFFF; 
+	margin: 20px 0px 0px; 
+	padding: 5px 0px; 
+	text-align: center; 
+	} 
+.link .usertext .md ul, .side .md ul { 
+	background-color:rgba(255, 255, 255, 0); 
+	margin:0; 
+	padding:10px 10px 10px 30px; 
+	} 
+.link .usertext .md table, .side .md table { 
+	font-size:9pt; 
+	margin:0; 
+	font-weight: bold; 
+	text-align:center; 
+	width:100%; 
+	} 
+.link .usertext .md table thead, .md table thead { 
+	border-bottom:0; 
+	} 
+.link .usertext .md th, .side .md th { 
+	background:#222; 
+	border:1px solid #002244; 
+	color:#F2F2F4; 
+        font-weight: bold; 
+        text-align:center; 
+	} 
+.link .usertext .md tr, .side .md tr { 
+	border-right:1px solid rgba(13, 8, 8, 0.17); 
+	border-left:1px solid rgba(13, 8, 8, 0.17); 
+	} 
+.link .usertext .md tr:nth-child(even), .side .md tr:nth-child(even) { 
+	background: rgba(168, 168, 168, 0.09) 
+	} 
+.side .md table tbody {
+        display:none;
+        }
+.side .md table:hover tbody {
+        display: table-row-group;
+        }
+.link .usertext .md tr:hover, .side .md tr:hover { 
+	background:#A5ACAF; 
+	border-color:#A5ACAF; 
+	color:#002244; 
+	font-weight: bold; 
+	text-align: center;
+	} 
+.link .usertext .md td, .side .md td { 
+	text-align:center; 
+	padding:6px; 
+	border-right:0; 
+	border-left:0; 
+	} 
+.link .usertext .alert-h1, .alert-h2, .side .alert-h1, .alert-h2 {
+	color:#A5ACAF
+	} 
+.link .usertext .md .spacer.spacersection, .side .spacer.spacersection { 
+	background:inherit; 
+	border:0px; 
+	padding:0; 
+	}
+/*-----------------Team Logo Links-----------------*/ 
+
+.side .usertext a[href="/v/Ravens"] {
+  background: url(https://i.imgur.com/RXyE0YQ.png)no-repeat center;
+  height: 40px;
+  width: 105%;
+  display: block;
+}
+.side .usertext a[href="/v/buffalobills"] {
+  background: url(https://i.imgur.com/i0UT2AQ.png)no-repeat center;
+  height: 40px;
+  width: 105%;
+  display: block;
+}
+.side .usertext a[href="/v/bengals"] {
+  background: url(https://i.imgur.com/QOSQfYg.png)no-repeat center;
+  height: 40px;
+  width: 105%;
+  display: block;
+} 
+.side .usertext a[href="/v/Browns"] {
+  background: url(https://i.imgur.com/DFks79p.png)no-repeat center;
+  height: 40px;
+  width: 105%;
+  display: block;
+}
+.side .usertext a[href="/v/DenverBroncos"] {
+  background: url(https://i.imgur.com/vcuxNQL.png)no-repeat center;
+  height: 40px;
+  width: 105%;
+  display: block;
+}
+.side .usertext a[href="/v/texans"] {
+  background: url(https://i.imgur.com/yhUCRQ3.png)no-repeat center;
+  height: 40px;
+  width: 105%;
+  display: block;
+}
+.side .usertext a[href="/v/IndyColts"] {
+  background: url(https://i.imgur.com/sK0Pka8.png)no-repeat center;
+  height: 40px;
+  width: 105%;
+  display: block;
+} 
+.side .usertext a[href="/v/Jaguars"] {
+  background: url(https://i.imgur.com/RFuhNum.png)no-repeat center;
+  height: 40px;
+  width: 105%;
+  display: block;
+}
+.side .usertext a[href="/v/KansasCityChiefs"] {
+  background: url(https://i.imgur.com/lbpvZBy.png)no-repeat center;
+  height: 40px;
+  width: 105%;
+  display: block;
+}      
+.side .usertext a[href="/v/miamidolphins"] {
+  background: url(https://i.imgur.com/xXYFgq1.png)no-repeat center;
+  height: 40px;
+  width: 105%;
+  display: block;
+}
+.side .usertext a[href="/v/patriots"] {
+  background: url(https://i.imgur.com/v0PZAN4.png)no-repeat center;
+  height: 40px;
+  width: 105%;
+  display: block;
+}      
+.side .usertext a[href="/v/nyjets"] {
+  background: url(https://i.imgur.com/y69g8HJ.png)no-repeat center;
+  height: 40px;
+  width: 105%;
+  display: block;
+}
+.side .usertext a[href="/v/OaklandRaiders"] {
+  background: url(https://i.imgur.com/EdsfM7V.png)no-repeat center;
+  height: 40px;
+  width: 105%;
+  display: block;
+} 
+.side .usertext a[href="/v/Steelers"] {
+  background: url(https://i.imgur.com/exM8KBZ.png)no-repeat center;
+  height: 40px;
+  width: 105%;
+  display: block;
+}
+.side .usertext a[href="/v/chargers"] {
+  background: url(https://i.imgur.com/nVgrtbv.png)no-repeat center;
+  height: 40px;
+  width: 105%;
+  display: block;
+}      
+.side .usertext a[href="/v/Tennesseetitans"] {
+  background: url(https://i.imgur.com/K4M79gi.png)no-repeat center;
+  height: 40px;
+  width: 105%;
+  display: block;
+}
+.side .usertext a[href="/v/ArizonaCardinals"] {
+  background: url(https://i.imgur.com/B9q7foJ.png)no-repeat center;
+  height: 40px;
+  width: 105%;
+  display: block;
+}
+.side .usertext a[href="/v/falcons"] {
+  background: url(https://i.imgur.com/MQI8fLP.png)no-repeat center;
+  height: 40px;
+  width: 105%;
+  display: block;
+} 
+.side .usertext a[href="/v/panthers"] {
+  background: url(https://i.imgur.com/LTDyese.png)no-repeat center;
+  height: 40px;
+  width: 105%;
+  display: block;
+}
+.side .usertext a[href="/v/ChiBears"] {
+  background: url(https://i.imgur.com/Pzo2Jim.png)no-repeat center;
+  height: 40px;
+  width: 105%;
+  display: block;
+}      
+.side .usertext a[href="/v/Cowboys"] {
+  background: url(https://i.imgur.com/4tAiPI1.png)no-repeat center;
+  height: 40px;
+  width: 105%;
+  display: block;
+}
+.side .usertext a[href="/v/DetroitLions"] {
+  background: url(https://i.imgur.com/WXHTybW.png)no-repeat center;
+  height: 40px;
+  width: 105%;
+  display: block;
+}
+.side .usertext a[href="/v/greenbaypackers"] {
+  background: url(https://i.imgur.com/Urd9Ygn.png)no-repeat center;
+  height: 40px;
+  width: 105%;
+  display: block;
+} 
+.side .usertext a[href="/v/minnesotavikings"] {
+  background: url(https://i.imgur.com/ig3H49Z.png)no-repeat center;
+  height: 40px;
+  width: 105%;
+  display: block;
+}
+.side .usertext a[href="/v/Saints"] {
+  background: url(https://i.imgur.com/ViOikoI.png)no-repeat center;
+  height: 40px;
+  width: 105%;
+  display: block;
+}      
+.light .side .usertext  a[href="/v/NYGiants"] {
+  background: url(https://i.imgur.com/dvhTsRe.png)no-repeat center;
+  height: 40px;
+  width: 105%;
+  display: block;
+}
+.dark .side .usertext a[href="/v/NYGiants"] {
+  background: url(https://i.imgur.com/feeP8ni.png)no-repeat center;
+  height: 40px;
+  width: 105%;
+  display: block;
+}
+.side .usertext a[href="/v/eagles"] {
+  background: url(https://i.imgur.com/Gu1L5zB.png)no-repeat center;
+  height: 40px;
+  width: 105%;
+  display: block;
+}
+.side .usertext a[href="/v/49ers"] {
+  background: url(https://i.imgur.com/ouryUbg.png)no-repeat center;
+  height: 40px;
+  width: 105%;
+  display: block;
+} 
+.side .usertext a[href="/v/seahawks"] {
+  background: url(https://i.imgur.com/4S04hF9.png)no-repeat center;
+  height: 40px;
+  width: 105%;
+  display: block;
+}
+.side .usertext a[href="/v/Rams"] {
+  background: url(https://i.imgur.com/vVkSGN6.png)no-repeat center;
+  height: 40px;
+  width: 105%;
+  display: block;
+}      
+.side .usertext a[href="/v/Buccaneers"] {
+  background: url(https://i.imgur.com/X0Vv5Ul.png)no-repeat center;
+  height: 40px;
+  width: 105%;
+  display: block;
+}
+.side .usertext a[href="/v/redskins"] {
+  background: url(https://i.imgur.com/Vl4JZ8F.png)no-repeat center;
+  height: 40px;
+  width: 105%;
+  display: block;
+} 
+.side .usertext a[href="https://voat.co/v/nfl"]{ 
+height: 50px; 
+width: 105%; 
+display: block; 
+background: url(https://i.imgur.com/bD1KaCq.png?1)no-repeat center; 
+} 
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/ArizonaCardinals"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/falcons"], 
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Ravens"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/buffalobills"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/panthers"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/ChiBears"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/bengals"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Browns"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Cowboys"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/DenverBroncos"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/DetroitLions"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/greenbaypackers"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/texans"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/IndyColts"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Jaguars"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/KansasCityChiefs"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/miamidolphins"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/minnesotavikings"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/patriots"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Saints"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/NYGiants"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/nyjets"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/OaklandRaiders"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/eagles"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Steelers"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/chargers"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/49ers"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/seahawks"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Rams"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Buccaneers"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Tennesseetitans"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/redskins"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/nfl"]{
+	display: inline-block;				
+    content: ""; 
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding: 0px; 
+    margin: 0px;  
+    margin-left: 5px;
+    background-color: transparent; 
+    background-image: url("https://i.imgur.com/VAFeiYQ.png"); 
+    width: 20px; 
+    height: 20px;
+    vertical-align: middle;
+	}
+
+@media (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+	.sprite {
+		 background-image: url("https://i.imgur.com/VAFeiYQ.png");
+		 background-size: 40px 730px;
+	}
+}
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/ArizonaCardinals"] {
+	background-position: 0 0;
+}
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/falcons"] {
+	background-position: 0 -20px;
+}
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Ravens"] {
+	background-position: 0 -40px;
+}
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/buffalobills"] {
+	background-position: 0 -60px;
+}
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/panthers"] {
+	background-position: 0 -80px;
+}
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/ChiBears"] {
+	background-position: 0 -100px;
+}
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/bengals"] {
+	background-position: 0 -120px;
+}
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Browns"] {
+	background-position: 0 -140px;
+}
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Cowboys"] {
+	background-position: 0 -160px;
+}
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/DenverBroncos"] {
+	background-position: 0 -180px;
+}
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/DetroitLions"] {
+	background-position: 0 -200px;
+}
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/greenbaypackers"] {
+	background-position: 0 -220px;
+}
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/texans"] {
+	background-position: 0 -240px;
+}
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/IndyColts"] {
+	background-position: 0 -260px;
+}
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Jaguars"] {
+	background-position: 0 -280px;
+}
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/KansasCityChiefs"] {
+	background-position: 0 -300px;
+}
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/miamidolphins"] {
+	background-position: 0 -320px;
+}
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/minnesotavikings"] {
+	background-position: 0 -340px;
+}
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/patriots"] {
+	background-position: 0 -360px;
+}
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Saints"] {
+	background-position: 0 -380px;
+}
+.light .side .titlebox .usertext h6:nth-of-type(1) a[href="/v/NYGiants"] {
+	background-position: 0 -400px;
+}
+.dark .side .titlebox .usertext h6:nth-of-type(1) a[href="/v/NYGiants"] {
+	background-position: 0 -420px;
+}
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/nyjets"] {
+	background-position: 0 -440px;
+}
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/OaklandRaiders"] {
+	background-position: 0 -460px;
+}
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/eagles"] {
+	background-position: 0 -480px;
+}
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Steelers"] {
+	background-position: 0 -500px;
+}
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/chargers"] {
+	background-position: 0 -520px;
+}
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/49ers"] {
+	background-position: 0 -540px;
+}
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/seahawks"] {
+	background-position: 0 -560px;
+}
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Rams"] {
+	background-position: 0 -580px;
+}
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Buccaneers"] {
+	background-position: 0 -600px;
+}
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Tennesseetitans"] {
+	background-position: 0 -620px;
+}
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/redskins"] {
+	background-position: 0 -640px;
+}
+/* afc */ {
+	background-position: 0 -660px;
+}
+/* nfc */ {
+	background-position: 0 -680px;
+}
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/nfl"] {
+	width: 40px;
+        height: 30px;
+        background-position: 0 -700px;
+}
