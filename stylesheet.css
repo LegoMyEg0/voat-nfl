@@ -450,7 +450,7 @@ body {
     text-transform: uppercase;
 }
 
-/*Upvotes and Downvotes*/
+/* Upvotes and Downvotes */
 .arrow-upvote {
   cursor: pointer;
   width: 25px;
