@@ -453,16 +453,16 @@ body {
 /*Upvotes and Downvotes*/
 .arrow-upvote {
   cursor: pointer;
-  width: 10px;
+  width: 22px;
   height: 25px;
-  background: url('https://i.imgur.com/8vVJxet.png');
+  background: url('http://i.imgur.com/XsUx0Lj.png');
  opacity: 0.5;
 }
 .arrow-upvoted {
   cursor: pointer;
-  width: 10px;
+  width: 22px;
   height: 25px;
-  background: url('https://i.imgur.com/O5cb6q0.png');
+  background: url('http://i.imgur.com/um4jIVT.png');
 }
 .arrow-downvote {
   cursor: pointer;
