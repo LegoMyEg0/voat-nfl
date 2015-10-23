@@ -954,6 +954,7 @@ a[href="/user/Spectre42"]:not(.upvoatsGiven)::after {
 }
 
 /* ===== Start goat flair ===== */
+a[href="/user/Lazerkatz"]:not(.upvoatsGiven)::after,
 a[href="/user/pocketForceNapkin"]:not(.upvoatsGiven)::after,
 a[href="/user/wellendowedduckling"]:not(.upvoatsGiven)::after,
 a[href="/user/fat_memories"]:not(.upvoatsGiven)::after,
@@ -1164,6 +1165,7 @@ a[href="/user/dualplains"]:not(.upvoatsGiven)::after {
 	background-position: 0 -1023px;
 }
 /* seahawks goat2 */
+a[href="/user/Lazerkatz"]:not(.upvoatsGiven)::after,
 a[href="/user/brdy"]:not(.upvoatsGiven)::after,
 a[href="/user/Setnal"]:not(.upvoatsGiven)::after,
 a[href="/user/Johnnyinterwebs"]:not(.upvoatsGiven)::after {
