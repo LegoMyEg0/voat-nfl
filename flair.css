@@ -246,6 +246,9 @@ a[href="/user/russizm"]:not(.upvoatsGiven)::after {
 }
 
 /* ==== Start image flair ==== */
+a[href="/user/9rhynos"]:not(.upvoatsGiven)::after,
+a[href="/user/bergerboy89"]:not(.upvoatsGiven)::after,
+a[href="/user/lojacc"]:not(.upvoatsGiven)::after,
 a[href="/user/SoupTyrant"]:not(.upvoatsGiven)::after,
 a[href="/user/l-emmerdeur"]:not(.upvoatsGiven)::after,
 a[href="/user/TwentySeven"]:not(.upvoatsGiven)::after,
@@ -619,6 +622,7 @@ a[href="/user/LatinSonic"]:not(.upvoatsGiven)::after,
 a[href="/user/twinkletoes3488"]:not(.upvoatsGiven)::after,
 a[href="/user/Rommel79"]:not(.upvoatsGiven)::after,
 a[href="/user/Shoma"]:not(.upvoatsGiven)::after,
+a[href="/user/9rhynos"]:not(.upvoatsGiven)::after,
 a[href="/user/CowboyRob"]:not(.upvoatsGiven)::after,
 a[href="/user/PanicHouse"]:not(.upvoatsGiven)::after,
 a[href="/user/FightingIrish"]:not(.upvoatsGiven)::after,
@@ -721,6 +725,7 @@ a[href="/user/ALegendaryFap"]:not(.upvoatsGiven)::after {
 	background-position: 0 -480px;
 }
 /* miami */
+a[href="/user/bergerboy89"]:not(.upvoatsGiven)::after,
 a[href="/user/FullyBespokedTomato"]:not(.upvoatsGiven)::after,
 a[href="/user/dolphone"]:not(.upvoatsGiven)::after,
 a[href="/user/Scootaloo"]:not(.upvoatsGiven)::after,
@@ -846,6 +851,7 @@ a[href="/user/Codyrl95"]:not(.upvoatsGiven)::after {
 	background-position: 0 -800px;
 }
 /* sandiego */
+a[href="/user/lojacc"]:not(.upvoatsGiven)::after,
 a[href="/user/Deadmeat"]:not(.upvoatsGiven)::after,
 a[href="/user/iSam"]:not(.upvoatsGiven)::after,
 a[href="/user/gman311"]:not(.upvoatsGiven)::after {
