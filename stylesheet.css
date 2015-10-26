@@ -626,7 +626,7 @@ body {
   width: 105%;
   display: block;
 }
-.side .usertext a[href="/v/IndyColts"] {
+.side .usertext a[href="/v/Colts"] {
   background: url(https://i.imgur.com/sK0Pka8.png)no-repeat center;
   height: 40px;
   width: 105%;
@@ -808,7 +808,7 @@ background: url(https://i.imgur.com/bD1KaCq.png?1)no-repeat center;
 .side .titlebox .usertext h6:nth-of-type(1) a[href="/v/DetroitLions"],
 .side .titlebox .usertext h6:nth-of-type(1) a[href="/v/greenbaypackers"],
 .side .titlebox .usertext h6:nth-of-type(1) a[href="/v/texans"],
-.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/IndyColts"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Colts"],
 .side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Jaguars"],
 .side .titlebox .usertext h6:nth-of-type(1) a[href="/v/KansasCityChiefs"],
 .side .titlebox .usertext h6:nth-of-type(1) a[href="/v/miamidolphins"],
@@ -887,7 +887,7 @@ background: url(https://i.imgur.com/bD1KaCq.png?1)no-repeat center;
 .side .titlebox .usertext h6:nth-of-type(1) a[href="/v/texans"] {
 	background-position: 0 -240px;
 }
-.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/IndyColts"] {
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Colts"] {
 	background-position: 0 -260px;
 }
 .side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Jaguars"] {
