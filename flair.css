@@ -988,6 +988,7 @@ a[href="/user/Daeavorn"]:not(.upvoatsGiven)::after,
 a[href="/user/Cassiekin"]:not(.upvoatsGiven)::after,
 a[href="/user/louhi"]:not(.upvoatsGiven)::after,
 a[href="/user/Caddis"]:not(.upvoatsGiven)::after,
+a[href="/user/The-Evil-Burrito"]:not(.upvoatsGiven)::after,
 a[href="/user/mister_anonymity"]:not(.upvoatsGiven)::after,
 a[href="/user/Sureyado"]:not(.upvoatsGiven)::after,
 a[href="/user/pembo210"]:not(.upvoatsGiven)::after,
@@ -1146,6 +1147,7 @@ a[href="/user/BirdLawyer"]:not(.upvoatsGiven)::after {
 	background-position: 0 -899px;
 }
 /* ravens goat2 */ 
+a[href="/user/The-Evil-Burrito"]:not(.upvoatsGiven)::after,
 a[href="/user/wellendowedduckling"]:not(.upvoatsGiven)::after {
 	background-position: 0 -930px;
 }
