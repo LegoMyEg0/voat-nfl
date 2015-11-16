@@ -774,6 +774,7 @@ a[href="/user/JuliusSeizure"]:not(.upvoatsGiven)::after {
 	background-position: 0 -580px;
 }
 /* neworleans */
+a[href="/user/BreesusLovesYou"]:not(.upvoatsGiven)::after,
 a[href="/user/NCAA_Fan"]:not(.upvoatsGiven)::after,
 a[href="/user/ji"]:not(.upvoatsGiven)::after,
 a[href="/user/chubnubbin"]:not(.upvoatsGiven)::after,
@@ -942,7 +943,6 @@ a[href="/user/Spectre42"]:not(.upvoatsGiven)::after {
 }
 /* fireball */ 
 {
-a[href="/user/BreesusLovesYou"]:not(.upvoatsGiven)::after {
 	background-position: 0 -1120px;
 }
 
