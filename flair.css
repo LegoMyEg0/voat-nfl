@@ -525,7 +525,6 @@ a[href="/user/Launch_"]:not(.upvoatsGiven)::after {
 	background-position: 0 0;
 }
 /* atlanta */ 
-a[href="/user/BreesusLovesYou"]:not(.upvoatsGiven)::after,
 a[href="/user/Drathdon"]:not(.upvoatsGiven)::after,
 a[href="/user/jmoney"]:not(.upvoatsGiven)::after,
 a[href="/user/TheViper"]:not(.upvoatsGiven)::after,
@@ -942,6 +941,7 @@ a[href="/user/Spectre42"]:not(.upvoatsGiven)::after {
 	background-position: 0 -1100px;
 }
 /* fireball */ 
+a[href="/user/BreesusLovesYou"]:not(.upvoatsGiven)::after,
  {
 	background-position: 0 -1120px;
 }
