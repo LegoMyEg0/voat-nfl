@@ -942,7 +942,7 @@ a[href="/user/Spectre42"]:not(.upvoatsGiven)::after {
 }
 /* fireball */ 
 {
-a[href="/user/BreesusLovesYou"]:not(.upvoatsGiven)::after,
+a[href="/user/BreesusLovesYou"]:not(.upvoatsGiven)::after {
 	background-position: 0 -1120px;
 }
 
