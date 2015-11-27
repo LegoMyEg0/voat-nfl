@@ -602,7 +602,6 @@ a[href="/user/Brother_Morphine"]:not(.upvoatsGiven)::after {
 	background-position: 0 -260px;
 }
 /* dallas */
-a[href="/user/l-emmerdeur"]:not(.upvoatsGiven)::after,
 a[href="/user/Bootsy"]:not(.upvoatsGiven)::after,
 a[href="/user/CaptainHadley"]:not(.upvoatsGiven)::after,
 a[href="/user/Gracchi"]:not(.upvoatsGiven)::after,
@@ -748,6 +747,7 @@ a[href="/user/mrmeowme0w"]:not(.upvoatsGiven)::after {
 	background-position: 0 -540px;
 }
 /* newengland */
+a[href="/user/l-emmerdeur"]:not(.upvoatsGiven)::after,
 a[href="/user/highstakes23"]:not(.upvoatsGiven)::after,
 a[href="/user/Melcher"]:not(.upvoatsGiven)::after,
 a[href="/user/Give_me_helmet"]:not(.upvoatsGiven)::after,
