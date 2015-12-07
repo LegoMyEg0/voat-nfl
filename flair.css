@@ -558,6 +558,7 @@ a[href="/user/Dorago1991"]:not(.upvoatsGiven)::after {
 	background-position: 0 -100px;
 }
 /* carolina */
+a[href="/user/BreesusLovesYou"]:not(.upvoatsGiven)::after,
 a[href="/user/ILikeMyDogNotYours"]:not(.upvoatsGiven)::after,
 a[href="/user/Say_What"]:not(.upvoatsGiven)::after,
 a[href="/user/I_am_the_voat"]:not(.upvoatsGiven)::after {
@@ -774,7 +775,7 @@ a[href="/user/JuliusSeizure"]:not(.upvoatsGiven)::after {
 	background-position: 0 -580px;
 }
 /* neworleans */
-a[href="/user/BreesusLovesYou"]:not(.upvoatsGiven)::after,
+/*a[href="/user/BreesusLovesYou"]:not(.upvoatsGiven)::after,*/
 a[href="/user/NCAA_Fan"]:not(.upvoatsGiven)::after,
 a[href="/user/ji"]:not(.upvoatsGiven)::after,
 a[href="/user/chubnubbin"]:not(.upvoatsGiven)::after,
