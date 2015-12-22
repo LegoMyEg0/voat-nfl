@@ -1375,18 +1375,4 @@ a[href="/user/onesidedsquare"]:not(.upvoatsGiven)::after {
 	background-position: 0 0;
 }
 
-/* Spectre42's Commie Flair */
-/* a[href="/user/Spectre42"]:not(.upvoatsGiven)::after {
-	display: inline-block;				
-    content: ""; 
-    background-repeat: no-repeat;
-    background-position: left top;
-    padding: 0px; 
-    margin: 0px;  
-    margin-left: 5px;
-    background-color: transparent; 
-    background-image: url("https://i.imgur.com/q8VvZ7s.png"); 
-    width: 30px; 
-    height: 30px;
-    vertical-align: middle;
-} */
+
