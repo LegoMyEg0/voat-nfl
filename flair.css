@@ -948,6 +948,7 @@ a[href="/user/Spectre42"]:not(.upvoatsGiven)::after {
 }
 
 /* ===== Start goat flair ===== */
+a[href="/user/misha_is_here"]:not(.upvoatsGiven)::after,
 a[href="/user/Lazerkatz"]:not(.upvoatsGiven)::after,
 a[href="/user/pocketForceNapkin"]:not(.upvoatsGiven)::after,
 a[href="/user/wellendowedduckling"]:not(.upvoatsGiven)::after,
@@ -1129,6 +1130,7 @@ a[href="/user/RobotVagina"]:not(.upvoatsGiven)::after {
 	background-position: 0 -775px;
 }
 /* panthers goat2 */ 
+a[href="/user/misha_is_here"]:not(.upvoatsGiven)::after,
 a[href="/user/inthetimeofnick"]:not(.upvoatsGiven)::after,
 a[href="/user/Daeavorn"]:not(.upvoatsGiven)::after {
 	background-position: 0 -806px;
