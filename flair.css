@@ -1376,7 +1376,7 @@ a[href="/user/onesidedsquare"]:not(.upvoatsGiven)::after {
 }
 
 /* Spectre42's Commie Flair */
-a[href="/user/Spectre42"]:not(.upvoatsGiven)::after {
+/* a[href="/user/Spectre42"]:not(.upvoatsGiven)::after {
 	display: inline-block;				
     content: ""; 
     background-repeat: no-repeat;
@@ -1389,4 +1389,4 @@ a[href="/user/Spectre42"]:not(.upvoatsGiven)::after {
     width: 30px; 
     height: 30px;
     vertical-align: middle;
-}
+} */
