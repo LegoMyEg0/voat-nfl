@@ -505,7 +505,7 @@ a[href="/user/LegoMyEgo"]:not(.upvoatsGiven)::after {
     margin: 0px;  
     margin-left: 5px;
     background-color: transparent; 
-    background-image: url("https://i.imgur.com/9AOwAUo.png"); 
+    background-image: url("http://i.imgur.com/cq03k6Z.png"); 
     width: 20px; 
     height: 20px;
     vertical-align: middle;
@@ -513,7 +513,7 @@ a[href="/user/LegoMyEgo"]:not(.upvoatsGiven)::after {
 
 @media (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
 	.sprite {
-		 background-image: url("http://i.imgur.com/9AOwAUo.png");
+		 background-image: url("http://i.imgur.com/cq03k6Z.png");
 		 background-size: 20px 1140px;
 	}
 }
