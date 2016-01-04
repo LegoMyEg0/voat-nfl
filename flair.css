@@ -496,6 +496,7 @@ a[href="/user/NCAA_Fan"]:not(.upvoatsGiven)::after,
 a[href="/user/livejamie"]:not(.upvoatsGiven)::after,
 a[href="/user/Roland_B_Luntz"]:not(.upvoatsGiven)::after,
 a[href="/user/mrmagoo512"]:not(.upvoatsGiven)::after,
+a[href="/user/Fetter90"]:not(.upvoatsGiven)::after,
 a[href="/user/LegoMyEgo"]:not(.upvoatsGiven)::after {
 	display: inline-block;				
     content: ""; 
@@ -727,6 +728,7 @@ a[href="/user/uncultured"]:not(.upvoatsGiven)::after {
 	background-position: 0 -500px;
 }
 /* miami alt */
+a[href="/user/Fetter90"]:not(.upvoatsGiven)::after,
 a[href="/user/zoi"]:not(.upvoatsGiven)::after {
 	background-position: 0 -520px;
 }
