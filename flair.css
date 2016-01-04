@@ -497,6 +497,7 @@ a[href="/user/livejamie"]:not(.upvoatsGiven)::after,
 a[href="/user/Roland_B_Luntz"]:not(.upvoatsGiven)::after,
 a[href="/user/mrmagoo512"]:not(.upvoatsGiven)::after,
 a[href="/user/Fetter90"]:not(.upvoatsGiven)::after,
+a[href="/user/BomTrady"]:not(.upvoatsGiven)::after,
 a[href="/user/LegoMyEgo"]:not(.upvoatsGiven)::after {
 	display: inline-block;				
     content: ""; 
@@ -728,6 +729,7 @@ a[href="/user/uncultured"]:not(.upvoatsGiven)::after {
 	background-position: 0 -500px;
 }
 /* miami alt */
+a[href="/user/BomTrady"]:not(.upvoatsGiven)::after,
 a[href="/user/Fetter90"]:not(.upvoatsGiven)::after,
 a[href="/user/zoi"]:not(.upvoatsGiven)::after {
 	background-position: 0 -520px;
@@ -1230,7 +1232,7 @@ a[href="/user/BirdLawyer"]:not(.upvoatsGiven)::after {
 }
 
 /* Bom's flair */
-
+/*
 a[href="/user/BomTrady"]:not(.upvoatsGiven)::after {
 	display: inline-block;				
     content: ""; 
@@ -1252,11 +1254,11 @@ a[href="/user/BomTrady"]:not(.upvoatsGiven)::after {
 		 background-size: 15px 40px;
 	}
 }
-/* Pig */
+/* Pig *//*
 a[href="/user/BomTrady"]:not(.upvoatsGiven)::after {
 	background-position: 0 0;
 }
-
+*/
 
 a[href="/user/CaMelGuY"]:not(.upvoatsGiven)::after {
 	display: inline-block;				
