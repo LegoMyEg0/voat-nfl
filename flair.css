@@ -955,6 +955,7 @@ a[href="/user/Spectre42"]:not(.upvoatsGiven)::after {
 }
 
 /* ===== Start goat flair ===== */
+a[href="/user/microlyfe"]:not(.upvoatsGiven)::after,
 a[href="/user/fr0stbit3"]:not(.upvoatsGiven)::after,
 a[href="/user/misha_is_here"]:not(.upvoatsGiven)::after,
 a[href="/user/Lazerkatz"]:not(.upvoatsGiven)::after,
@@ -1164,6 +1165,7 @@ a[href="/user/wellendowedduckling"]:not(.upvoatsGiven)::after {
 	background-position: 0 -930px;
 }
 /* redskins goat */
+a[href="/user/microlyfe"]:not(.upvoatsGiven)::after,
 a[href="/user/dualplains"]:not(.upvoatsGiven)::after {
 	background-position: 0 -961px;
 }
