@@ -955,6 +955,7 @@ a[href="/user/Spectre42"]:not(.upvoatsGiven)::after {
 }
 
 /* ===== Start goat flair ===== */
+a[href="/user/EndDrugAndOtherWars"]:not(.upvoatsGiven)::after,
 a[href="/user/microlyfe"]:not(.upvoatsGiven)::after,
 a[href="/user/fr0stbit3"]:not(.upvoatsGiven)::after,
 a[href="/user/misha_is_here"]:not(.upvoatsGiven)::after,
@@ -1029,6 +1030,7 @@ a[href="/user/cheatch"]:not(.upvoatsGiven)::after {
 }
 
 /* 49ers goat */
+a[href="/user/EndDrugAndOtherWars"]:not(.upvoatsGiven)::after,
 a[href="/user/49erFaithful"]:not(.upvoatsGiven)::after,
 a[href="/user/Duck_foot"]:not(.upvoatsGiven)::after,
 a[href="/user/bplabombarda"]:not(.upvoatsGiven)::after {
