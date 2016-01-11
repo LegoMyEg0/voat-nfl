@@ -241,6 +241,7 @@ a[href="/user/russizm"]:not(.upvoatsGiven)::after {
 }
 
 /* ==== Start image flair ==== */
+a[href="/user/Grumpy_Old_Man"]:not(.upvoatsGiven)::after,
 a[href="/user/9rhynos"]:not(.upvoatsGiven)::after,
 a[href="/user/bergerboy89"]:not(.upvoatsGiven)::after,
 a[href="/user/lojacc"]:not(.upvoatsGiven)::after,
@@ -805,7 +806,8 @@ a[href="/user/UndeadBelaLugosi"]:not(.upvoatsGiven)::after,
 a[href="/user/NapoleonComplex"]:not(.upvoatsGiven)::after {
 	background-position: 0 -640px;
 }
-/* newyorkgiants white */ {
+/* newyorkgiants white */
+a[href="/user/Grumpy_Old_Man"]:not(.upvoatsGiven)::after {
 	background-position: 0 -660px;
 }
 /* newyorkjets */
