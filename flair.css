@@ -1354,11 +1354,11 @@ a[href="/user/ShagginTurtles"]:not(upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
-background-image: url(http://www.psypokes.com/dex/picdex/crystal/019.gif);
+background-image: url(http://www.animatedimages.org/data/media/289/animated-turtle-image-0109.gif);
 border-radius: 2px;
 background-size: 100%;
-width: 60px;
-height: 60px;
+width: 53px;
+height: 33px;
 vertical-align: middle;
 margin-right: .3em;
 border: hidden;
