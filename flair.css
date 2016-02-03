@@ -270,6 +270,7 @@ a[href="/user/Say_What"]:not(.upvoatsGiven)::after,
 a[href="/user/BANGcake"]:not(.upvoatsGiven)::after,
 a[href="/user/ThatsMyGimmick"]:not(.upvoatsGiven)::after,
 a[href="/user/Bu11DawgNC"]:not(.upvoatsGiven)::after,
+a[href="/user/frank_the_tank"]:not(.upvoatsGiven)::after,
 a[href="/user/I_miss_Digg"]:not(.upvoatsGiven)::after,
 a[href="/user/ThatsMyGimmick"]:not(.upvoatsGiven)::after,
 a[href="/user/FullyBespokedTomato"]:not(.upvoatsGiven)::after,
@@ -606,7 +607,8 @@ a[href="/user/Brother_Morphine"]:not(.upvoatsGiven)::after {
 /* cleveland alt */ {
 	background-position: 0 -240px;
 }
-/* cleveland3 */ {
+/* cleveland3 */ 
+a[href="/user/frank_the_tank"]:not(.upvoatsGiven)::after {
 	background-position: 0 -260px;
 }
 /* dallas */
