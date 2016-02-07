@@ -1343,23 +1343,28 @@ a[href="/user/onesidedsquare"]:not(.upvoatsGiven)::after {
 a[href="/user/onesidedsquare"]:not(.upvoatsGiven)::after {
 	background-position: 0 0;
 }
-
-a[href="/user/ShagginTurtles"]:not(.upvoatsGiven) {
-visibility: hidden;
-word-spacing: -999px;
-letter-spacing: -999px;
+a[href="/user/ShagginTurtles"]:not(.upvoatsGiven)::after {
+	display: inline-block;				
+    content: ""; 
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding: 0px; 
+    margin: 0px;  
+    margin-left: 5px;
+    background-color: transparent; 
+    background-image: url("http://i.imgur.com/XVqb0C8.png"); 
+    width: 40px; 
+    height: 25px;
+    vertical-align: middle;
 }
 
-a[href="/user/ShagginTurtles"]:not(upvoatsGiven)::after {
-visibility: visible;
-content: '';
-display: inline-block;
-background-image: url(http://www.animatedimages.org/data/media/289/animated-turtle-image-0109.gif);
-border-radius: 2px;
-background-size: 100%;
-width: 53px;
-height: 33px;
-vertical-align: middle;
-margin-right: .3em;
-border: hidden;
+@media (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+	.sprite {
+		 background-image: url("http://i.imgur.com/XVqb0C8.png");
+		 background-size: 40px 25px;
+	}
+}
+/* Trophy */
+a[href="/user/ShagginTurtles"]:not(.upvoatsGiven)::after {
+	background-position: 0 0;
 }
