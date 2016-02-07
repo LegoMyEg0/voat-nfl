@@ -958,11 +958,3 @@ background: url(https://i.imgur.com/bD1KaCq.png?1)no-repeat center;
         height: 30px;
         background-position: 0 -700px;
 }
-/* ==== Game Thread images ==== */  
-/*====Super Bowl====*/
-.usertext a[href="http://www.nfl.com/gamecenter/2016020700/2015/POST22/panthers@broncos#menu=gameinfo&tab=preview"]{
-        height: 540px;
-    width: 100%;
-    display: block;
-    background: url(http://i.onionstatic.com/onion/5260/2/16x9/960.jpg) no-repeat center top; 
-}  
