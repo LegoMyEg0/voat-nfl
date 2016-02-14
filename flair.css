@@ -738,7 +738,6 @@ a[href="/user/uncultured"]:not(.upvoatsGiven)::after {
 	background-position: 0 -500px;
 }
 /* miami alt */
-a[href="/user/BomTrady"]:not(.upvoatsGiven)::after,
 a[href="/user/Fetter90"]:not(.upvoatsGiven)::after,
 a[href="/user/zoi"]:not(.upvoatsGiven)::after {
 	background-position: 0 -520px;
@@ -776,11 +775,11 @@ a[href="/user/drumphantom"]:not(.upvoatsGiven)::after,
 a[href="/user/TurdFerguson_"]:not(.upvoatsGiven)::after,
 a[href="/user/porrridge"]:not(.upvoatsGiven)::after,
 a[href="/user/Nautique"]:not(.upvoatsGiven)::after,
-
 a[href="/user/ABearWithABeer"]:not(.upvoatsGiven)::after {
 	background-position: 0 -560px;
 }
 /* newengland alt */
+a[href="/user/BomTrady"]:not(.upvoatsGiven)::after,
 a[href="/user/TwentySeven"]:not(.upvoatsGiven)::after,
 a[href="/user/Karkrash66"]:not(.upvoatsGiven)::after,
 a[href="/user/dukeOvandals"]:not(.upvoatsGiven)::after, 
