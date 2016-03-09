@@ -10,6 +10,11 @@ a[href="/user/BZL"]:not(.upvoatsGiven)::after {
     content: " Bills Mafia ";  
 }
 
+a[href="/user/CONGLOM-O"]:not(.upvoatsGiven)::after {
+    color: #B20032;
+    content: " Kansas City Chiefs ";  
+}
+
 a[href="/user/Tizjon"]:not(.upvoatsGiven)::after {
     color: #B0E0E6;
     content: " Bolts ";  
@@ -275,7 +280,6 @@ a[href="/user/I_miss_Digg"]:not(.upvoatsGiven)::after,
 a[href="/user/ThatsMyGimmick"]:not(.upvoatsGiven)::after,
 a[href="/user/FullyBespokedTomato"]:not(.upvoatsGiven)::after,
 a[href="/user/MikeTysonChicken"]:not(.upvoatsGiven)::after,
-a[href="/user/CONGLOM-O"]:not(.upvoatsGiven)::after,
 a[href="/user/LanceArmstrong"]:not(.upvoatsGiven)::after,
 a[href="/user/rocketbrainsurgeon"]:not(.upvoatsGiven)::after,
 a[href="/user/Sinz226"]:not(.upvoatsGiven)::after,
@@ -903,7 +907,6 @@ a[href="/user/KHthe8th"]:not(.upvoatsGiven)::after {
 /* stlouis */
 a[href="/user/zambeezy"]:not(.upvoatsGiven)::after,
 a[href="/user/ratherfashingf11"]:not(.upvoatsGiven)::after,
-a[href="/user/CONGLOM-O"]:not(.upvoatsGiven)::after,
 a[href="/user/TisTheJMan"]:not(.upvoatsGiven)::after,
 a[href="/user/Steebee"]:not(.upvoatsGiven)::after,
 a[href="/user/meatballsacrifice"]:not(.upvoatsGiven)::after,
