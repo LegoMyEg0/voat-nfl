@@ -1,0 +1,1799 @@
+@media (min-width: 871px) {
+
+#header {
+outline: none;
+}
+
+body.light {
+background: transparent linear-gradient(178deg, #E9E9E9, #7C8DC0, #7878F6) no-repeat fixed 0% 0% / 100% 100%;
+margin: 0px !important;
+}
+
+body.dark {
+background: transparent linear-gradient(2deg, #747474, #171717) no-repeat fixed 0% 0% / 100% 100%;
+margin: 0px !important;
+}
+
+div.side div.spacer:nth-of-type(1) {
+padding: 293px 0px 0px !important;
+background: url("http://i.imgur.com/ivn92P8.jpg") no-repeat scroll center top transparent;
+margin-top: 20px;
+}
+
+/========================POST FLAIR======================/
+
+.flair-InjuryReport  {
+display: inline-block;
+}
+
+.flair-RosterMove  {
+display: inline-block;
+}
+
+.flair-Meme  {
+display: inline-block;
+}
+
+.flair-Rant  {
+display: inline-block;
+}
+
+.flair-Salty  {
+display: inline-block;
+}
+
+.flair-Video  {
+display: inline-block;
+}
+
+.flair-HistoryLesson  {
+display: inline-block;
+}  
+
+.flair-Misleading  {
+display: inline-block;
+}
+
+.flair-Serious  {
+display: inline-block;
+}
+
+#header {
+background: #FFF none repeat scroll 0% 0%;
+height: 60px;
+margin: 0px 0px 0px;
+position: relative;
+z-index: 99;
+}
+
+.light #header-container {
+border-top: 4px solid #001192;
+border-bottom: 4px solid #0030FF;
+position: absolute;
+width: 100%;
+max-width: 100%;
+margin: 0px;
+top: 25px;
+height: 38px;
+box-shadow: 0px 2px 6px #000;
+background: transparent linear-gradient(194deg, #FFF, #E6E6E6) no-repeat scroll 0% 0%;
+}
+
+.dark #header-container {
+background: transparent linear-gradient(194deg, #0B0B0B, #242424) no-repeat scroll 0% 0%;
+border-top: 4px solid #fff;
+border-bottom: 4px solid #fff;
+position: absolute;
+width: 100%;
+max-width: 100%;
+margin: 0px;
+top: 25px;
+height: 38px;
+box-shadow: 0px 2px 6px #000;
+}
+
+#header-banner {
+font-size: 13px;
+margin: 0px 1px;
+max-width: 100%;
+position: relative;
+}
+
+.light #header-img {
+box-sizing: border-box;
+padding-left: 57px;
+background-image: url("http://i.imgur.com/bCF5qPn.png");
+height: 25px;
+width: 57px;
+margin: 2px 41px 17px 29px;
+vertical-align: unset;
+}
+
+.dark #header-img {
+box-sizing: border-box;
+padding-left: 57px;
+background-image: url("http://i.imgur.com/bCF5qPn.png");
+height: 25px;
+width: 57px;
+margin: 2px 41px 15px 29px;
+vertical-align: unset;
+}
+
+.pagename {
+font-size: 16px;
+font-variant: normal;
+font-weight: normal;
+display: inline-block;
+margin: -3px 14px 14px 3px;
+vertical-align: bottom;
+}
+
+.light .pagename a:after{
+content: url(http://i.imgur.com/MzQzXuf.png);
+font-size: 0!important;
+}
+
+.dark .pagename a:after{
+content: url(http://i.imgur.com/MzQzXuf.png);
+font-size: 0!important;
+}
+
+.pagename a, .titlebox .whoaversename a[href$="/v/nfl"] {
+font-size: 0!important;
+}
+
+.light .titlebox .whoaversename a[href$="/v/nfl"]::after {
+content: url("http://i.imgur.com/Dg6I61W.png");
+margin-left: 0px;
+}
+
+.dark .titlebox .whoaversename a[href$="/v/nfl"]::after {
+content: url("http://i.imgur.com/Dg6I61W.png");
+margin-left: 0px;
+}
+
+div.titlebox span.word {
+display: none;
+}
+
+.titlebox h1 a {
+color: inherit;
+font-size: 0px !important;
+}
+
+.light div.titlebox .subscribers span.number:after {
+font-size: 15px;
+content: " Bench Warmers";
+color: #11119C !important;
+}
+
+.light div.titlebox .users-online span.number:after {
+font-size: 15px;
+content: " Leading A Drive";
+color: #11119C !important;
+}
+
+div.titlebox .subscribers span.number:after {
+font-size: 15px;
+content: " Bench Warmers";
+color: #fff !important;
+}
+
+div.titlebox .users-online span.number:after {
+font-size: 15px;
+content: " Leading A Drive";
+color: #fff !important;
+}
+
+.light #sr-header-area {
+background: transparent linear-gradient(14deg, #CDD1CC, #E3E3E3, #CBCBCB) no-repeat scroll 0% 0% !important;
+border-bottom: 0px solid #AD0000;
+font-size: 12px;
+height: 24px;
+line-height: 22px;
+text-transform: uppercase;
+white-space: nowrap;
+box-shadow: 0px 2px 6px #000;
+}
+
+.dark #sr-header-area {
+background: transparent linear-gradient(14deg, #333, #414141, #363636) repeat scroll 0% 0%;
+border-bottom: 0px solid #fff;
+font-size: 12px;
+height: 24px;
+line-height: 22px;
+text-transform: uppercase;
+white-space: nowrap;
+box-shadow: 0px 2px 6px #000;
+}
+
+.light #sr-bar li a, .light .sr-list li a{
+color: #00009e !important;
+font-weight: bolder;
+}
+
+.dark #sr-bar li a, .dark .sr-list li a{
+color: #fff !important;
+font-weight: bolder;
+}
+
+.light .drop-arrow {
+border-width: 4px 4px 0px;
+border-style: solid;
+border-color: #11119C transparent transparent;
+display: inline-block;
+height: 0px;
+width: 0px;
+}
+
+.dark .drop-arrow {
+border-width: 4px 4px 0px;
+border-style: solid;
+border-color: #fff transparent transparent;
+display: inline-block;
+height: 0px;
+width: 0px;
+}
+
+.light #sr-more-link {
+background: transparent linear-gradient(33deg, #CDD1CC, #E3E3E3, #CBCBCB) no-repeat scroll 0% 0% !important;
+border: 2px solid #F00;
+color: #00009e !important;
+display: inline-block;
+font-weight: normal;
+height: 24px;
+letter-spacing: 1px;
+margin: 0px;
+padding: 1px 7px;
+position: absolute;
+right: 0px;
+top: -1px;
+border-radius: 5px 0px 0px 5px;
+}
+
+.light #sr-more-link:hover {
+background: transparent linear-gradient(213deg, #CDD1CC, #E3E3E3, #CBCBCB) no-repeat scroll 0% 0% !important;
+border: 2px solid #F00;
+color: #ad0000 !important;
+display: inline-block;
+font-weight: normal;
+height: 24px;
+letter-spacing: 1px;
+margin: 0px;
+padding: 1px 7px;
+position: absolute;
+right: 0px;
+top: -1px;
+border-radius: 5px 0px 0px 5px;
+text-transform: uppercase;
+}
+
+.dark #sr-more-link {
+background: transparent linear-gradient(14deg, #333, #414141, #363636) no-repeat scroll 0% 0% !important;
+border: 2px solid #b40000 !important;
+color: #fff !important;
+display: inline-block;
+font-weight: bolder;
+height: 24px;
+letter-spacing: 1px;
+margin: 0px;
+padding: 1px 7px;
+position: absolute;
+right: 0px;
+top: -1px;
+border-radius: 5px 0px 0px 5px;
+text-transform: uppercase;
+}
+
+.dark #sr-more-link:hover {
+background: transparent linear-gradient(194deg, #333, #414141, #363636) repeat scroll 0% 0% !important;
+border: 2px solid #b40000 !important;
+color: #fff !important;
+display: inline-block;
+font-weight: bolder;
+height: 24px;
+letter-spacing: 1px;
+margin: 0px;
+padding: 1px 7px;
+position: absolute;
+right: 0px;
+top: -1px;
+border-radius: 5px 0px 0px 5px;
+text-transform: uppercase;
+}
+
+.light .logged-in, .light .logged-out {
+-moz-border-top-colors: none;
+-moz-border-right-colors: none;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+border-image: none;
+border-color: #FF0100;
+border-radius: 0px !important;
+border-style: solid none;
+border-width: 0px;
+background: rgba(245, 245, 245, 0) none repeat scroll 0% 0%;
+text-transform: uppercase;
+color: #11119C !important;
+padding: 0px 16px 2px 19px;
+margin: 0px 13px 21px 4px;
+}
+
+.dark .logged-in, .dark .logged-out {
+-moz-border-top-colors: none;
+-moz-border-right-colors: none;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+border-image: none;
+border-color: #fff;
+border-radius: 0px !important;
+border-style: solid none;
+border-width: 0px;
+background: rgba(245, 245, 245, 0) none repeat scroll 0% 0%;
+text-transform: uppercase;
+color: #fff;
+padding: 0px 16px 2px 19px;
+margin: 0px 13px 21px 4px;
+}
+
+#nightmodetoggle {
+background: url("http://i.imgur.com/7wp9lzi.png?1");
+display: inline-block;
+cursor: pointer;
+height: 16px;
+width: 15px;
+position: relative;
+top: 4px;
+}
+
+.user .upvoatsGiven a {
+display:none;
+}
+
+.light #header-account a {
+color: #11119C !important;
+font-weight: bolder;
+font-size: 12px;
+}
+
+.dark #header-account a {
+color: #fff !important;
+font-weight: bolder;
+font-size: 12px;
+}
+
+.user .userkarma {
+border-bottom: 0px solid #999;
+cursor: help;
+font-weight: normal;
+margin: 0px 2px;
+}
+
+#header-account .separator {
+display: none;
+}
+
+.light .whoaSubscriptionMenu li ul li a:link, .light .whoaSubscriptionMenu li ul li a:visited {
+background: transparent linear-gradient(33deg, #00007B, #11119C, #0000CE); 
+color: #fff !important;
+display: block;
+line-height: 16px;
+padding: 1px 6px;
+text-decoration: none;
+width: auto;
+text-align: center;
+text-transform: uppercase;
+border-radius: 6px;
+border: 2px solid #ffffff !important;
+z-index: 200;
+}
+
+.light .whoaSubscriptionMenu li ul li a:link:hover, .light .whoaSubscriptionMenu li ul li a:visited:hover {
+background: transparent linear-gradient(123deg, #00007B, #11119C, #0000CE);
+color: #fff !important;
+display: block;
+line-height: 16px;
+padding: 1px 6px;
+text-decoration: none;
+width: auto;
+text-align: center;
+text-transform: uppercase;
+font-weight:bolder;
+border: 2px solid #ad0000 !important;
+border-radius: 6px;
+z-index: 200;
+}
+
+.dark .whoaSubscriptionMenu li ul li a:link, .dark .whoaSubscriptionMenu li ul li a:visited {
+background: transparent linear-gradient(14deg, #0D0183, #02128F, #002377) repeat scroll 0% 0% !important;
+color: #fff !important;
+display: block;
+line-height: 16px;
+padding: 1px 6px;
+text-decoration: none;
+width: auto;
+text-align: center;
+text-transform: uppercase;
+border-radius: 6px;
+border: 2px solid #b40000 !important;
+z-index: 200;
+}
+
+.dark .whoaSubscriptionMenu li ul li a:link:hover, .dark .whoaSubscriptionMenu li ul li a:visited:hover {
+background: transparent linear-gradient(194deg, #0D0183, #02128F, #002377) repeat scroll 0% 0% !important;
+color: #fff !important;
+display: block;
+line-height: 16px;
+padding: 1px 6px;
+text-decoration: none;
+width: auto;
+text-align: center;
+text-transform: uppercase;
+font-weight:bolder;
+border: 2px solid #fff !important;
+border-radius: 6px;
+z-index: 200;
+}
+
+.light .promoted {
+border: 2px solid #F00;
+border-radius: 5px;
+padding: 0px 6px;
+line-height: 100%;
+vertical-align: middle;
+min-width: 0px;
+color: #FFF;
+font-size: 15px;
+display: inline;
+letter-spacing: 0px;
+text-transform: uppercase;
+background: transparent linear-gradient(33deg, #051BC5, #001880, #0057DA) repeat scroll 0% 0%;
+}
+
+.dark .promoted {
+border: 2px solid #F00;
+border-radius: 5px;
+padding: 0px 6px;
+line-height: 100%;
+vertical-align: middle;
+min-width: 0px;
+color: #FFF;
+font-size: 15px;
+display: inline;
+letter-spacing: 0px;
+text-transform: uppercase;
+background: transparent linear-gradient(33deg, #051BC5, #001880, #0057DA) repeat scroll 0% 0%;
+}
+
+.light .tabmenu {
+display: inline-block;
+line-height: 31px;
+list-style-type: none;
+margin: -31px 6px 14px 85px !important;
+vertical-align: bottom;
+white-space: nowrap;
+}
+
+.dark .tabmenu {
+display: inline-block;
+line-height: 31px;
+list-style-type: none;
+margin: -31px 6px 14px 85px !important;
+vertical-align: bottom;
+white-space: nowrap;
+}
+
+.tabmenu li {
+-moz-border-top-colors: none;
+-moz-border-right-colors: none;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+font-family: Arial, sans-serif;
+font-size: 11px;
+font-weight: bold !important;
+display: inline-block;
+line-height: 37px;
+list-style-type: none;
+margin: 0;
+vertical-align: bottom;
+text-transform: uppercase;
+border-radius: 0px !important;
+}
+
+.light .tabmenu li.selected a.contribute, .light .tabmenu li.selected a.contribute:hover, .light .tabmenu li.selected a, .light .tabmenu li.selected a:hover {
+-moz-border-top-colors: none;
+-moz-border-right-colors: none;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+border-image: none;
+border-color: #000;
+border-style: solid none;
+border-width: 0px;
+color: #00009e !important;
+font-weight: bold;
+border-radius: 0px !important;
+background: rgba(255, 255, 255, 0) none repeat scroll 0% 0%;
+}
+
+.light .tabmenu li.disabled a.contribute , .light .tabmenu li.disabled a {
+-moz-border-top-colors: none;
+-moz-border-right-colors: none;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+border-image: none;
+border-color: #000;
+border-style: solid none;
+border-width: 0px;
+color: #ad0000 !important;
+border-radius: 0px !important;
+background: rgba(255,255,255,0.0);
+}
+
+.light .tabmenu li.disabled a:hover, .light .tabmenu li.disabled a.contribute:hover  {
+-moz-border-top-colors: none;
+-moz-border-right-colors: none;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+border-image: none;
+border-color: #fff;
+border-style: solid none;
+border-width: 0px;
+color: #00009e !important;
+border-radius: 0px !important;
+background: transparent !important;
+text-shadow: none !important;
+}
+
+.dark .tabmenu li.disabled a {
+-moz-border-top-colors: none;
+-moz-border-right-colors: none;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+border-image: none;
+border-color: #fff;
+border-style: solid none;
+border-width: 0px;
+color: #a5acaf  !important;
+border-radius: 0px !important;
+background: transparent;
+}
+
+.dark .tabmenu li.disabled a:hover {
+-moz-border-top-colors: none;
+-moz-border-right-colors: none;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+border-image: none;
+border-color: #fff;
+border-style: solid none;
+border-width: 0px;
+color: #fff  !important;
+border-radius: 0px !important;
+background: transparent;
+}
+
+.dark .tabmenu li.selected a, .dark tabmenu li.selected a:hover, .dark .tabmenu li.disabled a.contribute:hover {
+-moz-border-top-colors: none;
+-moz-border-right-colors: none;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+border-image: none;
+border-color: #fff;
+border-style: solid none;
+border-radius: 0px !important;
+border-width: 0px;
+color:#fff !important;
+background:transparent;
+}
+
+.dark .tabmenu li.disabled a.contribute {
+-moz-border-top-colors: none;
+-moz-border-right-colors: none;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+background: none;
+border-radius: 0px !important;
+border: solid none;
+border-width: 0;
+color: #a5acaf !important;
+}
+
+.dark .tabmenu li.selected a.contribute:hover {
+background: transparent;
+border-color: transparent;
+}
+
+.light #container {
+background: rgba(234, 234, 234, 0.9) none repeat scroll 0% 0% / 100% 100%;
+max-width: 100%;
+overflow: visible;
+margin: 43px -2px 25px -1px;
+box-shadow: 2px 3px 12px 3px #000 !important;
+border-bottom: 20px solid rgba(0, 0, 158, 0.4);
+border-radius: 3px !important;
+border-top: 0px !important;
+padding: 0px 12px 0px 13px;
+}
+
+.dark #container {
+background: transparent linear-gradient(133deg , #262626, #0C0C0C) no-repeat scroll 0% 0%;
+max-width: 100%;
+overflow: visible;
+margin: 43px -2px 25px -1px;
+box-shadow: 2px 3px 12px 3px #000 !important;
+border-bottom: 20px solid rgba(0, 0, 158, 0.4);
+border-radius: 3px !important;
+border-top: 0px !important;
+padding: 0px 12px 0px 13px;
+}
+
+.light .odd {
+background: transparent -moz-linear-gradient(left ,#fff, #ccc) repeat scroll 0% 0%;
+background: linear-gradient(to left, #FFF, #CCC) repeat scroll 0% 0%;
+border-radius: 3px;
+margin: 2px -331px 2px -20px;
+border-bottom: 2px solid #00009e;
+border-right: 2px solid #4E4C4C;
+}
+
+.light .even {
+background: transparent -moz-linear-gradient(right ,#fff, #ccc) repeat scroll 0% 0%;
+background: linear-gradient(to right,  #fff, #ccc);
+border-radius: 3px;
+margin: 2px -331px 2px -20px;
+border-bottom: 2px solid #00009e;
+border-right: 2px solid #4E4C4C;
+}
+
+.dark .odd {
+background: -moz-linear-gradient(top left,  rgba(0,0,0,0.8), rgba(59,58,59,0.9));
+background: -webkit-linear-gradient(top left,  rgba(0,0,0,0.8), rgba(59,58,59,0.9));
+background: linear-gradient(to left top  ,rgba(0,0,0,0.8), rgba(59,58,59,0.9));
+border-radius: 3px;
+margin: 2px -331px 2px -20px;
+border-right: 2px solid #4E4C4C;
+border-bottom: 1px solid #aa0000;
+border-top: 1px solid #fff;
+}
+
+.dark .even  {
+background: -moz-linear-gradient(top right,  rgba(0,0,0,0.8), rgba(59,58,59,0.9));
+background: -webkit-linear-gradient(top right,  rgba(0,0,0,0.8), rgba(59,58,59,0.9));
+background: linear-gradient(to right top  ,rgba(0,0,0,0.8), rgba(59,58,59,0.9));
+border-radius: 3px;
+margin: 2px -331px 2px -20px;
+border-right: 2px solid #4E4C4C;
+border-bottom: 1px solid #aa0000;
+border-top: 1px solid #fff;
+}
+
+.light .link a.title.may-blank {
+color: #00009e !important;
+}
+
+.light .link a.title.may-blank:hover {
+color: #000000 !important;
+}
+
+.dark .link a.title.may-blank {
+color: #FFF !important;
+}
+
+.dark .link a.title.may-blank:hover{
+color: #e8e8e8 !important;
+}
+
+.light .domain {
+color: #ad0000 !important;
+font-size: 11px;
+}
+
+.dark domain {
+color: #00009e !important;
+font-size: 11px;
+}
+
+.light a, .light a:visited {
+color: #111111 !important;
+text-decoration: none;
+}
+
+.dark a, a:visited {
+color: #fff !important;
+text-decoration: none;
+}
+
+.light .link a.author {
+color: #ad0000 !important;
+font-weight: normal;
+}
+
+.dark .link a.author {
+color: #fff !important;
+font-weight: normal;
+}
+
+.light .link .flat-list li a {
+color: #ad0000 !important;
+font-weight: bold;
+}
+
+.dark .link .flat-list li a {
+color: #a5acaf !important;
+font-weight: bold;
+}
+
+.dark .link a.subverse {
+color: #fff !important;
+font-weight: bold;
+}
+
+.dark .link a.subverse {
+color: #5151FF !important;
+font-weight: bold;
+}
+
+.light .link .score.likes {
+color: #00009e;
+}
+
+.dark .link .score.likes {
+color: #fff;
+}
+
+.light .tagline {
+color: #00009e !important;
+line-height: 18px;
+font-size: 11px;
+}
+
+.dark .tagline {
+color: #Ad0000;
+line-height: 18px;
+font-size: 11px;
+}
+
+.light .link .score {
+color: #00009e !important;
+line-height: 13px;
+min-width: 28px;
+text-align: center;
+}
+
+.dark .link .score {
+color: #fff !important;
+line-height: 13px;
+min-width: 28px;
+text-align: center;
+}
+
+.light .link a.subverse {
+color: #A00 !important;
+font-weight: bold;
+}
+
+.light .tagline .post_upvotes {
+color: #ad0000;
+font-size: 95%;
+font-weight: bold;
+padding: 0px 1px 0px 2px;
+visibility: visible;
+}
+
+.dark .tagline .post_upvotes {
+color: #fff;
+font-size: 95%;
+font-weight: bold;
+padding: 0px 1px 0px 2px;
+visibility: visible;
+}
+
+.light .tagline .post_downvotes {
+color: #ad0000;
+font-size: 95%;
+font-weight: bold;
+padding: 0px 2px 0px 1px;
+visibility: visible;
+}
+
+.dark .tagline .post_downvotes {
+color: #fff;
+font-size: 95%;
+font-weight: bold;
+padding: 0px 2px 0px 1px;
+visibility: visible;
+}
+
+.light .scorebar-likes {
+background: #00009e !important;
+clear: both;
+width: 100%;
+}
+
+.dark .scorebar-likes {
+background: #fff !important;
+clear: both;
+width: 100%;
+}
+
+.light a.thumbnail:hover, .light a.thumbnail:focus, .light a.thumbnail.active {
+border-color: #00009e;
+}
+
+.dark a.thumbnail:hover, .dark a.thumbnail:focus, .dark a.thumbnail.active {
+border-color: #ad0000;
+}
+
+.light .btn-whoaverse-paging, .light button.btn-whoaverse-paging, .light a.btn-whoaverse.contribute, .light li.btn-whoaverse-paging, .light #submitbutton, .light #previewButton {
+background: transparent linear-gradient(133deg, #02006C, #0049B7, #00096E) no-repeat scroll 0% 0% !important;
+color: #E0E0E0 !important;
+border-radius: 10px;
+border: 2px solid #929292 !important;
+text-transform: uppercase;
+font-weight: bolder;
+text-shadow: 2px 2px 2px #000;
+box-shadow: 1px 2px 3px #000 !important;
+}
+
+.light .btn-whoaverse-paging:hover, .light button.btn-whoaverse-paging:hover, .light a.btn-whoaverse.contribute:hover, .light li.btn-whoaverse-paging:hover,  .light #submitbutton:hover, .light #previewButton:hover {
+background: transparent linear-gradient(133deg, #02006C, #0049B7, #00096E) no-repeat scroll 0% 0% !important;
+color: #FFF !important;
+border-radius: 10px;
+border: 2px solid #FFF !important;
+text-transform: uppercase;
+font-weight: bolder;
+text-shadow: 2px 2px 2px #000;
+box-shadow: 2px 6px 12px 0px #000 !important;
+}
+
+.light .btn-whoaverse-paging:active, .light button.btn-whoaverse-paging:active, .light a.btn-whoaverse.contribute:active, .light li.btn-whoaverse-paging:active,  .light #submitbutton:active, .light #previewButton:active {
+background: transparent linear-gradient(133deg, #02006C, #0049B7, #00096E) no-repeat scroll 0% 0% !important;
+color: #000 !important;
+border-radius: 10px;
+background-size: 100% 100%;
+border: 2px solid #000 !important;
+text-transform: uppercase;
+box-shadow: inset 3px 3px 7px #111;
+top: 6px;
+}
+
+.dark .btn-whoaverse-paging, .dark .btn-whoaverse, .dark .btn-whoaverse, .dark button.btn-whoaverse-paging, .dark a.btn-whoaverse.contribute, .dark li.btn-whoaverse-paging, .dark #submitbutton, .dark #previewButton {
+background: transparent linear-gradient(133deg, #02006C, #0049B7, #00096E) no-repeat scroll 0% 0% !important;
+color: #E0E0E0 !important;
+border-radius: 10px;
+border: 2px solid #929292 !important;
+text-transform: uppercase;
+font-weight: bolder;
+text-shadow: 2px 2px 2px #000;
+box-shadow: 1px 2px 3px #000 !important;
+}
+
+.dark .btn-whoaverse-paging:hover, .dark .btn-whoaverse:hover, .dark .btn-whoaverse:hover, .dark button.btn-whoaverse-paging:hover, .dark a.btn-whoaverse.contribute:hover, .dark li.btn-whoaverse-paging:hover,  .dark #submitbutton:hover, .dark #previewButton:hover{
+background: transparent linear-gradient(133deg, #02006C, #0049B7, #00096E) no-repeat scroll 0% 0% !important;
+color: #FFF !important;
+border-radius: 10px;
+border: 2px solid #FFF !important;
+text-transform: uppercase;
+font-weight: bolder;
+text-shadow: 2px 2px 2px #000;
+box-shadow: 2px 6px 12px 0px #000 !important;
+}
+
+.dark .btn-whoaverse-paging:active, .dark .btn-whoaverse:active, .dark button.btn-whoaverse-paging:active, .dark a.btn-whoaverse.contribute:active,  .dark li.btn-whoaverse-paging:active, .dark .btn-whoaverse:active, .dark #submitbutton:active, .dark #previewButton:active, .dark .btn-whoaverse-paging a:active{
+background: transparent linear-gradient(133deg, #02006C, #0049B7, #00096E) no-repeat scroll 0% 0% !important;
+color: #000 !important;
+border-radius: 10px;
+background-size: 100% 100%;
+border: 2px solid #000 !important;
+text-transform: uppercase;
+box-shadow: inset 3px 3px 7px #111;
+top: 6px;
+}
+
+.btn-whoaverse:active::before, .dark .btn-whoaverse:active::before, .dark button.btn-whoaverse-paging:active::before, .dark a.btn-whoaverse.contribute:active::before, .dark li.btn-whoaverse-paging:active::before, .dark .btn-whoaverse:active::before, .dark #submitbutton:active::before, .dark #previewButton:active::before {
+top: -2px;
+}
+
+.light .side {
+background: transparent linear-gradient(246deg, #E1E1E1, #DBDBDB, #E9E9E9) no-repeat scroll 0% 0% !important;
+margin: 0px -12px;
+padding: 20px;
+width: 320px;
+color: #001677;
+border: 2px solid #AD0000;
+border-radius: 5px;
+box-shadow: 1px 2px 5px 2px #414141;
+}
+
+.dark .side {
+background: transparent linear-gradient(238deg, #141414, #333, #181818) no-repeat scroll !important;
+margin: 0px -12px;
+padding: 20px;
+width: 320px;
+color: #FFF;
+border: 2px solid #fff;
+border-radius: 4px;
+overflow: visible;
+box-shadow: 1px 2px 5px 2px #222;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) {
+font-size: 13px;
+position: absolute;
+top: -52px !important;
+left: 20px;
+width: calc(100% - 40px);
+border-radius: 3px;
+padding: 8px 20px;
+font-style: normal;
+text-align: center;
+z-index: 100;
+display: inline-block;
+}
+
+.side .md > h1 {
+width: 292px;
+border-style: none solid solid none;
+-moz-border-top-colors: none;
+-moz-border-right-colors: none;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+border-image: none;
+color: #FFF !important;
+margin: 0px 0px 0px -19px;
+z-index: 101 !important;
+position: relative;
+padding: 0px 0px 0px 32px;
+background: transparent linear-gradient(178deg, #D10000, #7E0000) no-repeat scroll 0% 0% !important;
+border-width: 1px;
+border-color: #FFF;
+text-transform: uppercase;
+box-shadow: 3px 3px 7px #434647;
+font-size: 13px;
+border-top-left-radius: 4px;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+text-shadow: 2px 2px 2px #000;
+}
+
+.side .md > h1::after {
+display: block !important;
+content: " " !important;
+border-width: 5px !important;
+width: 0px !important;
+position: absolute !important;
+z-index: -1 !important;
+margin-left: -31px !important;
+margin-top: 1px !important;
+border-style: solid !important;
+border-color: #FFF #FFF transparent transparent !important;
+height: 0px !important;
+}
+
+.side .md > h2 {
+width: 292px;
+border-style: none solid solid none;
+-moz-border-top-colors: none;
+-moz-border-right-colors: none;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+border-image: none;
+color: #FFF !important;
+margin: 0px 0px 0px -19px;
+z-index: 101 !important;
+position: relative;
+padding: 0px 0px 0px 32px;
+background: transparent linear-gradient(75deg, #163981, #082396, #054FBD) no-repeat scroll 0% 0% !important;
+border-width: 1px;
+border-color: #FFF;
+text-transform: uppercase;
+box-shadow: 3px 3px 7px #434647;
+font-size: 13px;
+border-top-left-radius: 4px;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+text-align: left;
+text-shadow: 2px 2px 2px #000;
+}
+
+.side .md > h2::after {
+display: block !important;
+content: " " !important;
+border-width: 5px !important;
+width: 0px !important;
+position: absolute !important;
+z-index: -1 !important;
+margin-left: -31px !important;
+margin-top: 1px !important;
+border-style: solid !important;
+border-color: #FFF #FFF transparent transparent !important;
+height: 0px !important;
+}
+
+.light .side .md {
+color: #000C96 !important;
+z-index: 100;
+margin: 15px 0px;
+padding: 5px;
+background: transparent linear-gradient(36deg, #DEDEDE, #E9E9E9, #FFF) repeat scroll 0% 0% !important;
+border: 2px solid #0500CC !important;
+border-radius: 4px;
+overflow: visible;
+box-shadow: 3px 3px 7px #111;
+text-shadow: 0px 0px 1px #A5ACAF;
+}
+
+.dark .side .md {
+color: #FFF;
+z-index: 100;
+margin: 15px 0px;
+padding: 5px;
+border: 2px solid #aa0000 !important;
+background: transparent linear-gradient(261deg, #0F0F0F, #353535, #141414) no-repeat scroll 0% 0% !important;
+border-radius: 4px;
+overflow: visible;
+box-shadow: 1px 3px 7px  #111;
+}
+
+.light .sidecontentbox .content {
+background: transparent linear-gradient(36deg, #95A3EF, #80A3F5, #AECAFB) repeat scroll 0% 0% !important;
+border: 2px solid #F00;
+margin: 0px;
+padding: 5px;
+border-radius: 4px;
+box-shadow: 3px 3px 7px #111;
+color: #FFF !important;
+}
+
+.dark .sidecontentbox .content {
+background: transparent linear-gradient(36deg, rgba(36, 36, 36, 0.79), #030303, rgba(30, 22, 22, 0.61)) no-repeat scroll 0% 0% !important;
+border: 2px solid #aa0000;
+margin: 0px;
+padding: 5px;
+border-radius: 5px;
+box-shadow: 3px 3px 7px #111;
+color: #FFF !important;
+}
+
+.dark a, a:visited {
+color: #fff;
+text-decoration: none;
+}
+
+a:focus{
+outline:none !important;
+outline:5px auto -webkit-focus-ring-color;
+outline-offset:-2px
+}
+
+.light .alert-h1 {
+border-bottom: 0px solid #DDD;
+padding: 2px;
+margin-bottom: 0px;
+border-color: #DDD;
+font-family: Arial,sans-serif;
+font-size: 12px;
+font-weight: bold;
+color: #ad0000 !important;
+}
+
+.dark .alert-h1 {
+border-bottom: 0px solid #222;
+padding: 2px;
+margin-bottom: 2px;
+border-color: #222;
+color: #fff !important;
+font-family: Arial,sans-serif;
+font-size: 12px;
+font-weight: bold;
+}
+
+.alert-h2 {
+border-bottom: 0px solid #DDD !important;
+margin-bottom: 2px;
+border-color: #DDD;
+color: #aa0000;
+font-family: Arial,sans-serif;
+font-size: 16px;
+}
+
+.light .md th {
+background: transparent linear-gradient(to left top, #C8C8C8, #CFCFCF) repeat scroll 0% 0%;
+border: none !important;
+color: #00009E !important;
+font-weight: bold;
+text-align: center;
+}
+
+
+.dark .md th {
+background: transparent linear-gradient(to top, #A1A1A1, #AAAEB9) repeat scroll 0% 0%;
+border: medium none;
+color: #00009e !important;
+font-weight: bold;
+text-align: center;
+}
+
+.light .md tr:hover {
+background: transparent linear-gradient(75deg, #163981, #082396, #054FBD) no-repeat scroll 0% 0% !important;
+animation: 10s linear 0s normal none infinite running AnimationName;
+content: "";
+border: none;
+color:#fff;
+font-weight: bold;
+text-align: center;
+}
+
+.dark .md tr:hover {
+background: transparent linear-gradient(75deg, #163981, #082396, #054FBD) repeat scroll 0% 0%;
+animation: 10s linear 0s normal none infinite running AnimationName;
+content: "";
+border: none;
+color:#fff;
+font-weight: bold;
+text-align: center;
+}
+
+@-webkit-keyframes AnimationName {
+0%{background-position:0% 13%}
+50%{background-position:100% 88%}
+100%{background-position:0% 13%}
+}
+
+@-moz-keyframes AnimationName {
+0%{background-position:0% 13%}
+50%{background-position:100% 88%}
+100%{background-position:0% 13%}
+}
+
+@keyframes AnimationName {
+0%{background-position:0% 13%}
+50%{background-position:100% 88%}
+100%{background-position:0% 13%}
+}
+
+.light table {
+border-collapse: separate;
+}
+
+.dark table {
+border-collapse: separate;
+}
+
+.light .md ul {
+background-color: rgba(255, 255, 255, 0);
+margin:0;
+padding:10px 10px 10px 30px;
+}
+
+.dark .md ul {
+background-color:rgba(255, 255, 255, 0);
+margin:0;
+padding:10px 10px 10px 30px;
+}
+
+.md table {
+font-size: 12px;
+font-weight: bold;
+text-align: center;
+color: #011BDA !important;
+margin: auto;
+width: 100%;
+background: transparent linear-gradient(163deg, #A5ACAF, #7A7A7A) repeat scroll 0% 0%;
+box-shadow: 2px 2px 4px 1px #303737;
+}
+
+.light .sidecontentbox a.helplink {
+font-size: 11px;
+color: #0030FF !important;
+}
+
+.dark .sidecontentbox a.helplink {
+font-size: 11px;
+color: #FFF !important;
+}
+
+.light .titlebox .bottom {
+border-top: 0px solid #D5D5D5;
+color: #205bb5 !important;
+}
+
+.dark .titlebox .bottom {
+border-top: 0px solid #222 !important;
+color: #fff;
+}
+
+.leavemoderator {
+background: transparent;
+padding: 0;
+}
+
+.spacersection {
+display: none;
+}
+
+a[href*="/rss/"] {
+display: none;
+}
+
+.light .titlebox .word { 
+color: #fff;
+}
+
+.side .md table tbody {
+display:none;
+}
+
+.side .md table:hover tbody {
+display: table-row-group;
+}
+
+.md table thead {
+border-bottom:0;
+}
+
+.footer-container {
+display: none;
+}
+
+.light .commenttextarea, textarea {
+background: none repeat scroll 0% 0% transparent;
+border: 1px solid #00009e;
+border-radius: 5px;
+}
+
+.dark .commenttextarea, textarea {
+background: none repeat scroll 0% 0% transparent;
+border: 1px solid #00009e;
+border-radius: 5px;
+}
+
+.arrow-upvote {
+cursor: pointer;
+width: 25px;
+height: 25px;
+background: url('http://i.imgur.com/2BYWhmN.png?1');
+opacity: 0.5;
+}
+
+.light .arrow-upvoted {
+cursor: pointer;
+width: 25px;
+height: 25px;
+background: url('http://i.imgur.com/2AQMXrl.png');
+}
+
+.arrow-downvote {
+cursor: pointer;
+width: 20px;
+height: 20px;
+background: url('https://i.imgur.com/Ndvd5xa.png');
+opacity: 0.5;
+}
+
+.light .arrow-downvoted {
+cursor: pointer;
+width: 20px;
+height: 20px;
+background: url('https://i.imgur.com/006WURl.png');
+}
+
+.dark .arrow-upvoted {
+cursor: pointer;
+width: 25px;
+height: 25px;
+background: url('http://i.imgur.com/1yGfFvP.png?1');
+}
+
+.dark .arrow-downvoted {
+cursor: pointer;
+width: 25px;
+height: 25px;
+background: url('http://i.imgur.com/4hnGvgd.png?1');
+}
+
+.comment .arrow-upvote {
+background: url("http://i.imgur.com/UqcRWRl.png");
+height: 12px;
+width: 12px;
+}
+
+.light .comment .arrow-upvoted {
+background: url("http://i.imgur.com/yAbSoz8.png");
+height: 12px;
+width: 12px;
+}
+
+.comment .arrow-downvote  {
+background: url("http://i.imgur.com/JiG3gkm.png");
+height: 12px;
+width: 12px;
+}
+
+.light .comment .arrow-downvoted {
+background: url("http://i.imgur.com/lusUnvy.png");
+height: 12px;
+width: 12px;
+}
+
+.dark .comment .arrow-upvoted {
+background: url("http://i.imgur.com/QaNIGsz.png");
+height: 12px;
+width: 12px;
+}
+
+.dark .comment .arrow-downvoted {
+background: url("http://i.imgur.com/bfM4cpZ.png");
+height: 12px;
+width: 12px;
+}
+
+.usertext a[href="http://espn.go.com/"]{
+height: 45px;
+width:100%;
+display:block;
+background: url(http://i.imgur.com/OFrmThE.png)no-repeat center; 
+}     
+
+.light .usertext a[href="http://espn.go.com/"]:hover{
+height: 45px;
+width:100%;
+display:block;
+background-color: #222;
+background-image: url(http://i.imgur.com/OFrmThE.png)no-repeat center; 
+}     
+
+.dark .usertext a[href="http://espn.go.com/"]:hover{
+height: 45px;
+width:100%;
+display:block;
+background-color: #fff;
+background-image: url(http://i.imgur.com/OFrmThE.png)no-repeat center; 
+}     
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/ArizonaCardinals"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/falcons"], 
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Ravens"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/buffalobills"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/panthers"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/ChiBears"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/bengals"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Browns"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Cowboys"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/DenverBroncos"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/DetroitLions"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/greenbaypackers"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/texans"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Colts"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Jaguars"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/KansasCityChiefs"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/miamidolphins"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/minnesotavikings"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/patriots"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Saints"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/NYGiants"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/nyjets"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/OaklandRaiders"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/eagles"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Steelers"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/chargers"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/49ers"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/seahawks"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Rams"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Buccaneers"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Tennesseetitans"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/redskins"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/nfl"]{
+display: inline-block;				
+content: ""; 
+background-repeat: no-repeat;
+background-position: left top;
+padding: 0px; 
+margin: 0px;  
+margin-left: 5px;
+background-color: transparent; 
+background-image: url("https://i.imgur.com/VAFeiYQ.png"); 
+width: 20px; 
+height: 20px;
+vertical-align: middle;
+}
+
+@media (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+.sprite {
+background-image: url("https://i.imgur.com/VAFeiYQ.png");
+background-size: 40px 730px;}
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/ArizonaCardinals"] {
+background-position: 0 0;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/falcons"] {
+background-position: 0 -20px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Ravens"] {
+background-position: 0 -40px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/buffalobills"] {
+background-position: 0 -60px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/panthers"] {
+background-position: 0 -80px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/ChiBears"] {
+background-position: 0 -100px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/bengals"] {
+background-position: 0 -120px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Browns"] {
+background-position: 0 -140px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Cowboys"] {
+background-position: 0 -160px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/DenverBroncos"] {
+background-position: 0 -180px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/DetroitLions"] {
+background-position: 0 -200px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/greenbaypackers"] {
+background-position: 0 -220px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/texans"] {
+background-position: 0 -240px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Colts"] {
+background-position: 0 -260px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Jaguars"] {
+background-position: 0 -280px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/KansasCityChiefs"] {
+background-position: 0 -300px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/miamidolphins"] {
+background-position: 0 -320px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/minnesotavikings"] {
+background-position: 0 -340px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/patriots"] {
+background-position: 0 -360px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Saints"] {
+background-position: 0 -380px;
+}
+
+.light .side .titlebox .usertext h6:nth-of-type(1) a[href="/v/NYGiants"] {
+background-position: 0 -400px;
+}
+
+.dark .side .titlebox .usertext h6:nth-of-type(1) a[href="/v/NYGiants"] {
+background-position: 0 -420px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/nyjets"] {
+background-position: 0 -440px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/OaklandRaiders"] {
+background-position: 0 -460px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/eagles"] {
+background-position: 0 -480px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Steelers"] {
+background-position: 0 -500px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/chargers"] {
+background-position: 0 -520px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/49ers"] {
+background-position: 0 -540px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/seahawks"] {
+background-position: 0 -560px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Rams"] {
+background-position: 0 -580px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Buccaneers"] {
+background-position: 0 -600px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Tennesseetitans"] {
+background-position: 0 -620px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/redskins"] {
+background-position: 0 -640px;
+}
+
+/* afc */ {
+background-position: 0 -660px;
+}
+
+/* nfc */ {
+background-position: 0 -680px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/nfl"] {
+width: 40px;
+height: 30px;
+background-position: 0 -700px;
+}
+
+
+.side .titlebox .usertext h6:nth-of-type(1) {
+top: 0px;
+left: 20px;
+width: calc(100% - 40px);
+border-radius: 3px;
+padding: 8px 20px;
+}
+
+.light .side .titlebox .usertext h6:nth-of-type(1) {
+/* background-color: #f8f8f8; */
+color: #4a4a4a;
+}	
+
+.dark .side .titlebox .usertext h6:nth-of-type(1) {
+/* background-color: #2e2e2e; */
+color: #c3c3c3;
+}	
+
+.side .titlebox .usertext h6:nth-of-type(1) a {
+color: #4399cd;
+}
+
+.usertext a[href="https://voat.co/v/Seahawks"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/5ZVOqtE.png?1)no-repeat center; 
+}     
+
+.usertext a[href="https://voat.co/v/ArizonaCardinals"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/YOfgY5A.png?1)no-repeat center; 
+}   
+
+.usertext a[href="https://voat.co/v/49ers"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/FLa2o68.png?1)no-repeat center; 
+}  
+
+.usertext a[href="https://voat.co/v/Rams"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/V6m4FHJ.png?1)no-repeat center; 
+}   
+
+.usertext a[href="https://voat.co/v/DenverBroncos"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/Kb5G5dO.png?1)no-repeat center; 
+}     
+
+.usertext a[href="https://voat.co/v/KansasCityChiefs"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/94GU3tG.png?1)no-repeat center; 
+}     
+
+.usertext a[href="https://voat.co/v/chargers"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/wNYIRux.png?1)no-repeat center; 
+}     
+
+.usertext a[href="https://voat.co/v/OaklandRaiders"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/9iowGQR.png?1)no-repeat center; 
+}    
+
+.usertext a[href="https://voat.co/v/greenbaypackers"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/FjyYu7P.png?1)no-repeat center; 
+}     
+
+.usertext a[href="https://voat.co/v/chibears"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/mHtQxh2.png?1)no-repeat center; 
+}     
+
+.usertext a[href="https://voat.co/v/DetroitLions"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/forfd5A.png?1)no-repeat center; 
+}     
+
+.usertext a[href="https://voat.co/v/minnesotavikings"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/rGVuNuw.png?2)no-repeat center; 
+}     
+
+.usertext a[href="https://voat.co/v/Steelers"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/85t0NfU.png?1)no-repeat center; 
+}     
+
+.usertext a[href="https://voat.co/v/Ravens"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/Ov4CuxD.png?2)no-repeat center; 
+}     
+
+.usertext a[href="https://voat.co/v/Browns"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/Niu5FPx.png?1)no-repeat center; 
+}     
+
+.usertext a[href="https://voat.co/v/bengals"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/Th9PLAy.png?1)no-repeat center; 
+}     
+
+.usertext a[href="https://voat.co/v/Saints"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/qen7JEK.png?1)no-repeat center; 
+}     
+
+.usertext a[href="https://voat.co/v/panthers"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/jBcOtqV.png?1)no-repeat center; 
+}     
+
+.usertext a[href="https://voat.co/v/falcons"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/ssf6znS.png?1)no-repeat center; 
+} 
+
+.usertext a[href="https://voat.co/v/Buccaneers"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/n8KZi62.png?1)no-repeat center; 
+} 
+
+.usertext a[href="https://voat.co/v/Tennesseetitans"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/Ro2810A.png?1)no-repeat center; 
+} 
+
+.usertext a[href="https://voat.co/v/Jaguars"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/UXAqiVJ.png?1)no-repeat center; 
+} 
+
+.usertext a[href="https://voat.co/v/colts"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/DrAd9vF.png?1)no-repeat center; 
+} 
+
+.usertext a[href="https://voat.co/v/texans"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/vSgisU4.png?1)no-repeat center; 
+} 
+
+.usertext a[href="https://voat.co/v/redskins"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/Rt09s0p.png?1)no-repeat center; 
+} 
+
+.usertext a[href="https://voat.co/v/eagles"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/mFQnB3h.png?1)no-repeat center; 
+} 
+
+.usertext a[href="https://voat.co/v/NYGiants"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/39rJ7hC.png?1)no-repeat center; 
+}   
+
+.usertext a[href="https://voat.co/v/Cowboys"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/oYCRklC.png?1)no-repeat center; 
+}     
+
+.usertext a[href="https://voat.co/v/patriots"]{
+height: 42px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/mQh0SpM.png?1)no-repeat center; 
+}     
+
+.usertext a[href="https://voat.co/v/nyjets"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/yipglrA.png?1)no-repeat center; 
+} 
+
+.usertext a[href="https://voat.co/v/miamidolphins"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/ajBWJpH.png?1)no-repeat center; 
+} 
+
+.usertext a[href="https://voat.co/v/buffalobills"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/a576LVZ.png?1)no-repeat center; 
+}
+
+}
