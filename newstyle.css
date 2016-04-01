@@ -14,12 +14,6 @@ background: transparent linear-gradient(2deg, #747474, #171717) no-repeat fixed 
 margin: 0px !important;
 }
 
-div.side div.spacer:nth-of-type(1) {
-padding: 293px 0px 0px !important;
-background: url("http://i.imgur.com/ivn92P8.jpg") no-repeat scroll center top transparent;
-margin-top: 20px;
-}
-
 /========================POST FLAIR======================/
 
 .flair-InjuryReport  {
