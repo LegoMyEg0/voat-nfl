@@ -1,0 +1,4302 @@
+<!DOCTYPE html>
+<html>
+<head prefix="og: http://ogp.me/ns#">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta lang="en" />
+    <link rel="http://oexchange.org/spec/0.8/rel/related-target" type="application/xrd+xml" href="http://voat.co/oexchange.xrd" />
+
+        <meta name="description" content="a community platform where you can have your say. No censorship." />
+            <meta name="keywords" content="voat, voat.co, vote, submit, comment" />
+
+    <title>A sub for NFL mods to share, help, and design their subs.</title>
+    <meta property="og:title" content="A sub for NFL mods to share, help, and design their subs." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://voat.co/v/NFLCSS/" />
+    <meta property="og:image" content="https://voat.co/Graphics/voat-logo.png" />
+    <meta property="og:site_name" content="Voat" />
+    <meta property="og:description" content="a community platform where you can have your say. No censorship." />
+
+<link href="/Content/Light?v=FFvDbnJyJA0H06cixPm1H6RmzeUJoFhwmIf64Hf6ZHk1" rel="stylesheet"/>
+
+    <link rel=StyleSheet href="/Content/ui-themes/autocomplete/autocompletebundle.min.css" type="text/css">
+
+    
+    <link rel="icon" sizes="192x192" href="/Graphics/Icons/touch-icon-192x192.png">
+    
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/Graphics/Icons/apple-touch-icon-180x180-precomposed.png">
+    
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/Graphics/Icons/apple-touch-icon-152x152-precomposed.png">
+    
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/Graphics/Icons/apple-touch-icon-144x144-precomposed.png">
+    
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/Graphics/Icons/apple-touch-icon-120x120-precomposed.png">
+    
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/Graphics/Icons/apple-touch-icon-114x114-precomposed.png">
+    
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/Graphics/Icons/apple-touch-icon-76x76-precomposed.png">
+    
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/Graphics/Icons/apple-touch-icon-72x72-precomposed.png">
+    
+    <link rel="apple-touch-icon-precomposed" href="/Graphics/Icons/apple-touch-icon-precomposed.png">
+    
+    <link rel='shortcut icon' href="/favicon.ico" type="image/x-icon" />
+
+</head>
+<body class="light">
+    <div style="display:none" id="share-a-link-overlay">
+        <div>
+            <h1>share a link</h1>
+        </div>
+    </div>
+
+    <div id="header" tabindex=0 role="banner">
+
+
+
+
+<div id="sr-header-area">
+    <div class="width-clip">
+        <div class="sr-list">
+            <ul class="whoaSubscriptionMenu flat-list sr-bar hover">
+                
+
+
+
+
+<li>
+    <a href="#">My subverses</a>
+    <span class="drop-arrow"></span>
+    <ul>
+        <li><a href="/subverses/subscribed"><b>Edit your subscriptions</b></a></li>
+
+                <li><a href="/v/announcements">announcements</a></li>
+                <li><a href="/v/CFL">CFL</a></li>
+                <li><a href="/v/FantasyFootball">FantasyFootball</a></li>
+                <li><a href="/v/FullFootballGames">FullFootballGames</a></li>
+                <li><a href="/v/LegoMyEgoCSS">LegoMyEgoCSS</a></li>
+                <li><a href="/v/MMA">MMA</a></li>
+                <li><a href="/v/MonsterHunter">MonsterHunter</a></li>
+                <li><a href="/v/NBA">NBA</a></li>
+                <li><a href="/v/NFL">NFL</a></li>
+                <li><a href="/v/NFLCSS">NFLCSS</a></li>
+                <li><a href="/v/NFLmods">NFLmods</a></li>
+                <li><a href="/v/NFLModTests">NFLModTests</a></li>
+                <li><a href="/v/patriots">patriots</a></li>
+                <li><a href="/v/ShagginTurtles">ShagginTurtles</a></li>
+    </ul>
+</li>
+
+
+            </ul>
+            <ul class="flat-list sr-bar hover">
+                <li class="">
+                    <span class="separator">-</span>
+                    <a href="/">front</a>
+                </li>
+                <li>
+                    <span class="separator">-</span>
+                    <a href="/v/all">all</a>
+                </li>
+                <li>
+                    <span class="separator">-</span>
+                    <a href="/random" class="random">random</a>
+                </li>
+            </ul>
+            <ul class="flat-list sr-bar hover" id="sr-bar">
+
+                    <li class="">
+                        <span class="separator">-</span>
+                        <a href="/v/announcements/">announcements</a>
+                    </li>
+                    <li class="">
+                        <span class="separator">-</span>
+                        <a href="/v/CFL/">CFL</a>
+                    </li>
+                    <li class="">
+                        <span class="separator">-</span>
+                        <a href="/v/FantasyFootball/">FantasyFootball</a>
+                    </li>
+                    <li class="">
+                        <span class="separator">-</span>
+                        <a href="/v/FullFootballGames/">FullFootballGames</a>
+                    </li>
+                    <li class="">
+                        <span class="separator">-</span>
+                        <a href="/v/LegoMyEgoCSS/">LegoMyEgoCSS</a>
+                    </li>
+                    <li class="">
+                        <span class="separator">-</span>
+                        <a href="/v/MMA/">MMA</a>
+                    </li>
+                    <li class="">
+                        <span class="separator">-</span>
+                        <a href="/v/MonsterHunter/">MonsterHunter</a>
+                    </li>
+                    <li class="">
+                        <span class="separator">-</span>
+                        <a href="/v/NBA/">NBA</a>
+                    </li>
+                    <li class="">
+                        <span class="separator">-</span>
+                        <a href="/v/NFL/">NFL</a>
+                    </li>
+                    <li class="selected">
+                        <span class="separator">-</span>
+                        <a href="/v/NFLCSS/">NFLCSS</a>
+                    </li>
+                    <li class="">
+                        <span class="separator">-</span>
+                        <a href="/v/NFLmods/">NFLmods</a>
+                    </li>
+                    <li class="">
+                        <span class="separator">-</span>
+                        <a href="/v/NFLModTests/">NFLModTests</a>
+                    </li>
+                    <li class="">
+                        <span class="separator">-</span>
+                        <a href="/v/patriots/">patriots</a>
+                    </li>
+                    <li class="">
+                        <span class="separator">-</span>
+                        <a href="/v/ShagginTurtles/">ShagginTurtles</a>
+                    </li>
+            </ul>
+        </div><a href="/subverses" id="sr-more-link">more »</a>
+        <br />
+    </div>
+</div>
+
+
+        <div id="header-container">
+            <div id="header-banner">
+
+                <a title="Voat - have your say" href="/" id="header-img-a">
+                    <img id="header-img" src="/Graphics/voat-logo.png" alt="Voat" height="31" width="112">
+                </a>
+
+                <div id="show-menu-button"></div>
+
+
+
+
+        <span class="hover pagename"><a href="/v/NFLCSS">NFLCSS</a></span>
+        <ul class="tabmenu">
+            <li class="selected"><a href="/v/NFLCSS" title="Show most popular submissions.">Hot</a></li>
+            <li class="disabled"><a href="/v/NFLCSS/new" title="Show latest submissions.">New</a></li>
+            <li class="disabled"><a href="/v/NFLCSS/top" title="Show all time top ranked submissions.">Top</a></li>
+            <li class="disabled"><a class="contribute submit-link" href="/v/NFLCSS/submit?linkpost=true">Share a link</a></li>
+            <li class="disabled"><a class="contribute submit-text" href="/v/NFLCSS/submit">Discuss</a></li>
+        </ul>
+
+
+                
+
+
+<form action="/account/logoff" class="nav navbar-nav navbar-right" id="logoutForm" method="post"><input name="__RequestVerificationToken" type="hidden" value="E9BE8MI0DYoX7hB7bsJ_7Lyvm-EiHUE2afzDEsEyIbZV2jMjJR5Sv9MzYTr6loGd4NI7i9oq3JZ3kxGN9j4B5JTah0dR2z5tIOdVsk4ryEInVjCGrwy1AFjLJxslUPCtiAKTGYB-uKWyOIhiMkBYFA2" />        <div id="header-account">
+            <div class="logged-in">
+                <span class="user">
+                    <a href="/user/ShagginTurtles" title="Profile">ShagginTurtles</a>
+                    <span class="userkarma" title="Submission Contribution Points"><a href="/user/ShagginTurtles/submissions" class="userkarma" id="scp">1602</a></span>
+                    |
+                    <span class="userkarma" title="Comment Contribution Points"><a href="/user/ShagginTurtles/comments" class="userkarma" id="ccp">4917</a></span>
+                    |
+                    <span class="upvoatsGiven" title="total upvotes given"><a href="/user/ShagginTurtles" class="upvoatsGiven" id="upvoatsGiven">6351</a></span>
+                </span>
+                <span class="separator">|</span>
+                <span class="user"><a href="/account/manage" id="manage" title="Manage">Manage</a></span>
+                <span class="separator">|</span>
+                <a id="nightmodetoggle" onclick="toggleNightMode()" title="Toggle Night Mode"></a>
+                <span class="separator">|</span>
+                    <span class="notification-container">
+                        <a title="no new messages" href="/messaging/inbox" class="nohavemail" id="mail">messages</a>
+                        <span class="notification-counter" id="mailcounter" style="display:none"></span>
+                    </span>
+                <span class="separator">|</span>
+                <a href="javascript:document.getElementById('logoutForm').submit()">Log off</a>
+            </div>
+        </div>
+</form>
+
+
+            </div>
+        </div>
+    </div>
+
+    
+
+        <div class="modal fade" id="notenoughccp" tabindex="-1" role="dialog" aria-labelledby="notenoughccplabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="notenoughccplabel">Hi! It looks like you are new around here</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Welcome to Voat!</p>
+                        <p>In order to downvote comments or submissions you need to have at least 100 comment contribution points.</p>
+                        <p>Every time someone upvotes one of your comments, you gain 1 comment contribution point.</p>
+                        <p>You currently have 4917 comment contribution points.</p>
+                        <p>Tip: a good way to earn more contribution points is to take part in discussions or say hi in /v/introductions.</p>
+                        <p>This requirement was established as a measure to encourage new members to get involved and participate in discussions.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn-whoaverse-medium" data-dismiss="modal">Ok, got it!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="notenoughccpupvote" tabindex="-1" role="dialog" aria-labelledby="notenoughccpupvotelabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="notenoughccpupvotelabel">Hi! It looks like you are new around here.</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Welcome to Voat!</p>
+                        <p>In order to be able to upvote comments or submissions without limitations, you need to have at least 20 comment contribution points.</p>
+                        <p>You are currently limited to 2458 upvotes per 24 hours.</p>
+                        <p>Every time someone upvotes one of your comments, you gain 1 comment contribution point.</p>
+                        <p>You currently have 4917 comment contribution points.</p>
+                        <p>Tip: a good way to earn more contribution points is to take part in discussions or say hi in /v/introductions.</p>
+                        <p>This requirement was established as a measure to encourage new members to get involved and participate in discussions.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn-whoaverse-medium" data-dismiss="modal">Ok, got it!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modal-background"></div>
+
+    
+
+
+
+
+<style type="text/css">
+    body > .content .link .rank {
+        width: 3.2ex;
+    }
+</style>
+
+<div id="container">
+
+
+
+
+
+<div class="side">
+
+    
+
+
+
+<div class="spacer">
+<form action="/search" class="form-horizontal" method="get" role="form">        <h2></h2>
+<input class="form-control" data-val="true" data-val-length="The search term must be at least 3 characters long." data-val-length-max="100" data-val-length-min="3" data-val-required="Please enter a term to search for." id="q" name="q" placeholder="Search Voat" type="text" value="" /><span class="field-validation-valid" data-valmsg-for="q" data-valmsg-replace="true"></span><input id="sub" name="sub" type="hidden" value="NFLCSS" />        <input type="checkbox" name="l" value="true" id="l"
+                />
+<label for="Limit_the_search_to_current_subverse">Limit the search to current subverse</label></form></div>
+
+
+    <div class="spacer">
+        <a href="/v/NFLCSS/submit?linkpost=true" class="btn-whoaverse btn-block contribute submit-link">
+            Share a link
+        </a>
+    </div>
+
+    <div class="spacer">
+        <a href="/v/NFLCSS/submit" class="btn-whoaverse btn-block contribute submit-text">
+            Discuss
+        </a>
+    </div>
+
+    <div class="spacer">
+        <div class="titlebox">
+            <h1 class="hover whoaversename">
+                <a href="/v/NFLCSS" class="hover">NFLCSS</a>
+                <a href="/rss/NFLCSS" class="rss-icon"><img src="/Graphics/feed-icon-14x14.png" alt="RSS feed for this subverse" /></a>
+            </h1>
+
+                    <button type="button" onclick="return unsubscribe(this, 'NFLCSS')" class="btn-whoaverse-paging btn-xs btn-default btn-unsub">unsubscribe</button>
+                    <button type="button" class="btn-whoaverse-paging btn-xs btn-default btn-blocksubverse" onclick="return toggleBlockSubverse(this, 'NFLCSS')">block</button>
+
+            <span class="subscribers">
+                <span id="subscriberCount" class="number">22</span>
+                <span class="word">subscribers</span>
+            </span>
+            <p class="users-online fuzzed" title="number of users viewing this subverse in the past 15 minutes">
+                <span class="number">~3</span>
+                <span class="word">users here now</span>
+            </p>
+            <form action="#" class="usertext" onsubmit="return post_form(this, 'editusertext')" id="form-xxxx">
+                <input name="submission-id" value="xxxx" type="hidden">
+                <div class="usertext-body may-blank-within">
+                    <div class="md">
+                        <p>
+                            <p>Home of the fans of the NFL</p>
+<h6><a href="/v/buffalobills"></a> <a href="/v/miamidolphins"></a> <a href="/v/patriots"></a> <a href="/v/nyjets"></a> <a href="/v/Ravens"></a> <a href="/v/bengals"></a> <a href="/v/Browns"></a> <a href="/v/Steelers"></a> <a href="/v/texans"></a> <a href="/v/Colts"></a> <a href="/v/Jaguars"></a> <a href="/v/Tennesseetitans"></a> <a href="/v/DenverBroncos"></a> <a href="/v/KansasCityChiefs"></a> <a href="/v/OaklandRaiders"></a> <a href="/v/chargers"></a> <a href="/v/nfl"></a> <a href="/v/Cowboys"></a> <a href="/v/NYGiants"></a> <a href="/v/eagles"></a> <a href="/v/redskins"></a> <a href="/v/ChiBears"></a> <a href="/v/DetroitLions"></a> <a href="/v/greenbaypackers"></a> <a href="/v/minnesotavikings"></a> <a href="/v/falcons"></a> <a href="/v/panthers"></a> <a href="/v/Saints"></a> <a href="/v/Buccaneers"></a> <a href="/v/ArizonaCardinals"></a> <a href="/v/Rams"></a> <a href="/v/49ers"></a> <a href="/v/seahawks"></a></h6>
+<h2>NFC WEST</h2>
+<table>
+<thead>
+<tr>
+	<th>Team</th>
+	<th>W</th>
+	<th>L</th>
+	<th>T</th>
+	<th>Div</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td><a href="https://voat.co/v/Seahawks"></a></td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td></td>
+</tr>
+<tr>
+	<td><a href="https://voat.co/v/ArizonaCardinals"></a></td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td></td>
+</tr>
+<tr>
+	<td><a href="https://voat.co/v/Rams"></a></td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td></td>
+</tr>
+<tr>
+	<td><a href="https://voat.co/v/49ers"></a></td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td></td>
+</tr>
+</tbody>
+</table>
+<h2>NFC SOUTH</h2>
+<table>
+<thead>
+<tr>
+	<th>Team</th>
+	<th>W</th>
+	<th>L</th>
+	<th>T</th>
+	<th>Div</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td><a href="https://voat.co/v/falcons"></a></td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td></td>
+</tr>
+<tr>
+	<td><a href="https://voat.co/v/panthers"></a></td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td></td>
+</tr>
+<tr>
+	<td><a href="https://voat.co/v/Buccaneers"></a></td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td></td>
+</tr>
+<tr>
+	<td><a href="https://voat.co/v/Saints"></a></td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td></td>
+</tr>
+</tbody>
+</table>
+<h2>NFC NORTH</h2>
+<table>
+<thead>
+<tr>
+	<th>Team</th>
+	<th>W</th>
+	<th>L</th>
+	<th>T</th>
+	<th>Div</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td><a href="https://voat.co/v/chibears"></a></td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td></td>
+</tr>
+<tr>
+	<td><a href="https://voat.co/v/DetroitLions"></a></td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td></td>
+</tr>
+<tr>
+	<td><a href="https://voat.co/v/greenbaypackers"></a></td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td></td>
+</tr>
+<tr>
+	<td><a href="https://voat.co/v/minnesotavikings"></a></td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td></td>
+</tr>
+</tbody>
+</table>
+<h2>NFC EAST</h2>
+<table>
+<thead>
+<tr>
+	<th>Team</th>
+	<th>W</th>
+	<th>L</th>
+	<th>T</th>
+	<th>Div</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td><a href="https://voat.co/v/eagles"></a></td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td></td>
+</tr>
+<tr>
+	<td><a href="https://voat.co/v/Cowboys"></a></td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td></td>
+</tr>
+<tr>
+	<td><a href="https://voat.co/v/NYGiants"></a></td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td></td>
+</tr>
+<tr>
+	<td><a href="https://voat.co/v/redskins"></a></td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td></td>
+</tr>
+</tbody>
+</table>
+<h1>AFC WEST</h1>
+<table>
+<thead>
+<tr>
+	<th>Team</th>
+	<th>W</th>
+	<th>L</th>
+	<th>T</th>
+	<th>Div</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td><a href="https://voat.co/v/DenverBroncos"></a></td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td></td>
+</tr>
+<tr>
+	<td><a href="https://voat.co/v/chargers"></a></td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td></td>
+</tr>
+<tr>
+	<td><a href="https://voat.co/v/KansasCityChiefs"></a></td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td></td>
+</tr>
+<tr>
+	<td><a href="https://voat.co/v/OaklandRaiders"></a></td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td></td>
+</tr>
+</tbody>
+</table>
+<h1>AFC SOUTH</h1>
+<table>
+<thead>
+<tr>
+	<th>Team</th>
+	<th>W</th>
+	<th>L</th>
+	<th>T</th>
+	<th>Div</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td><a href="https://voat.co/v/colts"></a></td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td></td>
+</tr>
+<tr>
+	<td><a href="https://voat.co/v/Tennesseetitans"></a></td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td></td>
+</tr>
+<tr>
+	<td><a href="https://voat.co/v/texans"></a></td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td></td>
+</tr>
+<tr>
+	<td><a href="https://voat.co/v/Jaguars"></a></td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td></td>
+</tr>
+</tbody>
+</table>
+<h1>AFC NORTH</h1>
+<table>
+<thead>
+<tr>
+	<th>Team</th>
+	<th>W</th>
+	<th>L</th>
+	<th>T</th>
+	<th>Div</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td><a href="https://voat.co/v/Ravens"></a></td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td></td>
+</tr>
+<tr>
+	<td><a href="https://voat.co/v/bengals"></a></td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td></td>
+</tr>
+<tr>
+	<td><a href="https://voat.co/v/Browns"></a></td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td></td>
+</tr>
+<tr>
+	<td><a href="https://voat.co/v/Steelers"></a></td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td></td>
+</tr>
+</tbody>
+</table>
+<h1>AFC EAST</h1>
+<table>
+<thead>
+<tr>
+	<th>Team</th>
+	<th>W</th>
+	<th>L</th>
+	<th>T</th>
+	<th>Div</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td><a href="https://voat.co/v/buffalobills"></a></td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td></td>
+</tr>
+<tr>
+	<td><a href="https://voat.co/v/nyjets"></a></td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td></td>
+</tr>
+<tr>
+	<td><a href="https://voat.co/v/patriots"></a></td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td></td>
+</tr>
+<tr>
+	<td><a href="https://voat.co/v/miamidolphins"></a></td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td></td>
+</tr>
+</tbody>
+</table>
+<h2>LINKS</h2>
+<p><a href="http://espn.go.com/"></a></p>
+
+                        </p>
+                    </div>
+                </div>
+            </form>
+            <div class="bottom">
+                <p>
+                    created by <a href="/user/redditbelowsme" class="author may-blank">redditbelowsme</a>
+                    <span class="userattrs"></span>
+                    <span class="age">a community for <time title="8/3/2015 3:35:27 AM" datetime="8/3/2015 3:35:27 AM">7 months</time></span>
+                    </p>
+                    <div class="minimum-ccp-downvote">
+                        <p>
+                            Minimum CCP required to downvote in this sub: 0
+                            <p>Your CCP for this sub: 10</p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="spacer">
+                <div class="sidecontentbox ">
+                    <div class="title">
+                        <h1 class="alert-h1">Advertize on Voat</h1>
+                    </div>
+                    <div class="sidecontentbox content">
+                        <p>
+                            Your Ad here? E-mail hello@voat.co.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="spacer">
+                <div class="sidecontentbox ">
+                    <a class="helplink message-moderators-temporary-class" title="Message the Moderators" href="/messaging/compose?recipient=v/NFLCSS">message the moderators</a>
+                    <div class="title">
+                        <h1 class="alert-h1">MODERATORS</h1>
+                    </div>
+                    <ul class="content">
+
+
+
+
+    <li>
+        <a href="/user/6double5321" class="author may-blank">6double5321</a><span class="userattrs"></span>
+    </li>
+    <li>
+        <a href="/user/adsnell2004" class="author may-blank">adsnell2004</a><span class="userattrs"></span>
+    </li>
+    <li>
+        <a href="/user/bobroland" class="author may-blank">bobroland</a><span class="userattrs"></span>
+    </li>
+    <li>
+        <a href="/user/CaMelGuY" class="author may-blank">CaMelGuY</a><span class="userattrs"></span>
+    </li>
+    <li>
+        <a href="/user/CanPanther" class="author may-blank">CanPanther</a><span class="userattrs"></span>
+    </li>
+    <li>
+        <a href="/user/CowboyRob" class="author may-blank">CowboyRob</a><span class="userattrs"></span>
+    </li>
+    <li>
+        <a href="/user/CSS_BOT" class="author may-blank">CSS_BOT</a><span class="userattrs"></span>
+    </li>
+    <li>
+        <a href="/user/donkeyqong" class="author may-blank">donkeyqong</a><span class="userattrs"></span>
+    </li>
+    <li>
+        <a href="/user/Maskedsaturn" class="author may-blank">Maskedsaturn</a><span class="userattrs"></span>
+    </li>
+    <li>
+        <a href="/user/NateThomas1979" class="author may-blank">NateThomas1979</a><span class="userattrs"></span>
+    </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="spacer">
+                <div class="sidecontentbox ">
+                    <div class="title">
+                        <h1 class="alert-h1">MODERATION LOGS</h1>
+                    </div>
+                    <ul class="content">
+                        <li><a rel="nofollow" href="/v/NFLCSS/modlog/deleted">Removed submissions</a></li>
+                        <li><a rel="nofollow" href="/v/NFLCSS/modlog/deletedcomments">Removed comments</a></li>
+                        <li><a rel="nofollow" href="/v/NFLCSS/modlog/bannedusers">Banned users</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="spacer">
+                <div class="sidecontentbox ">
+                    <div class="title">
+                        <h1 class="alert-h1">ANNOUNCEMENTS</h1>
+                    </div>
+                    <div class="sidecontentbox content">
+                        <p>We're looking for people to help us beta test our new API. <a href="/v/voatdev/comments/88531">Click here</a> to find out how you can participate.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <style type="text/css" id="custom_css">
+@media (min-width: 871px) {
+
+
+/* Flair CSS */
+@import url("https://rawgit.com/LegoMyEg0/voat-nfl/master/flair.css");
+
+#header {
+outline: none;
+}
+
+body.light {
+background: transparent linear-gradient(178deg, #E9E9E9, #7C8DC0, #7878F6) no-repeat fixed 0% 0% / 100% 100%;
+margin: 0px !important;
+}
+
+body.dark {
+background: transparent linear-gradient(2deg, #747474, #171717) no-repeat fixed 0% 0% / 100% 100%;
+margin: 0px !important;
+}
+
+div.side div.spacer:nth-of-type(1) {
+padding: 293px 0px 0px !important;
+background: url("http://i.imgur.com/ivn92P8.jpg") no-repeat scroll center top transparent;
+margin-top: 20px;
+}
+
+/========================POST FLAIR======================/
+
+.flair-InjuryReport  {
+display: inline-block;
+}
+
+.flair-RosterMove  {
+display: inline-block;
+}
+
+.flair-Meme  {
+display: inline-block;
+}
+
+.flair-Rant  {
+display: inline-block;
+}
+
+.flair-Salty  {
+display: inline-block;
+}
+
+.flair-Video  {
+display: inline-block;
+}
+
+.flair-HistoryLesson  {
+display: inline-block;
+}  
+
+.flair-Misleading  {
+display: inline-block;
+}
+
+.flair-Serious  {
+display: inline-block;
+}
+
+#header {
+background: #FFF none repeat scroll 0% 0%;
+height: 60px;
+margin: 0px 0px 0px;
+position: relative;
+z-index: 99;
+}
+
+.light #header-container {
+border-top: 4px solid #001192;
+border-bottom: 4px solid #0030FF;
+position: absolute;
+width: 100%;
+max-width: 100%;
+margin: 0px;
+top: 25px;
+height: 38px;
+box-shadow: 0px 2px 6px #000;
+background: transparent linear-gradient(194deg, #FFF, #E6E6E6) no-repeat scroll 0% 0%;
+}
+
+.dark #header-container {
+    background: transparent linear-gradient(194deg, #020063, #001550) no-repeat scroll 0% 0%;
+    border-top: 4px solid #000;
+    border-bottom: 4px solid #000;
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
+    margin: 0px;
+    top: 25px;
+    height: 38px;
+    box-shadow: 0px 2px 6px #000;
+}
+
+#header-banner {
+font-size: 13px;
+margin: 0px 1px;
+max-width: 100%;
+position: relative;
+}
+
+.light #header-img {
+box-sizing: border-box;
+padding-left: 57px;
+background-image: url("http://i.imgur.com/bCF5qPn.png");
+height: 25px;
+width: 57px;
+margin: 2px 41px 17px 29px;
+vertical-align: unset;
+}
+
+.dark #header-img {
+box-sizing: border-box;
+padding-left: 57px;
+background-image: url("http://i.imgur.com/bCF5qPn.png");
+height: 25px;
+width: 57px;
+margin: 2px 41px 15px 29px;
+vertical-align: unset;
+}
+
+.pagename {
+font-size: 16px;
+font-variant: normal;
+font-weight: normal;
+display: inline-block;
+margin: -3px 14px 14px 3px;
+vertical-align: bottom;
+}
+
+.light .pagename a:after{
+content: url(http://i.imgur.com/MzQzXuf.png);
+font-size: 0!important;
+}
+
+.dark .pagename a:after{
+content: url(http://i.imgur.com/MzQzXuf.png);
+font-size: 0!important;
+}
+
+.pagename a, .titlebox .whoaversename a[href$="/v/NFLCSS"] {
+font-size: 0!important;
+}
+
+.light .titlebox .whoaversename a[href$="/v/NFLCSS"]::after {
+content: url("http://i.imgur.com/Dg6I61W.png");
+margin-left: 0px;
+}
+
+.dark .titlebox .whoaversename a[href$="/v/NFLCSS"]::after {
+content: url("http://i.imgur.com/Dg6I61W.png");
+margin-left: 0px;
+}
+
+div.titlebox span.word {
+display: none;
+}
+
+.titlebox h1 a {
+color: inherit;
+font-size: 0px !important;
+}
+
+.light div.titlebox .subscribers span.number:after {
+font-size: 15px;
+content: " Bench Warmers";
+color: #11119C !important;
+}
+
+.light div.titlebox .users-online span.number:after {
+font-size: 15px;
+content: " Leading A Drive";
+color: #11119C !important;
+}
+
+div.titlebox .subscribers span.number:after {
+font-size: 15px;
+content: " Bench Warmers";
+color: #fff !important;
+}
+
+div.titlebox .users-online span.number:after {
+font-size: 15px;
+content: " Leading A Drive";
+color: #fff !important;
+}
+
+.light #sr-header-area {
+background: transparent linear-gradient(14deg, #CDD1CC, #E3E3E3, #CBCBCB) no-repeat scroll 0% 0% !important;
+border-bottom: 0px solid #AD0000;
+font-size: 12px;
+height: 24px;
+line-height: 22px;
+text-transform: uppercase;
+white-space: nowrap;
+box-shadow: 0px 2px 6px #000;
+}
+
+.dark #sr-header-area {
+background: transparent linear-gradient(14deg, #333, #414141, #363636) repeat scroll 0% 0%;
+border-bottom: 0px solid #fff;
+font-size: 12px;
+height: 24px;
+line-height: 22px;
+text-transform: uppercase;
+white-space: nowrap;
+box-shadow: 0px 2px 6px #000;
+}
+
+.light #sr-bar li a, .light .sr-list li a{
+color: #00009e !important;
+font-weight: bolder;
+}
+
+.dark #sr-bar li a, .dark .sr-list li a{
+color: #fff !important;
+font-weight: bolder;
+}
+
+
+.light .drop-arrow {
+border-width: 4px 4px 0px;
+border-style: solid;
+border-color: #11119C transparent transparent;
+display: inline-block;
+height: 0px;
+width: 0px;
+}
+
+.dark .drop-arrow {
+border-width: 4px 4px 0px;
+border-style: solid;
+border-color: #fff transparent transparent;
+display: inline-block;
+height: 0px;
+width: 0px;
+}
+
+.light #sr-more-link {
+background: transparent linear-gradient(33deg, #CDD1CC, #E3E3E3, #CBCBCB) no-repeat scroll 0% 0% !important;
+border: 2px solid #F00;
+color: #00009e !important;
+display: inline-block;
+font-weight: normal;
+height: 24px;
+letter-spacing: 1px;
+margin: 0px;
+padding: 1px 7px;
+position: absolute;
+right: 0px;
+top: -1px;
+border-radius: 5px 0px 0px 5px;
+}
+
+.light #sr-more-link:hover {
+background: transparent linear-gradient(213deg, #CDD1CC, #E3E3E3, #CBCBCB) no-repeat scroll 0% 0% !important;
+border: 2px solid #F00;
+color: #ad0000 !important;
+display: inline-block;
+font-weight: normal;
+height: 24px;
+letter-spacing: 1px;
+margin: 0px;
+padding: 1px 7px;
+position: absolute;
+right: 0px;
+top: -1px;
+border-radius: 5px 0px 0px 5px;
+text-transform: uppercase;
+}
+
+.dark #sr-more-link {
+background: transparent linear-gradient(14deg, #333, #414141, #363636) no-repeat scroll 0% 0% !important;
+border: 2px solid #b40000 !important;
+color: #fff !important;
+display: inline-block;
+font-weight: bolder;
+height: 24px;
+letter-spacing: 1px;
+margin: 0px;
+padding: 1px 7px;
+position: absolute;
+right: 0px;
+top: -1px;
+border-radius: 5px 0px 0px 5px;
+text-transform: uppercase;
+}
+
+.dark #sr-more-link:hover {
+background: transparent linear-gradient(194deg, #333, #414141, #363636) repeat scroll 0% 0% !important;
+border: 2px solid #b40000 !important;
+color: #fff !important;
+display: inline-block;
+font-weight: bolder;
+height: 24px;
+letter-spacing: 1px;
+margin: 0px;
+padding: 1px 7px;
+position: absolute;
+right: 0px;
+top: -1px;
+border-radius: 5px 0px 0px 5px;
+text-transform: uppercase;
+}
+
+.light .logged-in, .light .logged-out {
+-moz-border-top-colors: none;
+-moz-border-right-colors: none;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+border-image: none;
+border-color: #FF0100;
+border-radius: 0px !important;
+border-style: solid none;
+border-width: 0px;
+background: rgba(245, 245, 245, 0) none repeat scroll 0% 0%;
+text-transform: uppercase;
+color: #11119C !important;
+padding: 0px 16px 2px 19px;
+margin: 0px 13px 21px 4px;
+}
+
+.dark .logged-in, .dark .logged-out {
+-moz-border-top-colors: none;
+-moz-border-right-colors: none;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+border-image: none;
+border-color: #fff;
+border-radius: 0px !important;
+border-style: solid none;
+border-width: 0px;
+background: rgba(245, 245, 245, 0) none repeat scroll 0% 0%;
+text-transform: uppercase;
+color: #fff;
+padding: 0px 16px 2px 19px;
+margin: 0px 13px 21px 4px;
+}
+
+#nightmodetoggle {
+background: url("http://i.imgur.com/7wp9lzi.png?1");
+display: inline-block;
+cursor: pointer;
+height: 16px;
+width: 15px;
+position: relative;
+top: 4px;
+}
+
+.user .upvoatsGiven a {
+display:none;
+}
+
+.light #header-account a {
+color: #11119C !important;
+font-weight: bolder;
+font-size: 12px;
+}
+
+.dark #header-account a {
+color: #fff !important;
+font-weight: bolder;
+font-size: 12px;
+}
+
+.user .userkarma {
+border-bottom: 0px solid #999;
+cursor: help;
+font-weight: normal;
+margin: 0px 2px;
+}
+
+#header-account .separator {
+display: none;
+}
+
+.light .whoaSubscriptionMenu li ul li a:link, .light .whoaSubscriptionMenu li ul li a:visited {
+background: transparent linear-gradient(33deg, #00007B, #11119C, #0000CE); 
+color: #fff !important;
+display: block;
+line-height: 16px;
+padding: 1px 6px;
+text-decoration: none;
+width: auto;
+text-align: center;
+text-transform: uppercase;
+border-radius: 6px;
+border: 2px solid #ffffff !important;
+z-index: 200;
+}
+
+.light .whoaSubscriptionMenu li ul li a:link:hover, .light .whoaSubscriptionMenu li ul li a:visited:hover {
+background: transparent linear-gradient(123deg, #00007B, #11119C, #0000CE);
+color: #fff !important;
+display: block;
+line-height: 16px;
+padding: 1px 6px;
+text-decoration: none;
+width: auto;
+text-align: center;
+text-transform: uppercase;
+font-weight:bolder;
+border: 2px solid #ad0000 !important;
+border-radius: 6px;
+z-index: 200;
+}
+
+.dark .whoaSubscriptionMenu li ul li a:link, .dark .whoaSubscriptionMenu li ul li a:visited {
+background: transparent linear-gradient(14deg, #0D0183, #02128F, #002377) repeat scroll 0% 0% !important;
+color: #fff !important;
+display: block;
+line-height: 16px;
+padding: 1px 6px;
+text-decoration: none;
+width: auto;
+text-align: center;
+text-transform: uppercase;
+border-radius: 6px;
+border: 2px solid #b40000 !important;
+z-index: 200;
+}
+
+.dark .whoaSubscriptionMenu li ul li a:link:hover, .dark .whoaSubscriptionMenu li ul li a:visited:hover {
+background: transparent linear-gradient(194deg, #0D0183, #02128F, #002377) repeat scroll 0% 0% !important;
+color: #fff !important;
+display: block;
+line-height: 16px;
+padding: 1px 6px;
+text-decoration: none;
+width: auto;
+text-align: center;
+text-transform: uppercase;
+font-weight:bolder;
+border: 2px solid #fff !important;
+border-radius: 6px;
+z-index: 200;
+}
+
+.light .promoted {
+border: 2px solid #F00;
+border-radius: 5px;
+padding: 0px 6px;
+line-height: 100%;
+vertical-align: middle;
+min-width: 0px;
+color: #FFF;
+font-size: 15px;
+display: inline;
+letter-spacing: 0px;
+text-transform: uppercase;
+background: transparent linear-gradient(33deg, #051BC5, #001880, #0057DA) repeat scroll 0% 0%;
+}
+
+.dark .promoted {
+border: 2px solid #F00;
+border-radius: 5px;
+padding: 0px 6px;
+line-height: 100%;
+vertical-align: middle;
+min-width: 0px;
+color: #FFF;
+font-size: 15px;
+display: inline;
+letter-spacing: 0px;
+text-transform: uppercase;
+background: transparent linear-gradient(33deg, #051BC5, #001880, #0057DA) repeat scroll 0% 0%;
+}
+
+.light .tabmenu {
+display: inline-block;
+line-height: 31px;
+list-style-type: none;
+margin: -31px 6px 14px 85px !important;
+vertical-align: bottom;
+white-space: nowrap;
+}
+
+.dark .tabmenu {
+display: inline-block;
+line-height: 31px;
+list-style-type: none;
+margin: -31px 6px 14px 85px !important;
+vertical-align: bottom;
+white-space: nowrap;
+}
+
+.tabmenu li {
+-moz-border-top-colors: none;
+-moz-border-right-colors: none;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+font-family: Arial, sans-serif;
+font-size: 11px;
+font-weight: bold !important;
+display: inline-block;
+line-height: 37px;
+list-style-type: none;
+margin: 0;
+vertical-align: bottom;
+text-transform: uppercase;
+border-radius: 0px !important;
+}
+
+.light .tabmenu li.selected a.contribute, .light .tabmenu li.selected a.contribute:hover, .light .tabmenu li.selected a, .light .tabmenu li.selected a:hover {
+-moz-border-top-colors: none;
+-moz-border-right-colors: none;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+border-image: none;
+border-color: #000;
+border-style: solid none;
+border-width: 0px;
+color: #00009e !important;
+font-weight: bold;
+border-radius: 0px !important;
+background: rgba(255, 255, 255, 0) none repeat scroll 0% 0%;
+}
+
+.light .tabmenu li.disabled a.contribute , .light .tabmenu li.disabled a {
+-moz-border-top-colors: none;
+-moz-border-right-colors: none;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+border-image: none;
+border-color: #000;
+border-style: solid none;
+border-width: 0px;
+color: #ad0000 !important;
+border-radius: 0px !important;
+background: rgba(255,255,255,0.0);
+}
+
+.light .tabmenu li.disabled a:hover, .light .tabmenu li.disabled a.contribute:hover  {
+-moz-border-top-colors: none;
+-moz-border-right-colors: none;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+border-image: none;
+border-color: #fff;
+border-style: solid none;
+border-width: 0px;
+color: #00009e !important;
+border-radius: 0px !important;
+background: transparent !important;
+text-shadow: none !important;
+}
+
+.dark .tabmenu li.disabled a {
+-moz-border-top-colors: none;
+-moz-border-right-colors: none;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+border-image: none;
+border-color: #fff;
+border-style: solid none;
+border-width: 0px;
+color: #a5acaf  !important;
+border-radius: 0px !important;
+background: transparent;
+}
+
+.dark .tabmenu li.disabled a:hover {
+-moz-border-top-colors: none;
+-moz-border-right-colors: none;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+border-image: none;
+border-color: #fff;
+border-style: solid none;
+border-width: 0px;
+color: #fff  !important;
+border-radius: 0px !important;
+background: transparent;
+}
+
+.dark .tabmenu li.selected a, .dark tabmenu li.selected a:hover, .dark .tabmenu li.disabled a.contribute:hover {
+-moz-border-top-colors: none;
+-moz-border-right-colors: none;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+border-image: none;
+border-color: #fff;
+border-style: solid none;
+border-radius: 0px !important;
+border-width: 0px;
+color:#fff !important;
+background:transparent;
+}
+
+.dark .tabmenu li.disabled a.contribute {
+-moz-border-top-colors: none;
+-moz-border-right-colors: none;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+background: none;
+border-radius: 0px !important;
+border: solid none;
+border-width: 0;
+color: #a5acaf !important;
+}
+
+.dark .tabmenu li.selected a.contribute:hover {
+background: transparent;
+border-color: transparent;
+}
+
+.light #container {
+background: rgba(234, 234, 234, 0.9) none repeat scroll 0% 0% / 100% 100%;
+max-width: 100%;
+overflow: visible;
+margin: 43px -2px 150px -1px;
+box-shadow: 2px 3px 12px 3px #000 !important;
+border-bottom: 20px solid rgba(0, 0, 158, 0.4);
+border-radius: 3px !important;
+border-top: 0px !important;
+padding: 0px 12px 0px 13px;
+}
+
+.dark #container {
+background: transparent linear-gradient(133deg , #262626, #0C0C0C) no-repeat scroll 0% 0%;
+max-width: 100%;
+overflow: visible;
+margin: 43px -2px 150px -1px;
+box-shadow: 2px 3px 12px 3px #000 !important;
+border-bottom: 20px solid rgba(0, 0, 158, 0.4);
+border-radius: 3px !important;
+border-top: 0px !important;
+padding: 0px 12px 0px 13px;
+}
+
+.light .odd {
+background: transparent -moz-linear-gradient(left ,#fff, #ccc) repeat scroll 0% 0%;
+background: linear-gradient(to left, #FFF, #CCC) repeat scroll 0% 0%;
+border-radius: 3px;
+margin: 2px -331px 2px -20px;
+border-bottom: 2px solid #00009e;
+border-right: 2px solid #4E4C4C;
+}
+
+.light .even {
+background: transparent -moz-linear-gradient(right ,#fff, #ccc) repeat scroll 0% 0%;
+background: linear-gradient(to right,  #fff, #ccc);
+border-radius: 3px;
+margin: 2px -331px 2px -20px;
+border-bottom: 2px solid #00009e;
+border-right: 2px solid #4E4C4C;
+}
+
+.dark .odd {
+background: -moz-linear-gradient(top left,  rgba(0,0,0,0.8), rgba(59,58,59,0.9));
+background: -webkit-linear-gradient(top left,  rgba(0,0,0,0.8), rgba(59,58,59,0.9));
+background: linear-gradient(to left top  ,rgba(0,0,0,0.8), rgba(59,58,59,0.9));
+border-radius: 3px;
+margin: 2px -331px 2px -20px;
+border-right: 2px solid #4E4C4C;
+border-bottom: 1px solid #aa0000;
+border-top: 1px solid #fff;
+}
+
+.dark .even  {
+background: -moz-linear-gradient(top right,  rgba(0,0,0,0.8), rgba(59,58,59,0.9));
+background: -webkit-linear-gradient(top right,  rgba(0,0,0,0.8), rgba(59,58,59,0.9));
+background: linear-gradient(to right top  ,rgba(0,0,0,0.8), rgba(59,58,59,0.9));
+border-radius: 3px;
+margin: 2px -331px 2px -20px;
+border-right: 2px solid #4E4C4C;
+border-bottom: 1px solid #aa0000;
+border-top: 1px solid #fff;
+}
+
+.light .link a.title.may-blank {
+color: #00009e !important;
+}
+
+.light .link a.title.may-blank:hover {
+color: #000000 !important;
+}
+
+.dark .link a.title.may-blank {
+color: #FFF !important;
+}
+
+.dark .link a.title.may-blank:hover{
+color: #e8e8e8 !important;
+}
+
+.light .domain {
+color: #ad0000 !important;
+font-size: 11px;
+}
+
+.dark domain {
+color: #00009e !important;
+font-size: 11px;
+}
+
+.light a, .light a:visited {
+color: #111111 !important;
+text-decoration: none;
+}
+
+.dark a, a:visited {
+color: #fff !important;
+text-decoration: none;
+}
+
+.light .link a.author {
+color: #ad0000 !important;
+font-weight: normal;
+}
+
+.dark .link a.author {
+color: #fff !important;
+font-weight: normal;
+}
+
+.light .link .flat-list li a {
+color: #ad0000 !important;
+font-weight: bold;
+}
+
+.dark .link .flat-list li a {
+color: #a5acaf !important;
+font-weight: bold;
+}
+
+.dark .link a.subverse {
+color: #fff !important;
+font-weight: bold;
+}
+
+.dark .link a.subverse {
+color: #5151FF !important;
+font-weight: bold;
+}
+
+.light .link .score.likes {
+color: #00009e;
+}
+
+.dark .link .score.likes {
+color: #fff;
+}
+
+.light .tagline {
+color: #00009e !important;
+line-height: 18px;
+font-size: 11px;
+}
+
+.dark .tagline {
+color: #Ad0000;
+line-height: 18px;
+font-size: 11px;
+}
+
+.light .link .score {
+color: #00009e !important;
+line-height: 13px;
+min-width: 28px;
+text-align: center;
+}
+
+.dark .link .score {
+color: #fff !important;
+line-height: 13px;
+min-width: 28px;
+text-align: center;
+}
+
+.light .link a.subverse {
+color: #A00 !important;
+font-weight: bold;
+}
+
+.light .tagline .post_upvotes {
+color: #ad0000;
+font-size: 95%;
+font-weight: bold;
+padding: 0px 1px 0px 2px;
+visibility: visible;
+}
+
+.dark .tagline .post_upvotes {
+color: #fff;
+font-size: 95%;
+font-weight: bold;
+padding: 0px 1px 0px 2px;
+visibility: visible;
+}
+
+.light .tagline .post_downvotes {
+color: #ad0000;
+font-size: 95%;
+font-weight: bold;
+padding: 0px 2px 0px 1px;
+visibility: visible;
+}
+
+.dark .tagline .post_downvotes {
+color: #fff;
+font-size: 95%;
+font-weight: bold;
+padding: 0px 2px 0px 1px;
+visibility: visible;
+}
+
+.light .scorebar-likes {
+background: #00009e !important;
+clear: both;
+width: 100%;
+}
+
+.dark .scorebar-likes {
+background: #fff !important;
+clear: both;
+width: 100%;
+}
+
+.light a.thumbnail:hover, .light a.thumbnail:focus, .light a.thumbnail.active {
+border-color: #00009e;
+}
+
+.dark a.thumbnail:hover, .dark a.thumbnail:focus, .dark a.thumbnail.active {
+border-color: #ad0000;
+}
+
+.light .btn-whoaverse-paging, .light button.btn-whoaverse-paging, .light a.btn-whoaverse.contribute, .light li.btn-whoaverse-paging, .light #submitbutton, .light #previewButton {
+background: transparent linear-gradient(133deg, #02006C, #0049B7, #00096E) no-repeat scroll 0% 0% !important;
+color: #E0E0E0 !important;
+border-radius: 10px;
+border: 2px solid #929292 !important;
+text-transform: uppercase;
+font-weight: bolder;
+text-shadow: 2px 2px 2px #000;
+box-shadow: 1px 2px 3px #000 !important;
+}
+
+.light .btn-whoaverse-paging:hover, .light button.btn-whoaverse-paging:hover, .light a.btn-whoaverse.contribute:hover, .light li.btn-whoaverse-paging:hover,  .light #submitbutton:hover, .light #previewButton:hover {
+background: transparent linear-gradient(133deg, #02006C, #0049B7, #00096E) no-repeat scroll 0% 0% !important;
+color: #FFF !important;
+border-radius: 10px;
+border: 2px solid #FFF !important;
+text-transform: uppercase;
+font-weight: bolder;
+text-shadow: 2px 2px 2px #000;
+box-shadow: 2px 6px 12px 0px #000 !important;
+}
+
+.light .btn-whoaverse-paging:active, .light button.btn-whoaverse-paging:active, .light a.btn-whoaverse.contribute:active, .light li.btn-whoaverse-paging:active,  .light #submitbutton:active, .light #previewButton:active {
+background: transparent linear-gradient(133deg, #02006C, #0049B7, #00096E) no-repeat scroll 0% 0% !important;
+color: #000 !important;
+border-radius: 10px;
+background-size: 100% 100%;
+border: 2px solid #000 !important;
+text-transform: uppercase;
+box-shadow: inset 3px 3px 7px #111;
+top: 6px;
+}
+
+.dark .btn-whoaverse-paging, .dark .btn-whoaverse, .dark .btn-whoaverse, .dark button.btn-whoaverse-paging, .dark a.btn-whoaverse.contribute, .dark li.btn-whoaverse-paging, .dark #submitbutton, .dark #previewButton {
+background: transparent linear-gradient(133deg, #02006C, #0049B7, #00096E) no-repeat scroll 0% 0% !important;
+color: #E0E0E0 !important;
+border-radius: 10px;
+border: 2px solid #929292 !important;
+text-transform: uppercase;
+font-weight: bolder;
+text-shadow: 2px 2px 2px #000;
+box-shadow: 1px 2px 3px #000 !important;
+}
+
+.dark .btn-whoaverse-paging:hover, .dark .btn-whoaverse:hover, .dark .btn-whoaverse:hover, .dark button.btn-whoaverse-paging:hover, .dark a.btn-whoaverse.contribute:hover, .dark li.btn-whoaverse-paging:hover,  .dark #submitbutton:hover, .dark #previewButton:hover{
+background: transparent linear-gradient(133deg, #02006C, #0049B7, #00096E) no-repeat scroll 0% 0% !important;
+color: #FFF !important;
+border-radius: 10px;
+border: 2px solid #FFF !important;
+text-transform: uppercase;
+font-weight: bolder;
+text-shadow: 2px 2px 2px #000;
+box-shadow: 2px 6px 12px 0px #000 !important;
+}
+
+.dark .btn-whoaverse-paging:active, .dark .btn-whoaverse:active, .dark button.btn-whoaverse-paging:active, .dark a.btn-whoaverse.contribute:active,  .dark li.btn-whoaverse-paging:active, .dark .btn-whoaverse:active, .dark #submitbutton:active, .dark #previewButton:active, .dark .btn-whoaverse-paging a:active{
+background: transparent linear-gradient(133deg, #02006C, #0049B7, #00096E) no-repeat scroll 0% 0% !important;
+color: #000 !important;
+border-radius: 10px;
+background-size: 100% 100%;
+border: 2px solid #000 !important;
+text-transform: uppercase;
+box-shadow: inset 3px 3px 7px #111;
+top: 6px;
+}
+
+.btn-whoaverse:active::before, .dark .btn-whoaverse:active::before, .dark button.btn-whoaverse-paging:active::before, .dark a.btn-whoaverse.contribute:active::before, .dark li.btn-whoaverse-paging:active::before, .dark .btn-whoaverse:active::before, .dark #submitbutton:active::before, .dark #previewButton:active::before {
+top: -2px;
+}
+
+.light .side {
+background: transparent linear-gradient(246deg, #E1E1E1, #DBDBDB, #E9E9E9) no-repeat scroll 0% 0% !important;
+margin: 0px -10px;
+padding: 20px;
+width: 320px;
+color: #001677;
+border: 2px solid #AD0000;
+border-radius: 5px;
+box-shadow: 1px 2px 5px 2px #414141;
+}
+
+.dark .side {
+background: transparent linear-gradient(238deg, #141414, #333, #181818) no-repeat scroll !important;
+margin: 0px -10px;
+padding: 20px;
+width: 320px;
+color: #FFF;
+border: 2px solid #fff;
+border-radius: 4px;
+overflow: visible;
+box-shadow: 1px 2px 5px 2px #222;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) {
+font-size: 13px;
+position: absolute;
+top: -52px !important;
+left: 20px;
+width: calc(100% - 40px);
+border-radius: 3px;
+padding: 8px 20px;
+font-style: normal;
+text-align: center;
+z-index: 100;
+display: inline-block;
+}
+
+.side .md > h1 {
+width: 292px;
+border-style: none solid solid none;
+-moz-border-top-colors: none;
+-moz-border-right-colors: none;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+border-image: none;
+color: #FFF !important;
+margin: 0px 0px 0px -19px;
+z-index: 101 !important;
+position: relative;
+padding: 0px 0px 0px 32px;
+background: transparent linear-gradient(178deg, #D10000, #7E0000) no-repeat scroll 0% 0% !important;
+border-width: 1px;
+border-color: #FFF;
+text-transform: uppercase;
+box-shadow: 3px 3px 7px #434647;
+font-size: 13px;
+border-top-left-radius: 4px;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+text-shadow: 2px 2px 2px #000;
+}
+
+.side .md > h1::after {
+display: block !important;
+content: " " !important;
+border-width: 5px !important;
+width: 0px !important;
+position: absolute !important;
+z-index: -1 !important;
+margin-left: -31px !important;
+margin-top: 1px !important;
+border-style: solid !important;
+border-color: #FFF #FFF transparent transparent !important;
+height: 0px !important;
+}
+
+.side .md > h2 {
+width: 292px;
+border-style: none solid solid none;
+-moz-border-top-colors: none;
+-moz-border-right-colors: none;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+border-image: none;
+color: #FFF !important;
+margin: 0px 0px 0px -19px;
+z-index: 101 !important;
+position: relative;
+padding: 0px 0px 0px 32px;
+background: transparent linear-gradient(75deg, #163981, #082396, #054FBD) no-repeat scroll 0% 0% !important;
+border-width: 1px;
+border-color: #FFF;
+text-transform: uppercase;
+box-shadow: 3px 3px 7px #434647;
+font-size: 13px;
+border-top-left-radius: 4px;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+text-align: left;
+text-shadow: 2px 2px 2px #000;
+}
+
+.side .md > h2::after {
+display: block !important;
+content: " " !important;
+border-width: 5px !important;
+width: 0px !important;
+position: absolute !important;
+z-index: -1 !important;
+margin-left: -31px !important;
+margin-top: 1px !important;
+border-style: solid !important;
+border-color: #FFF #FFF transparent transparent !important;
+height: 0px !important;
+}
+
+.light .side .md {
+color: #000C96 !important;
+z-index: 100;
+margin: 15px 0px;
+padding: 5px;
+background: transparent linear-gradient(36deg, #DEDEDE, #E9E9E9, #FFF) repeat scroll 0% 0% !important;
+border: 2px solid #0500CC !important;
+border-radius: 4px;
+overflow: visible;
+box-shadow: 3px 3px 7px #111;
+text-shadow: 0px 0px 1px #A5ACAF;
+}
+
+.dark .side .md {
+color: #FFF;
+z-index: 100;
+margin: 15px 0px;
+padding: 5px;
+border: 2px solid #aa0000 !important;
+background: transparent linear-gradient(261deg, #0F0F0F, #353535, #141414) no-repeat scroll 0% 0% !important;
+border-radius: 4px;
+overflow: visible;
+box-shadow: 1px 3px 7px  #111;
+}
+
+.light .sidecontentbox .content {
+background: transparent linear-gradient(36deg, #95A3EF, #80A3F5, #AECAFB) repeat scroll 0% 0% !important;
+border: 2px solid #F00;
+margin: 0px;
+padding: 5px;
+border-radius: 4px;
+box-shadow: 3px 3px 7px #111;
+color: #FFF !important;
+}
+
+.dark .sidecontentbox .content {
+background: transparent linear-gradient(36deg, rgba(36, 36, 36, 0.79), #030303, rgba(30, 22, 22, 0.61)) no-repeat scroll 0% 0% !important;
+border: 2px solid #aa0000;
+margin: 0px;
+padding: 5px;
+border-radius: 5px;
+box-shadow: 3px 3px 7px #111;
+color: #FFF !important;
+}
+
+.dark a, a:visited {
+color: #fff;
+text-decoration: none;
+}
+
+a:focus{
+outline:none !important;
+outline:5px auto -webkit-focus-ring-color;
+outline-offset:-2px
+}
+
+.light .alert-h1 {
+border-bottom: 0px solid #DDD;
+padding: 2px;
+margin-bottom: 0px;
+border-color: #DDD;
+font-family: Arial,sans-serif;
+font-size: 12px;
+font-weight: bold;
+color: #ad0000 !important;
+}
+
+.dark .alert-h1 {
+border-bottom: 0px solid #222;
+padding: 2px;
+margin-bottom: 2px;
+border-color: #222;
+color: #fff !important;
+font-family: Arial,sans-serif;
+font-size: 12px;
+font-weight: bold;
+}
+
+.alert-h2 {
+border-bottom: 0px solid #DDD !important;
+margin-bottom: 2px;
+border-color: #DDD;
+color: #aa0000;
+font-family: Arial,sans-serif;
+font-size: 16px;
+}
+
+.light .md th {
+background: transparent linear-gradient(to left top, #C8C8C8, #CFCFCF) repeat scroll 0% 0%;
+border: none !important;
+color: #00009E !important;
+font-weight: bold;
+text-align: center;
+}
+
+
+.dark .md th {
+    background: transparent linear-gradient(to top, #A1A1A1, #AAAEB9) repeat scroll 0% 0%;
+    border: medium none;
+    color: #00009e !important;
+    font-weight: bold;
+    text-align: center;
+}
+.light .md tr:hover {
+background: transparent linear-gradient(75deg, #163981, #082396, #054FBD) no-repeat scroll 0% 0% !important;
+animation: 10s linear 0s normal none infinite running AnimationName;
+content: "";
+border: none;
+color:#fff;
+font-weight: bold;
+text-align: center;
+}
+
+.dark .md tr:hover {
+background: transparent linear-gradient(75deg, #163981, #082396, #054FBD) repeat scroll 0% 0%;
+animation: 10s linear 0s normal none infinite running AnimationName;
+content: "";
+border: none;
+color:#fff;
+font-weight: bold;
+text-align: center;
+}
+
+@-webkit-keyframes AnimationName {
+0%{background-position:0% 13%}
+50%{background-position:100% 88%}
+100%{background-position:0% 13%}
+}
+
+@-moz-keyframes AnimationName {
+0%{background-position:0% 13%}
+50%{background-position:100% 88%}
+100%{background-position:0% 13%}
+}
+
+@keyframes AnimationName {
+0%{background-position:0% 13%}
+50%{background-position:100% 88%}
+100%{background-position:0% 13%}
+}
+
+.light table {
+border-collapse: separate;
+}
+
+.dark table {
+border-collapse: separate;
+}
+
+.light .md ul {
+background-color: rgba(255, 255, 255, 0);
+margin:0;
+padding:10px 10px 10px 30px;
+}
+
+.dark .md ul {
+background-color:rgba(255, 255, 255, 0);
+margin:0;
+padding:10px 10px 10px 30px;
+}
+
+.md table {
+font-size: 12px;
+font-weight: bold;
+text-align: center;
+color: #011BDA !important;
+margin: auto;
+width: 100%;
+background: transparent linear-gradient(163deg, #A5ACAF, #7A7A7A) repeat scroll 0% 0%;
+box-shadow: 2px 2px 4px 1px #303737;
+}
+
+.light .sidecontentbox a.helplink {
+font-size: 11px;
+color: #0030FF !important;
+}
+
+.dark .sidecontentbox a.helplink {
+font-size: 11px;
+color: #FFF !important;
+}
+
+.light .titlebox .bottom {
+border-top: 0px solid #D5D5D5;
+color: #205bb5 !important;
+}
+
+.dark .titlebox .bottom {
+border-top: 0px solid #222 !important;
+color: #fff;
+}
+
+.leavemoderator {
+background: transparent;
+padding: 0;
+}
+
+.spacersection {
+display: none;
+}
+
+a[href*="/rss/"] {
+display: none;
+}
+
+.light .titlebox .word { 
+color: #fff;
+}
+
+.side .md table tbody {
+display:none;
+}
+
+.side .md table:hover tbody {
+display: table-row-group;
+}
+
+.md table thead {
+border-bottom:0;
+}
+
+.footer-container {
+display: none;
+}
+
+.light .commenttextarea, textarea {
+background: none repeat scroll 0% 0% transparent;
+border: 1px solid #00009e;
+border-radius: 5px;
+}
+
+.dark .commenttextarea, textarea {
+background: none repeat scroll 0% 0% transparent;
+border: 1px solid #00009e;
+border-radius: 5px;
+}
+
+.arrow-upvote {
+cursor: pointer;
+width: 25px;
+height: 25px;
+background: url('http://i.imgur.com/2BYWhmN.png?1');
+opacity: 0.5;
+}
+
+.light .arrow-upvoted {
+cursor: pointer;
+width: 25px;
+height: 25px;
+background: url('http://i.imgur.com/2AQMXrl.png');
+}
+
+.arrow-downvote {
+cursor: pointer;
+width: 25px;
+height: 25px;
+background: url('http://i.imgur.com/t10eCSr.png?1');
+opacity: 0.5;
+}
+
+.light .arrow-downvoted {
+cursor: pointer;
+width: 25px;
+height: 25px;
+background: url('http://i.imgur.com/bc4riNF.png?1');
+}
+
+.dark .arrow-upvoted {
+cursor: pointer;
+width: 25px;
+height: 25px;
+background: url('http://i.imgur.com/1yGfFvP.png?1');
+}
+
+.dark .arrow-downvoted {
+cursor: pointer;
+width: 25px;
+height: 25px;
+background: url('http://i.imgur.com/4hnGvgd.png?1');
+}
+
+.comment .arrow-upvote {
+background: url("http://i.imgur.com/UqcRWRl.png");
+height: 12px;
+width: 12px;
+}
+
+.light .comment .arrow-upvoted {
+background: url("http://i.imgur.com/yAbSoz8.png");
+height: 12px;
+width: 12px;
+}
+
+.comment .arrow-downvote  {
+background: url("http://i.imgur.com/JiG3gkm.png");
+height: 12px;
+width: 12px;
+}
+
+.light .comment .arrow-downvoted {
+background: url("http://i.imgur.com/lusUnvy.png");
+height: 12px;
+width: 12px;
+}
+
+.dark .comment .arrow-upvoted {
+background: url("http://i.imgur.com/QaNIGsz.png");
+height: 12px;
+width: 12px;
+}
+
+.dark .comment .arrow-downvoted {
+background: url("http://i.imgur.com/bfM4cpZ.png");
+height: 12px;
+width: 12px;
+}
+
+.usertext a[href="http://espn.go.com/"]{
+height: 45px;
+width:100%;
+display:block;
+background: url(http://i.imgur.com/OFrmThE.png)no-repeat center; 
+}     
+
+.usertext a[href="http://espn.go.com/"]:hover{
+height: 45px;
+width:100%;
+display:block;
+background-color: #fff;
+background-image: url(http://i.imgur.com/OFrmThE.png)no-repeat center; 
+}     
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/ArizonaCardinals"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/falcons"], 
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Ravens"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/buffalobills"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/panthers"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/ChiBears"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/bengals"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Browns"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Cowboys"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/DenverBroncos"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/DetroitLions"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/greenbaypackers"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/texans"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Colts"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Jaguars"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/KansasCityChiefs"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/miamidolphins"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/minnesotavikings"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/patriots"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Saints"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/NYGiants"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/nyjets"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/OaklandRaiders"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/eagles"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Steelers"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/chargers"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/49ers"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/seahawks"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Rams"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Buccaneers"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Tennesseetitans"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/redskins"],
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/nfl"]{
+display: inline-block;				
+content: ""; 
+background-repeat: no-repeat;
+background-position: left top;
+padding: 0px; 
+margin: 0px;  
+margin-left: 5px;
+background-color: transparent; 
+background-image: url("https://i.imgur.com/VAFeiYQ.png"); 
+width: 20px; 
+height: 20px;
+vertical-align: middle;
+}
+
+@media (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+.sprite {
+background-image: url("https://i.imgur.com/VAFeiYQ.png");
+background-size: 40px 730px;}
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/ArizonaCardinals"] {
+background-position: 0 0;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/falcons"] {
+background-position: 0 -20px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Ravens"] {
+background-position: 0 -40px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/buffalobills"] {
+background-position: 0 -60px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/panthers"] {
+background-position: 0 -80px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/ChiBears"] {
+background-position: 0 -100px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/bengals"] {
+background-position: 0 -120px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Browns"] {
+background-position: 0 -140px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Cowboys"] {
+background-position: 0 -160px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/DenverBroncos"] {
+background-position: 0 -180px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/DetroitLions"] {
+background-position: 0 -200px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/greenbaypackers"] {
+background-position: 0 -220px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/texans"] {
+background-position: 0 -240px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Colts"] {
+background-position: 0 -260px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Jaguars"] {
+background-position: 0 -280px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/KansasCityChiefs"] {
+background-position: 0 -300px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/miamidolphins"] {
+background-position: 0 -320px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/minnesotavikings"] {
+background-position: 0 -340px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/patriots"] {
+background-position: 0 -360px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Saints"] {
+background-position: 0 -380px;
+}
+
+.light .side .titlebox .usertext h6:nth-of-type(1) a[href="/v/NYGiants"] {
+background-position: 0 -400px;
+}
+
+.dark .side .titlebox .usertext h6:nth-of-type(1) a[href="/v/NYGiants"] {
+background-position: 0 -420px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/nyjets"] {
+background-position: 0 -440px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/OaklandRaiders"] {
+background-position: 0 -460px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/eagles"] {
+background-position: 0 -480px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Steelers"] {
+background-position: 0 -500px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/chargers"] {
+background-position: 0 -520px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/49ers"] {
+background-position: 0 -540px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/seahawks"] {
+background-position: 0 -560px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Rams"] {
+background-position: 0 -580px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Buccaneers"] {
+background-position: 0 -600px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/Tennesseetitans"] {
+background-position: 0 -620px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/redskins"] {
+background-position: 0 -640px;
+}
+
+/* afc */ {
+background-position: 0 -660px;
+}
+
+/* nfc */ {
+background-position: 0 -680px;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) a[href="/v/nfl"] {
+width: 40px;
+height: 30px;
+background-position: 0 -700px;
+}
+
+
+.side .titlebox .usertext h6:nth-of-type(1) {
+top: 0px;
+left: 20px;
+width: calc(100% - 40px);
+border-radius: 3px;
+padding: 8px 20px;
+}
+
+.light .side .titlebox .usertext h6:nth-of-type(1) {
+/* background-color: #f8f8f8; */
+color: #4a4a4a;
+}	
+
+.dark .side .titlebox .usertext h6:nth-of-type(1) {
+/* background-color: #2e2e2e; */
+color: #c3c3c3;
+}	
+
+.side .titlebox .usertext h6:nth-of-type(1) a {
+color: #4399cd;
+}
+
+.usertext a[href="https://voat.co/v/Seahawks"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/5ZVOqtE.png?1)no-repeat center; 
+}     
+
+.usertext a[href="https://voat.co/v/ArizonaCardinals"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/YOfgY5A.png?1)no-repeat center; 
+}   
+
+.usertext a[href="https://voat.co/v/49ers"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/FLa2o68.png?1)no-repeat center; 
+}  
+
+.usertext a[href="https://voat.co/v/Rams"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/V6m4FHJ.png?1)no-repeat center; 
+}   
+
+.usertext a[href="https://voat.co/v/DenverBroncos"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/Kb5G5dO.png?1)no-repeat center; 
+}     
+
+.usertext a[href="https://voat.co/v/KansasCityChiefs"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/94GU3tG.png?1)no-repeat center; 
+}     
+
+.usertext a[href="https://voat.co/v/chargers"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/wNYIRux.png?1)no-repeat center; 
+}     
+
+.usertext a[href="https://voat.co/v/OaklandRaiders"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/9iowGQR.png?1)no-repeat center; 
+}    
+
+.usertext a[href="https://voat.co/v/greenbaypackers"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/FjyYu7P.png?1)no-repeat center; 
+}     
+
+.usertext a[href="https://voat.co/v/chibears"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/mHtQxh2.png?1)no-repeat center; 
+}     
+
+.usertext a[href="https://voat.co/v/DetroitLions"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/forfd5A.png?1)no-repeat center; 
+}     
+
+.usertext a[href="https://voat.co/v/minnesotavikings"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/rGVuNuw.png?2)no-repeat center; 
+}     
+
+.usertext a[href="https://voat.co/v/Steelers"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/85t0NfU.png?1)no-repeat center; 
+}     
+
+.usertext a[href="https://voat.co/v/Ravens"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/Ov4CuxD.png?2)no-repeat center; 
+}     
+
+.usertext a[href="https://voat.co/v/Browns"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/Niu5FPx.png?1)no-repeat center; 
+}     
+
+.usertext a[href="https://voat.co/v/bengals"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/Th9PLAy.png?1)no-repeat center; 
+}     
+
+.usertext a[href="https://voat.co/v/Saints"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/qen7JEK.png?1)no-repeat center; 
+}     
+
+.usertext a[href="https://voat.co/v/panthers"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/jBcOtqV.png?1)no-repeat center; 
+}     
+
+.usertext a[href="https://voat.co/v/falcons"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/ssf6znS.png?1)no-repeat center; 
+} 
+
+.usertext a[href="https://voat.co/v/Buccaneers"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/n8KZi62.png?1)no-repeat center; 
+} 
+
+.usertext a[href="https://voat.co/v/Tennesseetitans"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/Ro2810A.png?1)no-repeat center; 
+} 
+
+.usertext a[href="https://voat.co/v/Jaguars"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/UXAqiVJ.png?1)no-repeat center; 
+} 
+
+.usertext a[href="https://voat.co/v/colts"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/DrAd9vF.png?1)no-repeat center; 
+} 
+
+.usertext a[href="https://voat.co/v/texans"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/vSgisU4.png?1)no-repeat center; 
+} 
+
+.usertext a[href="https://voat.co/v/redskins"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/Rt09s0p.png?1)no-repeat center; 
+} 
+
+.usertext a[href="https://voat.co/v/eagles"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/mFQnB3h.png?1)no-repeat center; 
+} 
+
+.usertext a[href="https://voat.co/v/NYGiants"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/39rJ7hC.png?1)no-repeat center; 
+}   
+
+.usertext a[href="https://voat.co/v/Cowboys"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/oYCRklC.png?1)no-repeat center; 
+}     
+
+.usertext a[href="https://voat.co/v/patriots"]{
+height: 42px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/mQh0SpM.png?1)no-repeat center; 
+}     
+
+.usertext a[href="https://voat.co/v/nyjets"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/yipglrA.png?1)no-repeat center; 
+} 
+
+.usertext a[href="https://voat.co/v/miamidolphins"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/ajBWJpH.png?1)no-repeat center; 
+} 
+
+.usertext a[href="https://voat.co/v/buffalobills"]{
+height: 34px;
+width: 100%;
+display: block;
+background: url(http://i.imgur.com/a576LVZ.png?1)no-repeat center; 
+}
+
+}    </style>
+
+    <div class="content" role="main">
+        <div class="sitetable linklisting">
+            
+
+
+
+<div class="submission id-373208 even link stickied" data-fullname="373208" data-ups="8" data-downs="0">
+    <p class="parent"></p>
+
+    
+
+        <div class="midcol likes">
+
+                <div class="arrow-upvoted login-required" onclick="voteUpSubmission(373208);" role="button" aria-label="upvote" tabindex="0"></div>
+
+            <div class="score dislikes">0</div>
+            <div class="score unvoted">8</div>
+            <div class="score likes">8</div>
+
+                <div class="arrow-downvote login-required" onclick="voteDownSubmission(373208);" role="button" aria-label="downvote" tabindex="0"></div>
+
+        </div>
+        <div class="scorebar" title="Blue = upvotes, violet = downvotes">
+            <div class="scorebar-likes" style="height: 100%"></div>
+            <div class="scorebar-dislikes" style="height: 0%"></div>
+        </div>
+
+    
+    
+
+        <div class="entry unvoted">
+            <p class="title">
+                <span class="promoted">sticky</span>
+                <a class="title may-blank" href="/v/NFLCSS/comments/373208" tabindex="1">How To Change Your Upvoat and Downvoat Icons</a>
+                <span class="domain">(<a href="/v/NFLCSS">v/NFLCSS</a>)</span>
+            </p>
+            <div class="expando-button collapsed selftext" onclick="loadSelfText(this, 373208)"></div>
+            
+                <p class="tagline">
+                    submitted <time title="8/4/2015 1:51:10 AM" datetime="8/4/2015 1:51:10 AM">8 months</time> ago by <a href="/user/ThatsMyGimmick" class="author may-blank userinfo" data-username="ThatsMyGimmick">ThatsMyGimmick</a>
+                    <span class="userattrs"></span> to <a href="/v/NFLCSS" class="subverse hover may-blank">NFLCSS</a>
+                    <span class="commentvotesratio">(<span class="post_upvotes">+8</span>|<span class="post_downvotes">-0</span>)</span>
+                </p>
+
+            <ul class="flat-list buttons">
+                <li class="first">
+                        <a href="/v/NFLCSS/comments/373208" class="comments may-blank">18 comments</a>
+                </li>
+                        <li>
+                            
+
+        <span class="option main active">
+            <a href="javascript:void(0)" class="togglebutton savelink" onclick="return toggleSaveSubmission(373208)">save</a>
+        </span>
+
+                        </li>
+            </ul>
+            <div class="expando" style="display: none">
+                <form style="" novalidate="novalidate" class="usertext" action="#">
+                    <div class="usertext-body may-blank-within">
+                        <div class="md">
+                            Please wait...
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>    
+
+
+
+    <div class="child"></div>
+    <div class="clearleft"></div>
+</div>
+
+
+
+
+
+                <div class="submission id-628088 odd link self" data-fullname="628088" data-ups="1" data-downs="">
+                    <p class="parent"></p>
+
+                    
+
+        <div class="midcol unvoted">
+
+                <div class="arrow-upvote login-required" onclick="voteUpSubmission(628088);" role="button" aria-label="upvote" tabindex="0"></div>
+
+            <div class="score dislikes">0</div>
+            <div class="score unvoted">3</div>
+            <div class="score likes">3</div>
+
+                <div class="arrow-downvote login-required" onclick="voteDownSubmission(628088);" role="button" aria-label="downvote" tabindex="0"></div>
+
+        </div>
+        <div class="scorebar" title="Blue = upvotes, violet = downvotes">
+            <div class="scorebar-likes" style="height: 100%"></div>
+            <div class="scorebar-dislikes" style="height: 0%"></div>
+        </div>
+
+
+                    
+
+
+
+        <div class="entry unvoted">
+            <p class="title">
+                <a class="title may-blank " href="/v/NFLCSS/comments/628088" tabindex="1" title="how to do a win/loss on your game list">how to do a win/loss on your game list</a>
+                <span class="domain">(<a href="/v/NFLCSS">v/NFLCSS</a>)</span>
+            </p>
+
+                    <div title="Toggle Self Text" class="expando-button collapsed selftext" onclick="loadSelfText(this, 628088)"></div>
+                    <p class="tagline">
+                        submitted <time title="10/31/2015 9:09:47 PM" datetime="10/31/2015 9:09:47 PM">4 months</time> ago by <a href="/user/onesidedsquare" class="author may-blank userinfo" data-username="onesidedsquare">onesidedsquare</a>
+                        <span class="userattrs"></span> to <a href="/v/NFLCSS" class="subverse hover may-blank">NFLCSS</a>
+                        <span class="commentvotesratio">(<span class="post_upvotes">+3</span>|<span class="post_downvotes">-0</span>)</span>
+                    </p>
+
+            <ul class="flat-list buttons">
+                <li class="first">
+                        <a href="/v/NFLCSS/comments/628088" class="comments may-blank">1 comments</a>
+
+                </li>
+                        <li>
+                            
+
+        <span class="option main active">
+            <a href="javascript:void(0)" class="togglebutton savelink" onclick="return toggleSaveSubmission(628088)">save</a>
+        </span>
+
+                        </li>
+            </ul>
+            <div class="expando" style="display: none">
+                <form style="" novalidate="novalidate" class="usertext" action="#">
+                    <div class="usertext-body may-blank-within">
+                        <div class="md">
+                            Please wait...
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+
+                    <div class="child"></div>
+                    <div class="clearleft"></div>
+                </div>
+                <div class="submission id-398513 even link self" data-fullname="398513" data-ups="1" data-downs="">
+                    <p class="parent"></p>
+
+                    
+
+        <div class="midcol likes">
+
+                <div class="arrow-upvoted login-required" onclick="voteUpSubmission(398513);" role="button" aria-label="upvote" tabindex="0"></div>
+
+            <div class="score dislikes">0</div>
+            <div class="score unvoted">5</div>
+            <div class="score likes">5</div>
+
+                <div class="arrow-downvote login-required" onclick="voteDownSubmission(398513);" role="button" aria-label="downvote" tabindex="0"></div>
+
+        </div>
+        <div class="scorebar" title="Blue = upvotes, violet = downvotes">
+            <div class="scorebar-likes" style="height: 100%"></div>
+            <div class="scorebar-dislikes" style="height: 0%"></div>
+        </div>
+
+
+                    
+
+
+
+        <div class="entry unvoted">
+            <p class="title">
+                <a class="title may-blank " href="/v/NFLCSS/comments/398513" tabindex="1" title="Broncos looks great! I love it. Help with a few things">Broncos looks great! I love it. Help with a few things</a>
+                <span class="domain">(<a href="/v/NFLCSS">v/NFLCSS</a>)</span>
+            </p>
+
+                    <div title="Toggle Self Text" class="expando-button collapsed selftext" onclick="loadSelfText(this, 398513)"></div>
+                    <p class="tagline">
+                        submitted <time title="8/10/2015 11:46:19 PM" datetime="8/10/2015 11:46:19 PM">7 months</time> ago by <a href="/user/adsnell2004" class="author may-blank userinfo" data-username="adsnell2004">adsnell2004</a>
+                        <span class="userattrs"></span> to <a href="/v/NFLCSS" class="subverse hover may-blank">NFLCSS</a>
+                        <span class="commentvotesratio">(<span class="post_upvotes">+5</span>|<span class="post_downvotes">-0</span>)</span>
+                    </p>
+
+            <ul class="flat-list buttons">
+                <li class="first">
+                        <a href="/v/NFLCSS/comments/398513" class="comments may-blank">1 comments</a>
+
+                </li>
+                        <li>
+                            
+
+        <span class="option main active">
+            <a href="javascript:void(0)" class="togglebutton savelink" onclick="return toggleSaveSubmission(398513)">save</a>
+        </span>
+
+                        </li>
+            </ul>
+            <div class="expando" style="display: none">
+                <form style="" novalidate="novalidate" class="usertext" action="#">
+                    <div class="usertext-body may-blank-within">
+                        <div class="md">
+                            Please wait...
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+
+                    <div class="child"></div>
+                    <div class="clearleft"></div>
+                </div>
+                <div class="submission id-388865 odd link self" data-fullname="388865" data-ups="1" data-downs="">
+                    <p class="parent"></p>
+
+                    
+
+        <div class="midcol likes">
+
+                <div class="arrow-upvoted login-required" onclick="voteUpSubmission(388865);" role="button" aria-label="upvote" tabindex="0"></div>
+
+            <div class="score dislikes">0</div>
+            <div class="score unvoted">6</div>
+            <div class="score likes">6</div>
+
+                <div class="arrow-downvote login-required" onclick="voteDownSubmission(388865);" role="button" aria-label="downvote" tabindex="0"></div>
+
+        </div>
+        <div class="scorebar" title="Blue = upvotes, violet = downvotes">
+            <div class="scorebar-likes" style="height: 100%"></div>
+            <div class="scorebar-dislikes" style="height: 0%"></div>
+        </div>
+
+
+                    
+
+
+
+        <div class="entry unvoted">
+            <p class="title">
+                <a class="title may-blank " href="/v/NFLCSS/comments/388865" tabindex="1" title="[Request] Need Help With Sidebar Schedule Similar To That Which Is On This Sub!">[Request] Need Help With Sidebar Schedule Similar To That Which Is On This Sub!</a>
+                <span class="domain">(<a href="/v/NFLCSS">v/NFLCSS</a>)</span>
+            </p>
+
+                    <div title="Toggle Self Text" class="expando-button collapsed selftext" onclick="loadSelfText(this, 388865)"></div>
+                    <p class="tagline">
+                        submitted <time title="8/8/2015 2:01:42 AM" datetime="8/8/2015 2:01:42 AM">7 months</time> ago by <a href="/user/ThatsMyGimmick" class="author may-blank userinfo" data-username="ThatsMyGimmick">ThatsMyGimmick</a>
+                        <span class="userattrs"></span> to <a href="/v/NFLCSS" class="subverse hover may-blank">NFLCSS</a>
+                        <span class="commentvotesratio">(<span class="post_upvotes">+6</span>|<span class="post_downvotes">-0</span>)</span>
+                    </p>
+
+            <ul class="flat-list buttons">
+                <li class="first">
+                        <a href="/v/NFLCSS/comments/388865" class="comments may-blank">9 comments</a>
+
+                </li>
+                        <li>
+                            
+
+        <span class="option main active">
+            <a href="javascript:void(0)" class="togglebutton savelink" onclick="return toggleSaveSubmission(388865)">save</a>
+        </span>
+
+                        </li>
+            </ul>
+            <div class="expando" style="display: none">
+                <form style="" novalidate="novalidate" class="usertext" action="#">
+                    <div class="usertext-body may-blank-within">
+                        <div class="md">
+                            Please wait...
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+
+                    <div class="child"></div>
+                    <div class="clearleft"></div>
+                </div>
+                <div class="submission id-373782 even link self" data-fullname="373782" data-ups="1" data-downs="">
+                    <p class="parent"></p>
+
+                    
+
+        <div class="midcol likes">
+
+                <div class="arrow-upvoted login-required" onclick="voteUpSubmission(373782);" role="button" aria-label="upvote" tabindex="0"></div>
+
+            <div class="score dislikes">0</div>
+            <div class="score unvoted">6</div>
+            <div class="score likes">6</div>
+
+                <div class="arrow-downvote login-required" onclick="voteDownSubmission(373782);" role="button" aria-label="downvote" tabindex="0"></div>
+
+        </div>
+        <div class="scorebar" title="Blue = upvotes, violet = downvotes">
+            <div class="scorebar-likes" style="height: 100%"></div>
+            <div class="scorebar-dislikes" style="height: 0%"></div>
+        </div>
+
+
+                    
+
+
+
+        <div class="entry unvoted">
+            <p class="title">
+                <a class="title may-blank " href="/v/NFLCSS/comments/373782" tabindex="1" title="Change the mod color ">Change the mod color </a>
+                <span class="domain">(<a href="/v/NFLCSS">v/NFLCSS</a>)</span>
+            </p>
+
+                    <div title="Toggle Self Text" class="expando-button collapsed selftext" onclick="loadSelfText(this, 373782)"></div>
+                    <p class="tagline">
+                        submitted <time title="8/4/2015 5:11:45 AM" datetime="8/4/2015 5:11:45 AM">7 months</time> ago by <a href="/user/redditbelowsme" class="author may-blank userinfo" data-username="redditbelowsme">redditbelowsme</a>
+                        <span class="userattrs"></span> to <a href="/v/NFLCSS" class="subverse hover may-blank">NFLCSS</a>
+                        <span class="commentvotesratio">(<span class="post_upvotes">+6</span>|<span class="post_downvotes">-0</span>)</span>
+                    </p>
+
+            <ul class="flat-list buttons">
+                <li class="first">
+                        <a href="/v/NFLCSS/comments/373782" class="comments may-blank">discuss</a>
+
+                </li>
+                        <li>
+                            
+
+        <span class="option main active">
+            <a href="javascript:void(0)" class="togglebutton savelink" onclick="return toggleSaveSubmission(373782)">save</a>
+        </span>
+
+                        </li>
+            </ul>
+            <div class="expando" style="display: none">
+                <form style="" novalidate="novalidate" class="usertext" action="#">
+                    <div class="usertext-body may-blank-within">
+                        <div class="md">
+                            Please wait...
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+
+                    <div class="child"></div>
+                    <div class="clearleft"></div>
+                </div>
+                <div class="submission id-370270 odd link self" data-fullname="370270" data-ups="1" data-downs="">
+                    <p class="parent"></p>
+
+                    
+
+        <div class="midcol likes">
+
+                <div class="arrow-upvoted login-required" onclick="voteUpSubmission(370270);" role="button" aria-label="upvote" tabindex="0"></div>
+
+            <div class="score dislikes">0</div>
+            <div class="score unvoted">6</div>
+            <div class="score likes">6</div>
+
+                <div class="arrow-downvote login-required" onclick="voteDownSubmission(370270);" role="button" aria-label="downvote" tabindex="0"></div>
+
+        </div>
+        <div class="scorebar" title="Blue = upvotes, violet = downvotes">
+            <div class="scorebar-likes" style="height: 100%"></div>
+            <div class="scorebar-dislikes" style="height: 0%"></div>
+        </div>
+
+
+                    
+
+
+
+        <div class="entry unvoted">
+            <p class="title">
+                <a class="title may-blank " href="/v/NFLCSS/comments/370270" tabindex="1" title="This is a sub for all NFL subs moderators to collaborate and share ideas on sub design for the NFL on Voat">This is a sub for all NFL subs moderators to collaborate and share ideas on sub design for the NFL on Voat</a>
+                <span class="domain">(<a href="/v/NFLCSS">v/NFLCSS</a>)</span>
+            </p>
+
+                    <div title="Toggle Self Text" class="expando-button collapsed selftext" onclick="loadSelfText(this, 370270)"></div>
+                    <p class="tagline">
+                        submitted <time title="8/3/2015 3:37:40 AM" datetime="8/3/2015 3:37:40 AM">7 months</time> ago by <a href="/user/redditbelowsme" class="author may-blank userinfo" data-username="redditbelowsme">redditbelowsme</a>
+                        <span class="userattrs"></span> to <a href="/v/NFLCSS" class="subverse hover may-blank">NFLCSS</a>
+                        <span class="commentvotesratio">(<span class="post_upvotes">+6</span>|<span class="post_downvotes">-0</span>)</span>
+                    </p>
+
+            <ul class="flat-list buttons">
+                <li class="first">
+                        <a href="/v/NFLCSS/comments/370270" class="comments may-blank">2 comments</a>
+
+                </li>
+                        <li>
+                            
+
+        <span class="option main active">
+            <a href="javascript:void(0)" class="togglebutton savelink" onclick="return toggleSaveSubmission(370270)">save</a>
+        </span>
+
+                        </li>
+            </ul>
+            <div class="expando" style="display: none">
+                <form style="" novalidate="novalidate" class="usertext" action="#">
+                    <div class="usertext-body may-blank-within">
+                        <div class="md">
+                            Please wait...
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+
+                    <div class="child"></div>
+                    <div class="clearleft"></div>
+                </div>
+                <div class="submission id-447297 even link self" data-fullname="447297" data-ups="1" data-downs="">
+                    <p class="parent"></p>
+
+                    
+
+        <div class="midcol unvoted">
+
+                <div class="arrow-upvote login-required" onclick="voteUpSubmission(447297);" role="button" aria-label="upvote" tabindex="0"></div>
+
+            <div class="score dislikes">0</div>
+            <div class="score unvoted">4</div>
+            <div class="score likes">4</div>
+
+                <div class="arrow-downvote login-required" onclick="voteDownSubmission(447297);" role="button" aria-label="downvote" tabindex="0"></div>
+
+        </div>
+        <div class="scorebar" title="Blue = upvotes, violet = downvotes">
+            <div class="scorebar-likes" style="height: 100%"></div>
+            <div class="scorebar-dislikes" style="height: 0%"></div>
+        </div>
+
+
+                    
+
+
+
+        <div class="entry unvoted">
+            <p class="title">
+                <a class="title may-blank " href="/v/NFLCSS/comments/447297" tabindex="1" title="trying to finish v3 of panthers css">trying to finish v3 of panthers css</a>
+                <span class="domain">(<a href="/v/NFLCSS">v/NFLCSS</a>)</span>
+            </p>
+
+                    <div title="Toggle Self Text" class="expando-button collapsed selftext" onclick="loadSelfText(this, 447297)"></div>
+                    <p class="tagline">
+                        submitted <time title="8/25/2015 4:33:34 PM" datetime="8/25/2015 4:33:34 PM">7 months</time> ago by <a href="/user/onesidedsquare" class="author may-blank userinfo" data-username="onesidedsquare">onesidedsquare</a>
+                        <span class="userattrs"></span> to <a href="/v/NFLCSS" class="subverse hover may-blank">NFLCSS</a>
+                        <span class="commentvotesratio">(<span class="post_upvotes">+4</span>|<span class="post_downvotes">-0</span>)</span>
+                    </p>
+
+            <ul class="flat-list buttons">
+                <li class="first">
+                        <a href="/v/NFLCSS/comments/447297" class="comments may-blank">3 comments</a>
+
+                </li>
+                        <li>
+                            
+
+        <span class="option main active">
+            <a href="javascript:void(0)" class="togglebutton savelink" onclick="return toggleSaveSubmission(447297)">save</a>
+        </span>
+
+                        </li>
+            </ul>
+            <div class="expando" style="display: none">
+                <form style="" novalidate="novalidate" class="usertext" action="#">
+                    <div class="usertext-body may-blank-within">
+                        <div class="md">
+                            Please wait...
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+
+                    <div class="child"></div>
+                    <div class="clearleft"></div>
+                </div>
+                <div class="submission id-396475 odd link self" data-fullname="396475" data-ups="1" data-downs="">
+                    <p class="parent"></p>
+
+                    
+
+        <div class="midcol unvoted">
+
+                <div class="arrow-upvote login-required" onclick="voteUpSubmission(396475);" role="button" aria-label="upvote" tabindex="0"></div>
+
+            <div class="score dislikes">0</div>
+            <div class="score unvoted">5</div>
+            <div class="score likes">5</div>
+
+                <div class="arrow-downvote login-required" onclick="voteDownSubmission(396475);" role="button" aria-label="downvote" tabindex="0"></div>
+
+        </div>
+        <div class="scorebar" title="Blue = upvotes, violet = downvotes">
+            <div class="scorebar-likes" style="height: 100%"></div>
+            <div class="scorebar-dislikes" style="height: 0%"></div>
+        </div>
+
+
+                    
+
+
+
+        <div class="entry unvoted">
+            <p class="title">
+                <a class="title may-blank " href="/v/NFLCSS/comments/396475" tabindex="1" title="Sprites for various teams and general NFL logos Patriots, Broncos, Saints, Lions, Giants, Colleges, Twitter and Facebook logos">Sprites for various teams and general NFL logos Patriots, Broncos, Saints, Lions, Giants, Colleges, Twitter and Facebook logos</a>
+                <span class="domain">(<a href="/v/NFLCSS">v/NFLCSS</a>)</span>
+            </p>
+
+                    <div title="Toggle Self Text" class="expando-button collapsed selftext" onclick="loadSelfText(this, 396475)"></div>
+                    <p class="tagline">
+                        submitted <time title="8/10/2015 9:00:12 AM" datetime="8/10/2015 9:00:12 AM">7 months</time> ago by <a href="/user/redditbelowsme" class="author may-blank userinfo" data-username="redditbelowsme">redditbelowsme</a>
+                        <span class="userattrs"></span> to <a href="/v/NFLCSS" class="subverse hover may-blank">NFLCSS</a>
+                        <span class="commentvotesratio">(<span class="post_upvotes">+5</span>|<span class="post_downvotes">-0</span>)</span>
+                    </p>
+
+            <ul class="flat-list buttons">
+                <li class="first">
+                        <a href="/v/NFLCSS/comments/396475" class="comments may-blank">1 comments</a>
+
+                </li>
+                        <li>
+                            
+
+        <span class="option main active">
+            <a href="javascript:void(0)" class="togglebutton savelink" onclick="return toggleSaveSubmission(396475)">save</a>
+        </span>
+
+                        </li>
+            </ul>
+            <div class="expando" style="display: none">
+                <form style="" novalidate="novalidate" class="usertext" action="#">
+                    <div class="usertext-body may-blank-within">
+                        <div class="md">
+                            Please wait...
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+
+                    <div class="child"></div>
+                    <div class="clearleft"></div>
+                </div>
+                <div class="submission id-392401 even link " data-fullname="392401" data-ups="1" data-downs="">
+                    <p class="parent"></p>
+
+                    
+
+        <div class="midcol unvoted">
+
+                <div class="arrow-upvote login-required" onclick="voteUpSubmission(392401);" role="button" aria-label="upvote" tabindex="0"></div>
+
+            <div class="score dislikes">0</div>
+            <div class="score unvoted">5</div>
+            <div class="score likes">5</div>
+
+                <div class="arrow-downvote login-required" onclick="voteDownSubmission(392401);" role="button" aria-label="downvote" tabindex="0"></div>
+
+        </div>
+        <div class="scorebar" title="Blue = upvotes, violet = downvotes">
+            <div class="scorebar-likes" style="height: 100%"></div>
+            <div class="scorebar-dislikes" style="height: 0%"></div>
+        </div>
+
+
+                    
+
+
+
+                    <a class="thumbnail may-blank" href="https://imgur.com/a/TPpgE" target="_blank">
+                            <img src="https://cdn.voat.co/thumbs/618a19a9-0f6b-4068-b961-fc6188c7d5bd.jpg" alt="A precursor to what&#39;s coming soon." />
+                    </a>
+        <div class="entry unvoted">
+            <p class="title">
+                <a class="title may-blank " href="https://imgur.com/a/TPpgE" tabindex="1" title="A precursor to what&#39;s coming soon." target="_blank">A precursor to what&#39;s coming soon.</a>
+                <span class="domain">(<a href="/domains/imgur.com/">imgur.com</a>)</span>
+            </p>
+
+                    <p class="tagline">
+                        submitted <time title="8/9/2015 2:59:40 AM" datetime="8/9/2015 2:59:40 AM">7 months</time> ago by <a href="/user/NateThomas1979" class="author may-blank userinfo" data-username="NateThomas1979">NateThomas1979</a>
+                        <span class="userattrs"></span> to <a href="/v/NFLCSS" class="subverse hover may-blank">NFLCSS</a>
+                        <span class="commentvotesratio">(<span class="post_upvotes">+5</span>|<span class="post_downvotes">-0</span>)</span>
+                    </p>
+
+            <ul class="flat-list buttons">
+                <li class="first">
+                        <a href="/v/NFLCSS/comments/392401" class="comments may-blank">20 comments</a>
+                </li>
+                        <li>
+                            
+
+        <span class="option main active">
+            <a href="javascript:void(0)" class="togglebutton savelink" onclick="return toggleSaveSubmission(392401)">save</a>
+        </span>
+
+                        </li>
+            </ul>
+            <div class="expando" style="display: none">
+                <form style="" novalidate="novalidate" class="usertext" action="#">
+                    <div class="usertext-body may-blank-within">
+                        <div class="videoplayer">
+                            Loading magic stuff...
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+
+                    <div class="child"></div>
+                    <div class="clearleft"></div>
+                </div>
+                <div class="submission id-373555 odd link " data-fullname="373555" data-ups="1" data-downs="">
+                    <p class="parent"></p>
+
+                    
+
+        <div class="midcol likes">
+
+                <div class="arrow-upvoted login-required" onclick="voteUpSubmission(373555);" role="button" aria-label="upvote" tabindex="0"></div>
+
+            <div class="score dislikes">0</div>
+            <div class="score unvoted">5</div>
+            <div class="score likes">5</div>
+
+                <div class="arrow-downvote login-required" onclick="voteDownSubmission(373555);" role="button" aria-label="downvote" tabindex="0"></div>
+
+        </div>
+        <div class="scorebar" title="Blue = upvotes, violet = downvotes">
+            <div class="scorebar-likes" style="height: 100%"></div>
+            <div class="scorebar-dislikes" style="height: 0%"></div>
+        </div>
+
+
+                    
+
+
+
+        <div class="entry unvoted">
+            <p class="title">
+                <a class="title may-blank " href="http://teamcolors.arc90.com/" tabindex="1" title="Official Team colors, in CSS code" target="_blank">Official Team colors, in CSS code</a>
+                <span class="domain">(<a href="/domains/teamcolors.arc90.com/">teamcolors.arc90.com</a>)</span>
+            </p>
+
+                    <p class="tagline">
+                        submitted <time title="8/4/2015 3:48:25 AM" datetime="8/4/2015 3:48:25 AM">7 months</time> ago by <a href="/user/redditbelowsme" class="author may-blank userinfo" data-username="redditbelowsme">redditbelowsme</a>
+                        <span class="userattrs"></span> to <a href="/v/NFLCSS" class="subverse hover may-blank">NFLCSS</a>
+                        <span class="commentvotesratio">(<span class="post_upvotes">+5</span>|<span class="post_downvotes">-0</span>)</span>
+                    </p>
+
+            <ul class="flat-list buttons">
+                <li class="first">
+                        <a href="/v/NFLCSS/comments/373555" class="comments may-blank">discuss</a>
+                </li>
+                        <li>
+                            
+
+        <span class="option main active">
+            <a href="javascript:void(0)" class="togglebutton savelink" onclick="return toggleSaveSubmission(373555)">save</a>
+        </span>
+
+                        </li>
+            </ul>
+            <div class="expando" style="display: none">
+                <form style="" novalidate="novalidate" class="usertext" action="#">
+                    <div class="usertext-body may-blank-within">
+                        <div class="videoplayer">
+                            Loading magic stuff...
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+
+                    <div class="child"></div>
+                    <div class="clearleft"></div>
+                </div>
+                <div class="submission id-373542 even link self" data-fullname="373542" data-ups="1" data-downs="">
+                    <p class="parent"></p>
+
+                    
+
+        <div class="midcol likes">
+
+                <div class="arrow-upvoted login-required" onclick="voteUpSubmission(373542);" role="button" aria-label="upvote" tabindex="0"></div>
+
+            <div class="score dislikes">0</div>
+            <div class="score unvoted">5</div>
+            <div class="score likes">5</div>
+
+                <div class="arrow-downvote login-required" onclick="voteDownSubmission(373542);" role="button" aria-label="downvote" tabindex="0"></div>
+
+        </div>
+        <div class="scorebar" title="Blue = upvotes, violet = downvotes">
+            <div class="scorebar-likes" style="height: 100%"></div>
+            <div class="scorebar-dislikes" style="height: 0%"></div>
+        </div>
+
+
+                    
+
+
+
+        <div class="entry unvoted">
+            <p class="title">
+                <a class="title may-blank " href="/v/NFLCSS/comments/373542" tabindex="1" title="How to change your sticky note color to team colors or images.">How to change your sticky note color to team colors or images.</a>
+                <span class="domain">(<a href="/v/NFLCSS">v/NFLCSS</a>)</span>
+            </p>
+
+                    <div title="Toggle Self Text" class="expando-button collapsed selftext" onclick="loadSelfText(this, 373542)"></div>
+                    <p class="tagline">
+                        submitted <time title="8/4/2015 3:42:28 AM" datetime="8/4/2015 3:42:28 AM">7 months</time> ago by <a href="/user/redditbelowsme" class="author may-blank userinfo" data-username="redditbelowsme">redditbelowsme</a>
+                        <span class="userattrs"></span> to <a href="/v/NFLCSS" class="subverse hover may-blank">NFLCSS</a>
+                        <span class="commentvotesratio">(<span class="post_upvotes">+5</span>|<span class="post_downvotes">-0</span>)</span>
+                    </p>
+
+            <ul class="flat-list buttons">
+                <li class="first">
+                        <a href="/v/NFLCSS/comments/373542" class="comments may-blank">discuss</a>
+
+                </li>
+                        <li>
+                            
+
+        <span class="option main active">
+            <a href="javascript:void(0)" class="togglebutton savelink" onclick="return toggleSaveSubmission(373542)">save</a>
+        </span>
+
+                        </li>
+            </ul>
+            <div class="expando" style="display: none">
+                <form style="" novalidate="novalidate" class="usertext" action="#">
+                    <div class="usertext-body may-blank-within">
+                        <div class="md">
+                            Please wait...
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+
+                    <div class="child"></div>
+                    <div class="clearleft"></div>
+                </div>
+                <div class="submission id-372742 odd link " data-fullname="372742" data-ups="1" data-downs="">
+                    <p class="parent"></p>
+
+                    
+
+        <div class="midcol likes">
+
+                <div class="arrow-upvoted login-required" onclick="voteUpSubmission(372742);" role="button" aria-label="upvote" tabindex="0"></div>
+
+            <div class="score dislikes">0</div>
+            <div class="score unvoted">4</div>
+            <div class="score likes">4</div>
+
+                <div class="arrow-downvote login-required" onclick="voteDownSubmission(372742);" role="button" aria-label="downvote" tabindex="0"></div>
+
+        </div>
+        <div class="scorebar" title="Blue = upvotes, violet = downvotes">
+            <div class="scorebar-likes" style="height: 100%"></div>
+            <div class="scorebar-dislikes" style="height: 0%"></div>
+        </div>
+
+
+                    
+
+
+
+                    <a class="thumbnail may-blank" href="http://i.imgur.com/w0wqQBx.png" target="_blank">
+                            <img src="https://cdn.voat.co/thumbs/9f204b54-3464-4ba0-9c9f-18a7c784ac2a.jpg" alt="St. Louis Rams Flair sprite png transparend background" />
+                    </a>
+        <div class="entry unvoted">
+            <p class="title">
+                <a class="title may-blank " href="http://i.imgur.com/w0wqQBx.png" tabindex="1" title="St. Louis Rams Flair sprite png transparend background" target="_blank">St. Louis Rams Flair sprite png transparend background</a>
+                <span class="domain">(<a href="/domains/i.imgur.com/">i.imgur.com</a>)</span>
+            </p>
+
+                    <p class="tagline">
+                        submitted <time title="8/3/2015 11:15:26 PM" datetime="8/3/2015 11:15:26 PM">7 months</time> ago by <a href="/user/redditbelowsme" class="author may-blank userinfo" data-username="redditbelowsme">redditbelowsme</a>
+                        <span class="userattrs"></span> to <a href="/v/NFLCSS" class="subverse hover may-blank">NFLCSS</a>
+                        <span class="commentvotesratio">(<span class="post_upvotes">+4</span>|<span class="post_downvotes">-0</span>)</span>
+                    </p>
+
+            <ul class="flat-list buttons">
+                <li class="first">
+                        <a href="/v/NFLCSS/comments/372742" class="comments may-blank">8 comments</a>
+                </li>
+                        <li>
+                            
+
+        <span class="option main active">
+            <a href="javascript:void(0)" class="togglebutton savelink" onclick="return toggleSaveSubmission(372742)">save</a>
+        </span>
+
+                        </li>
+            </ul>
+            <div class="expando" style="display: none">
+                <form style="" novalidate="novalidate" class="usertext" action="#">
+                    <div class="usertext-body may-blank-within">
+                        <div class="videoplayer">
+                            Loading magic stuff...
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+
+                    <div class="child"></div>
+                    <div class="clearleft"></div>
+                </div>
+                <div class="submission id-370332 even link " data-fullname="370332" data-ups="1" data-downs="">
+                    <p class="parent"></p>
+
+                    
+
+        <div class="midcol likes">
+
+                <div class="arrow-upvoted login-required" onclick="voteUpSubmission(370332);" role="button" aria-label="upvote" tabindex="0"></div>
+
+            <div class="score dislikes">0</div>
+            <div class="score unvoted">4</div>
+            <div class="score likes">4</div>
+
+                <div class="arrow-downvote login-required" onclick="voteDownSubmission(370332);" role="button" aria-label="downvote" tabindex="0"></div>
+
+        </div>
+        <div class="scorebar" title="Blue = upvotes, violet = downvotes">
+            <div class="scorebar-likes" style="height: 100%"></div>
+            <div class="scorebar-dislikes" style="height: 0%"></div>
+        </div>
+
+
+                    
+
+
+
+                    <a class="thumbnail may-blank" href="http://blog.psprint.com/printing/nfl-color-palettes/" target="_blank">
+                            <img src="https://cdn.voat.co/thumbs/667ab793-c69d-4692-8a97-25c87e65fc8a.jpg" alt="The official color palettes for all 32 teams.  In HEX RGB and Martha Living" />
+                    </a>
+        <div class="entry unvoted">
+            <p class="title">
+                <a class="title may-blank " href="http://blog.psprint.com/printing/nfl-color-palettes/" tabindex="1" title="The official color palettes for all 32 teams.  In HEX RGB and Martha Living" target="_blank">The official color palettes for all 32 teams.  In HEX RGB and Martha Living</a>
+                <span class="domain">(<a href="/domains/blog.psprint.com/">blog.psprint.com</a>)</span>
+            </p>
+
+                    <p class="tagline">
+                        submitted <time title="8/3/2015 4:07:29 AM" datetime="8/3/2015 4:07:29 AM">7 months</time> ago by <a href="/user/redditbelowsme" class="author may-blank userinfo" data-username="redditbelowsme">redditbelowsme</a>
+                        <span class="userattrs"></span> to <a href="/v/NFLCSS" class="subverse hover may-blank">NFLCSS</a>
+                        <span class="commentvotesratio">(<span class="post_upvotes">+4</span>|<span class="post_downvotes">-0</span>)</span>
+                    </p>
+
+            <ul class="flat-list buttons">
+                <li class="first">
+                        <a href="/v/NFLCSS/comments/370332" class="comments may-blank">2 comments</a>
+                </li>
+                        <li>
+                            
+
+        <span class="option main active">
+            <a href="javascript:void(0)" class="togglebutton savelink" onclick="return toggleSaveSubmission(370332)">save</a>
+        </span>
+
+                        </li>
+            </ul>
+            <div class="expando" style="display: none">
+                <form style="" novalidate="novalidate" class="usertext" action="#">
+                    <div class="usertext-body may-blank-within">
+                        <div class="videoplayer">
+                            Loading magic stuff...
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+
+                    <div class="child"></div>
+                    <div class="clearleft"></div>
+                </div>
+                <div class="submission id-370300 odd link self" data-fullname="370300" data-ups="1" data-downs="">
+                    <p class="parent"></p>
+
+                    
+
+        <div class="midcol likes">
+
+                <div class="arrow-upvoted login-required" onclick="voteUpSubmission(370300);" role="button" aria-label="upvote" tabindex="0"></div>
+
+            <div class="score dislikes">0</div>
+            <div class="score unvoted">4</div>
+            <div class="score likes">4</div>
+
+                <div class="arrow-downvote login-required" onclick="voteDownSubmission(370300);" role="button" aria-label="downvote" tabindex="0"></div>
+
+        </div>
+        <div class="scorebar" title="Blue = upvotes, violet = downvotes">
+            <div class="scorebar-likes" style="height: 100%"></div>
+            <div class="scorebar-dislikes" style="height: 0%"></div>
+        </div>
+
+
+                    
+
+
+
+        <div class="entry unvoted">
+            <p class="title">
+                <a class="title may-blank " href="/v/NFLCSS/comments/370300" tabindex="1" title="If you are moderating an NFL sub and want to particapate in your subs CSS PM me to be part of the mod team here.">If you are moderating an NFL sub and want to particapate in your subs CSS PM me to be part of the mod team here.</a>
+                <span class="domain">(<a href="/v/NFLCSS">v/NFLCSS</a>)</span>
+            </p>
+
+                    <p class="tagline">
+                        submitted <time title="8/3/2015 3:51:46 AM" datetime="8/3/2015 3:51:46 AM">7 months</time> ago by <a href="/user/redditbelowsme" class="author may-blank userinfo" data-username="redditbelowsme">redditbelowsme</a>
+                        <span class="userattrs"></span> to <a href="/v/NFLCSS" class="subverse hover may-blank">NFLCSS</a>
+                        <span class="commentvotesratio">(<span class="post_upvotes">+4</span>|<span class="post_downvotes">-0</span>)</span>
+                    </p>
+
+            <ul class="flat-list buttons">
+                <li class="first">
+                        <a href="/v/NFLCSS/comments/370300" class="comments may-blank">2 comments</a>
+
+                </li>
+                        <li>
+                            
+
+        <span class="option main active">
+            <a href="javascript:void(0)" class="togglebutton savelink" onclick="return toggleSaveSubmission(370300)">save</a>
+        </span>
+
+                        </li>
+            </ul>
+            <div class="expando" style="display: none">
+                <form style="" novalidate="novalidate" class="usertext" action="#">
+                    <div class="usertext-body may-blank-within">
+                        <div class="md">
+                            Please wait...
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+
+                    <div class="child"></div>
+                    <div class="clearleft"></div>
+                </div>
+                <div class="submission id-466376 even link " data-fullname="466376" data-ups="1" data-downs="">
+                    <p class="parent"></p>
+
+                    
+
+        <div class="midcol unvoted">
+
+                <div class="arrow-upvote login-required" onclick="voteUpSubmission(466376);" role="button" aria-label="upvote" tabindex="0"></div>
+
+            <div class="score dislikes">0</div>
+            <div class="score unvoted">3</div>
+            <div class="score likes">3</div>
+
+                <div class="arrow-downvote login-required" onclick="voteDownSubmission(466376);" role="button" aria-label="downvote" tabindex="0"></div>
+
+        </div>
+        <div class="scorebar" title="Blue = upvotes, violet = downvotes">
+            <div class="scorebar-likes" style="height: 100%"></div>
+            <div class="scorebar-dislikes" style="height: 0%"></div>
+        </div>
+
+
+                    
+
+
+
+        <div class="entry unvoted">
+            <p class="title">
+                <a class="title may-blank " href="https://voat.co/v/CustomizingVoat/comments/466337" tabindex="1" title="This falls into the are you serious catagory. LOL " target="_blank">This falls into the are you serious catagory. LOL </a>
+                <span class="domain">(<a href="/domains/voat.co/">voat.co</a>)</span>
+            </p>
+
+                    <p class="tagline">
+                        submitted <time title="8/31/2015 7:32:12 AM" datetime="8/31/2015 7:32:12 AM">6 months</time> ago by <a href="/user/redditbelowsme" class="author may-blank userinfo" data-username="redditbelowsme">redditbelowsme</a>
+                        <span class="userattrs"></span> to <a href="/v/NFLCSS" class="subverse hover may-blank">NFLCSS</a>
+                        <span class="commentvotesratio">(<span class="post_upvotes">+3</span>|<span class="post_downvotes">-0</span>)</span>
+                    </p>
+
+            <ul class="flat-list buttons">
+                <li class="first">
+                        <a href="/v/NFLCSS/comments/466376" class="comments may-blank">discuss</a>
+                </li>
+                        <li>
+                            
+
+        <span class="option main active">
+            <a href="javascript:void(0)" class="togglebutton savelink" onclick="return toggleSaveSubmission(466376)">save</a>
+        </span>
+
+                        </li>
+            </ul>
+            <div class="expando" style="display: none">
+                <form style="" novalidate="novalidate" class="usertext" action="#">
+                    <div class="usertext-body may-blank-within">
+                        <div class="videoplayer">
+                            Loading magic stuff...
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+
+                    <div class="child"></div>
+                    <div class="clearleft"></div>
+                </div>
+                <div class="submission id-465662 odd link self" data-fullname="465662" data-ups="1" data-downs="">
+                    <p class="parent"></p>
+
+                    
+
+        <div class="midcol unvoted">
+
+                <div class="arrow-upvote login-required" onclick="voteUpSubmission(465662);" role="button" aria-label="upvote" tabindex="0"></div>
+
+            <div class="score dislikes">0</div>
+            <div class="score unvoted">3</div>
+            <div class="score likes">3</div>
+
+                <div class="arrow-downvote login-required" onclick="voteDownSubmission(465662);" role="button" aria-label="downvote" tabindex="0"></div>
+
+        </div>
+        <div class="scorebar" title="Blue = upvotes, violet = downvotes">
+            <div class="scorebar-likes" style="height: 100%"></div>
+            <div class="scorebar-dislikes" style="height: 0%"></div>
+        </div>
+
+
+                    
+
+
+
+        <div class="entry unvoted">
+            <p class="title">
+                <a class="title may-blank " href="/v/NFLCSS/comments/465662" tabindex="1" title="Game Thread">Game Thread</a>
+                <span class="domain">(<a href="/v/NFLCSS">v/NFLCSS</a>)</span>
+            </p>
+
+                    <div title="Toggle Self Text" class="expando-button collapsed selftext" onclick="loadSelfText(this, 465662)"></div>
+                    <p class="tagline">
+                        submitted <time title="8/31/2015 1:43:14 AM" datetime="8/31/2015 1:43:14 AM">6 months</time> ago by <a href="/user/Zunox" class="author may-blank userinfo" data-username="Zunox">Zunox</a>
+                        <span class="userattrs"></span> to <a href="/v/NFLCSS" class="subverse hover may-blank">NFLCSS</a>
+                        <span class="commentvotesratio">(<span class="post_upvotes">+3</span>|<span class="post_downvotes">-0</span>)</span>
+                    </p>
+
+            <ul class="flat-list buttons">
+                <li class="first">
+                        <a href="/v/NFLCSS/comments/465662" class="comments may-blank">discuss</a>
+
+                </li>
+                        <li>
+                            
+
+        <span class="option main active">
+            <a href="javascript:void(0)" class="togglebutton savelink" onclick="return toggleSaveSubmission(465662)">save</a>
+        </span>
+
+                        </li>
+            </ul>
+            <div class="expando" style="display: none">
+                <form style="" novalidate="novalidate" class="usertext" action="#">
+                    <div class="usertext-body may-blank-within">
+                        <div class="md">
+                            Please wait...
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+
+                    <div class="child"></div>
+                    <div class="clearleft"></div>
+                </div>
+                <div class="submission id-507538 even link self" data-fullname="507538" data-ups="1" data-downs="">
+                    <p class="parent"></p>
+
+                    
+
+        <div class="midcol unvoted">
+
+                <div class="arrow-upvote login-required" onclick="voteUpSubmission(507538);" role="button" aria-label="upvote" tabindex="0"></div>
+
+            <div class="score dislikes">0</div>
+            <div class="score unvoted">2</div>
+            <div class="score likes">2</div>
+
+                <div class="arrow-downvote login-required" onclick="voteDownSubmission(507538);" role="button" aria-label="downvote" tabindex="0"></div>
+
+        </div>
+        <div class="scorebar" title="Blue = upvotes, violet = downvotes">
+            <div class="scorebar-likes" style="height: 100%"></div>
+            <div class="scorebar-dislikes" style="height: 0%"></div>
+        </div>
+
+
+                    
+
+
+
+        <div class="entry unvoted">
+            <p class="title">
+                <a class="title may-blank " href="/v/NFLCSS/comments/507538" tabindex="1" title="How do the new graidents look?  Cool or flush em?">How do the new graidents look?  Cool or flush em?</a>
+                <span class="domain">(<a href="/v/NFLCSS">v/NFLCSS</a>)</span>
+            </p>
+
+                    <div title="Toggle Self Text" class="expando-button collapsed selftext" onclick="loadSelfText(this, 507538)"></div>
+                    <p class="tagline">
+                        submitted <time title="9/13/2015 7:19:08 PM" datetime="9/13/2015 7:19:08 PM">6 months</time> ago by <a href="/user/redditbelowsme" class="author may-blank userinfo" data-username="redditbelowsme">redditbelowsme</a>
+                        <span class="userattrs"></span> to <a href="/v/NFLCSS" class="subverse hover may-blank">NFLCSS</a>
+                        <span class="commentvotesratio">(<span class="post_upvotes">+2</span>|<span class="post_downvotes">-0</span>)</span>
+                    </p>
+
+            <ul class="flat-list buttons">
+                <li class="first">
+                        <a href="/v/NFLCSS/comments/507538" class="comments may-blank">discuss</a>
+
+                </li>
+                        <li>
+                            
+
+        <span class="option main active">
+            <a href="javascript:void(0)" class="togglebutton savelink" onclick="return toggleSaveSubmission(507538)">save</a>
+        </span>
+
+                        </li>
+            </ul>
+            <div class="expando" style="display: none">
+                <form style="" novalidate="novalidate" class="usertext" action="#">
+                    <div class="usertext-body may-blank-within">
+                        <div class="md">
+                            Please wait...
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+
+                    <div class="child"></div>
+                    <div class="clearleft"></div>
+                </div>
+                <div class="submission id-392190 odd link " data-fullname="392190" data-ups="1" data-downs="">
+                    <p class="parent"></p>
+
+                    
+
+        <div class="midcol unvoted">
+
+                <div class="arrow-upvote login-required" onclick="voteUpSubmission(392190);" role="button" aria-label="upvote" tabindex="0"></div>
+
+            <div class="score dislikes">0</div>
+            <div class="score unvoted">3</div>
+            <div class="score likes">3</div>
+
+                <div class="arrow-downvote login-required" onclick="voteDownSubmission(392190);" role="button" aria-label="downvote" tabindex="0"></div>
+
+        </div>
+        <div class="scorebar" title="Blue = upvotes, violet = downvotes">
+            <div class="scorebar-likes" style="height: 100%"></div>
+            <div class="scorebar-dislikes" style="height: 0%"></div>
+        </div>
+
+
+                    
+
+
+
+        <div class="entry unvoted">
+            <p class="title">
+                <a class="title may-blank " href="http://i.imgur.com/AL3tEKd.png?1" tabindex="1" title="Bears side bar png graphic" target="_blank">Bears side bar png graphic</a>
+                <span class="domain">(<a href="/domains/i.imgur.com/">i.imgur.com</a>)</span>
+            </p>
+
+                    <p class="tagline">
+                        submitted <time title="8/9/2015 1:27:55 AM" datetime="8/9/2015 1:27:55 AM">7 months</time> ago by <a href="/user/redditbelowsme" class="author may-blank userinfo" data-username="redditbelowsme">redditbelowsme</a>
+                        <span class="userattrs"></span> to <a href="/v/NFLCSS" class="subverse hover may-blank">NFLCSS</a>
+                        <span class="commentvotesratio">(<span class="post_upvotes">+3</span>|<span class="post_downvotes">-0</span>)</span>
+                    </p>
+
+            <ul class="flat-list buttons">
+                <li class="first">
+                        <a href="/v/NFLCSS/comments/392190" class="comments may-blank">2 comments</a>
+                </li>
+                        <li>
+                            
+
+        <span class="option main active">
+            <a href="javascript:void(0)" class="togglebutton savelink" onclick="return toggleSaveSubmission(392190)">save</a>
+        </span>
+
+                        </li>
+            </ul>
+            <div class="expando" style="display: none">
+                <form style="" novalidate="novalidate" class="usertext" action="#">
+                    <div class="usertext-body may-blank-within">
+                        <div class="videoplayer">
+                            Loading magic stuff...
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+
+                    <div class="child"></div>
+                    <div class="clearleft"></div>
+                </div>
+                <div class="submission id-392044 even link " data-fullname="392044" data-ups="1" data-downs="">
+                    <p class="parent"></p>
+
+                    
+
+        <div class="midcol unvoted">
+
+                <div class="arrow-upvote login-required" onclick="voteUpSubmission(392044);" role="button" aria-label="upvote" tabindex="0"></div>
+
+            <div class="score dislikes">0</div>
+            <div class="score unvoted">3</div>
+            <div class="score likes">3</div>
+
+                <div class="arrow-downvote login-required" onclick="voteDownSubmission(392044);" role="button" aria-label="downvote" tabindex="0"></div>
+
+        </div>
+        <div class="scorebar" title="Blue = upvotes, violet = downvotes">
+            <div class="scorebar-likes" style="height: 100%"></div>
+            <div class="scorebar-dislikes" style="height: 0%"></div>
+        </div>
+
+
+                    
+
+
+
+                    <a class="thumbnail may-blank" href="https://www.youtube.com/watch?v=QhD7SwoNuDA" target="_blank">
+                            <img src="https://cdn.voat.co/thumbs/76032b1d-cca4-42cd-bd9b-8704cfc5baeb.jpg" alt="Denver Broncos, its the price of admission... he he" />
+                    </a>
+        <div class="entry unvoted">
+            <p class="title">
+                <a class="title may-blank " href="https://www.youtube.com/watch?v=QhD7SwoNuDA" tabindex="1" title="Denver Broncos, its the price of admission... he he" target="_blank">Denver Broncos, its the price of admission... he he</a>
+                <span class="domain">(<a href="/domains/youtube.com/">youtube.com</a>)</span>
+            </p>
+
+                    <p class="tagline">
+                        submitted <time title="8/9/2015 12:14:25 AM" datetime="8/9/2015 12:14:25 AM">7 months</time> ago by <a href="/user/redditbelowsme" class="author may-blank userinfo" data-username="redditbelowsme">redditbelowsme</a>
+                        <span class="userattrs"></span> to <a href="/v/NFLCSS" class="subverse hover may-blank">NFLCSS</a>
+                        <span class="commentvotesratio">(<span class="post_upvotes">+3</span>|<span class="post_downvotes">-0</span>)</span>
+                    </p>
+
+            <ul class="flat-list buttons">
+                <li class="first">
+                        <a href="/v/NFLCSS/comments/392044" class="comments may-blank">1 comments</a>
+                </li>
+                        <li>
+                            
+
+        <span class="option main active">
+            <a href="javascript:void(0)" class="togglebutton savelink" onclick="return toggleSaveSubmission(392044)">save</a>
+        </span>
+
+                        </li>
+            </ul>
+            <div class="expando" style="display: none">
+                <form style="" novalidate="novalidate" class="usertext" action="#">
+                    <div class="usertext-body may-blank-within">
+                        <div class="videoplayer">
+                            Loading magic stuff...
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+
+                    <div class="child"></div>
+                    <div class="clearleft"></div>
+                </div>
+                <div class="submission id-385052 odd link " data-fullname="385052" data-ups="1" data-downs="">
+                    <p class="parent"></p>
+
+                    
+
+        <div class="midcol unvoted">
+
+                <div class="arrow-upvote login-required" onclick="voteUpSubmission(385052);" role="button" aria-label="upvote" tabindex="0"></div>
+
+            <div class="score dislikes">0</div>
+            <div class="score unvoted">3</div>
+            <div class="score likes">3</div>
+
+                <div class="arrow-downvote login-required" onclick="voteDownSubmission(385052);" role="button" aria-label="downvote" tabindex="0"></div>
+
+        </div>
+        <div class="scorebar" title="Blue = upvotes, violet = downvotes">
+            <div class="scorebar-likes" style="height: 100%"></div>
+            <div class="scorebar-dislikes" style="height: 0%"></div>
+        </div>
+
+
+                    
+
+
+
+        <div class="entry unvoted">
+            <p class="title">
+                <a class="title may-blank " href="http://i.imgur.com/xnPhkvK.png" tabindex="1" title="Detroit Lion flair sprites.  See comments for additional Lion sprites." target="_blank">Detroit Lion flair sprites.  See comments for additional Lion sprites.</a>
+                <span class="domain">(<a href="/domains/i.imgur.com/">i.imgur.com</a>)</span>
+            </p>
+
+                    <p class="tagline">
+                        submitted <time title="8/7/2015 2:36:16 AM" datetime="8/7/2015 2:36:16 AM">7 months</time> ago by <a href="/user/redditbelowsme" class="author may-blank userinfo" data-username="redditbelowsme">redditbelowsme</a>
+                        <span class="userattrs"></span> to <a href="/v/NFLCSS" class="subverse hover may-blank">NFLCSS</a>
+                        <span class="commentvotesratio">(<span class="post_upvotes">+3</span>|<span class="post_downvotes">-0</span>)</span>
+                    </p>
+
+            <ul class="flat-list buttons">
+                <li class="first">
+                        <a href="/v/NFLCSS/comments/385052" class="comments may-blank">1 comments</a>
+                </li>
+                        <li>
+                            
+
+        <span class="option main active">
+            <a href="javascript:void(0)" class="togglebutton savelink" onclick="return toggleSaveSubmission(385052)">save</a>
+        </span>
+
+                        </li>
+            </ul>
+            <div class="expando" style="display: none">
+                <form style="" novalidate="novalidate" class="usertext" action="#">
+                    <div class="usertext-body may-blank-within">
+                        <div class="videoplayer">
+                            Loading magic stuff...
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+
+                    <div class="child"></div>
+                    <div class="clearleft"></div>
+                </div>
+                <div class="submission id-385023 even link " data-fullname="385023" data-ups="1" data-downs="">
+                    <p class="parent"></p>
+
+                    
+
+        <div class="midcol unvoted">
+
+                <div class="arrow-upvote login-required" onclick="voteUpSubmission(385023);" role="button" aria-label="upvote" tabindex="0"></div>
+
+            <div class="score dislikes">0</div>
+            <div class="score unvoted">3</div>
+            <div class="score likes">3</div>
+
+                <div class="arrow-downvote login-required" onclick="voteDownSubmission(385023);" role="button" aria-label="downvote" tabindex="0"></div>
+
+        </div>
+        <div class="scorebar" title="Blue = upvotes, violet = downvotes">
+            <div class="scorebar-likes" style="height: 100%"></div>
+            <div class="scorebar-dislikes" style="height: 0%"></div>
+        </div>
+
+
+                    
+
+
+
+                    <a class="thumbnail may-blank" href="http://i.imgur.com/W0Yaeaq.png" target="_blank">
+                            <img src="https://cdn.voat.co/thumbs/d72cc883-71a8-4a95-80d4-af9d9b84bb01.jpg" alt="New Orleans Saints flair sprite sheet" />
+                    </a>
+        <div class="entry unvoted">
+            <p class="title">
+                <a class="title may-blank " href="http://i.imgur.com/W0Yaeaq.png" tabindex="1" title="New Orleans Saints flair sprite sheet" target="_blank">New Orleans Saints flair sprite sheet</a>
+                <span class="domain">(<a href="/domains/i.imgur.com/">i.imgur.com</a>)</span>
+            </p>
+
+                    <p class="tagline">
+                        submitted <time title="8/7/2015 2:27:59 AM" datetime="8/7/2015 2:27:59 AM">7 months</time> ago by <a href="/user/redditbelowsme" class="author may-blank userinfo" data-username="redditbelowsme">redditbelowsme</a>
+                        <span class="userattrs"></span> to <a href="/v/NFLCSS" class="subverse hover may-blank">NFLCSS</a>
+                        <span class="commentvotesratio">(<span class="post_upvotes">+3</span>|<span class="post_downvotes">-0</span>)</span>
+                    </p>
+
+            <ul class="flat-list buttons">
+                <li class="first">
+                        <a href="/v/NFLCSS/comments/385023" class="comments may-blank">discuss</a>
+                </li>
+                        <li>
+                            
+
+        <span class="option main active">
+            <a href="javascript:void(0)" class="togglebutton savelink" onclick="return toggleSaveSubmission(385023)">save</a>
+        </span>
+
+                        </li>
+            </ul>
+            <div class="expando" style="display: none">
+                <form style="" novalidate="novalidate" class="usertext" action="#">
+                    <div class="usertext-body may-blank-within">
+                        <div class="videoplayer">
+                            Loading magic stuff...
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+
+                    <div class="child"></div>
+                    <div class="clearleft"></div>
+                </div>
+                <div class="submission id-448128 odd link self" data-fullname="448128" data-ups="1" data-downs="">
+                    <p class="parent"></p>
+
+                    
+
+        <div class="midcol unvoted">
+
+                <div class="arrow-upvote login-required" onclick="voteUpSubmission(448128);" role="button" aria-label="upvote" tabindex="0"></div>
+
+            <div class="score dislikes">0</div>
+            <div class="score unvoted">2</div>
+            <div class="score likes">2</div>
+
+                <div class="arrow-downvote login-required" onclick="voteDownSubmission(448128);" role="button" aria-label="downvote" tabindex="0"></div>
+
+        </div>
+        <div class="scorebar" title="Blue = upvotes, violet = downvotes">
+            <div class="scorebar-likes" style="height: 100%"></div>
+            <div class="scorebar-dislikes" style="height: 0%"></div>
+        </div>
+
+
+                    
+
+
+
+        <div class="entry unvoted">
+            <p class="title">
+                <a class="title may-blank " href="/v/NFLCSS/comments/448128" tabindex="1" title="Test test test">Test test test</a>
+                <span class="domain">(<a href="/v/NFLCSS">v/NFLCSS</a>)</span>
+            </p>
+
+                    <p class="tagline">
+                        submitted <time title="8/25/2015 9:32:41 PM" datetime="8/25/2015 9:32:41 PM">7 months</time> ago by <a href="/user/redditbelowsme" class="author may-blank userinfo" data-username="redditbelowsme">redditbelowsme</a>
+                        <span class="userattrs"></span> to <a href="/v/NFLCSS" class="subverse hover may-blank">NFLCSS</a>
+                        <span class="commentvotesratio">(<span class="post_upvotes">+2</span>|<span class="post_downvotes">-0</span>)</span>
+                    </p>
+
+            <ul class="flat-list buttons">
+                <li class="first">
+                        <a href="/v/NFLCSS/comments/448128" class="comments may-blank">1 comments</a>
+
+                </li>
+                        <li>
+                            
+
+        <span class="option main active">
+            <a href="javascript:void(0)" class="togglebutton savelink" onclick="return toggleSaveSubmission(448128)">save</a>
+        </span>
+
+                        </li>
+            </ul>
+            <div class="expando" style="display: none">
+                <form style="" novalidate="novalidate" class="usertext" action="#">
+                    <div class="usertext-body may-blank-within">
+                        <div class="md">
+                            Please wait...
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+
+                    <div class="child"></div>
+                    <div class="clearleft"></div>
+                </div>
+                <div class="submission id-433208 even link self" data-fullname="433208" data-ups="1" data-downs="">
+                    <p class="parent"></p>
+
+                    
+
+        <div class="midcol unvoted">
+
+                <div class="arrow-upvote login-required" onclick="voteUpSubmission(433208);" role="button" aria-label="upvote" tabindex="0"></div>
+
+            <div class="score dislikes">0</div>
+            <div class="score unvoted">2</div>
+            <div class="score likes">2</div>
+
+                <div class="arrow-downvote login-required" onclick="voteDownSubmission(433208);" role="button" aria-label="downvote" tabindex="0"></div>
+
+        </div>
+        <div class="scorebar" title="Blue = upvotes, violet = downvotes">
+            <div class="scorebar-likes" style="height: 100%"></div>
+            <div class="scorebar-dislikes" style="height: 0%"></div>
+        </div>
+
+
+                    
+
+
+
+        <div class="entry unvoted">
+            <p class="title">
+                <a class="title may-blank " href="/v/NFLCSS/comments/433208" tabindex="1" title="What do you all think of the Buffalo sub?  Both day and nite modes are active.">What do you all think of the Buffalo sub?  Both day and nite modes are active.</a>
+                <span class="domain">(<a href="/v/NFLCSS">v/NFLCSS</a>)</span>
+            </p>
+
+                    <p class="tagline">
+                        submitted <time title="8/20/2015 6:05:24 PM" datetime="8/20/2015 6:05:24 PM">7 months</time> ago by <a href="/user/redditbelowsme" class="author may-blank userinfo" data-username="redditbelowsme">redditbelowsme</a>
+                        <span class="userattrs"></span> to <a href="/v/NFLCSS" class="subverse hover may-blank">NFLCSS</a>
+                        <span class="commentvotesratio">(<span class="post_upvotes">+2</span>|<span class="post_downvotes">-0</span>)</span>
+                    </p>
+
+            <ul class="flat-list buttons">
+                <li class="first">
+                        <a href="/v/NFLCSS/comments/433208" class="comments may-blank">3 comments</a>
+
+                </li>
+                        <li>
+                            
+
+        <span class="option main active">
+            <a href="javascript:void(0)" class="togglebutton savelink" onclick="return toggleSaveSubmission(433208)">save</a>
+        </span>
+
+                        </li>
+            </ul>
+            <div class="expando" style="display: none">
+                <form style="" novalidate="novalidate" class="usertext" action="#">
+                    <div class="usertext-body may-blank-within">
+                        <div class="md">
+                            Please wait...
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+
+                    <div class="child"></div>
+                    <div class="clearleft"></div>
+                </div>
+                <div class="submission id-384813 odd link self" data-fullname="384813" data-ups="1" data-downs="">
+                    <p class="parent"></p>
+
+                    
+
+        <div class="midcol unvoted">
+
+                <div class="arrow-upvote login-required" onclick="voteUpSubmission(384813);" role="button" aria-label="upvote" tabindex="0"></div>
+
+            <div class="score dislikes">0</div>
+            <div class="score unvoted">2</div>
+            <div class="score likes">2</div>
+
+                <div class="arrow-downvote login-required" onclick="voteDownSubmission(384813);" role="button" aria-label="downvote" tabindex="0"></div>
+
+        </div>
+        <div class="scorebar" title="Blue = upvotes, violet = downvotes">
+            <div class="scorebar-likes" style="height: 100%"></div>
+            <div class="scorebar-dislikes" style="height: 0%"></div>
+        </div>
+
+
+                    
+
+
+
+        <div class="entry unvoted">
+            <p class="title">
+                <a class="title may-blank " href="/v/NFLCSS/comments/384813" tabindex="1" title="3d buttons.  I have attempted to make 3d buttons.  They are the first thing in the page source if anyone wants to perfect it.">3d buttons.  I have attempted to make 3d buttons.  They are the first thing in the page source if anyone wants to perfect it.</a>
+                <span class="domain">(<a href="/v/NFLCSS">v/NFLCSS</a>)</span>
+            </p>
+
+                    <p class="tagline">
+                        submitted <time title="8/7/2015 1:29:45 AM" datetime="8/7/2015 1:29:45 AM">7 months</time> ago by <a href="/user/redditbelowsme" class="author may-blank userinfo" data-username="redditbelowsme">redditbelowsme</a>
+                        <span class="userattrs"></span> to <a href="/v/NFLCSS" class="subverse hover may-blank">NFLCSS</a>
+                        <span class="commentvotesratio">(<span class="post_upvotes">+2</span>|<span class="post_downvotes">-0</span>)</span>
+                    </p>
+
+            <ul class="flat-list buttons">
+                <li class="first">
+                        <a href="/v/NFLCSS/comments/384813" class="comments may-blank">discuss</a>
+
+                </li>
+                        <li>
+                            
+
+        <span class="option main active">
+            <a href="javascript:void(0)" class="togglebutton savelink" onclick="return toggleSaveSubmission(384813)">save</a>
+        </span>
+
+                        </li>
+            </ul>
+            <div class="expando" style="display: none">
+                <form style="" novalidate="novalidate" class="usertext" action="#">
+                    <div class="usertext-body may-blank-within">
+                        <div class="md">
+                            Please wait...
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+
+                    <div class="child"></div>
+                    <div class="clearleft"></div>
+                </div>
+        </div>
+
+        <div class="pagination-container">
+            <ul>
+
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+    
+
+<div class="footer-container">
+    <div class="footer">
+        <div>
+            <span class="separator"></span><a href="/about">about</a>
+            <span class="separator"></span><a href="/help/faq">faq</a>
+            <span class="separator"></span><a href="/help/markdown">markdown</a>
+            <span class="separator"></span><a href="https://github.com/voat/voat">source code</a>
+            <span class="separator"></span><a href="/api/help">API</a>
+            <span class="separator"></span><a href="/rss">RSS</a>
+            <span class="separator"></span><a href="/p/partnerprogram">become a partner</a>
+        </div>
+        <p class="bottommenu">
+            Use of this site constitutes acceptance of our <a href="/help/useragreement">User Agreement</a> and <a href="/help/privacy">Privacy Policy</a>.
+        </p>
+        <p class="bottommenu">
+            &copy; 2016 Voat.co. All rights reserved. Voat and the Voat Mascot are trademarks of Voat.co.
+        </p>
+    </div>
+</div>
+
+    <script type="text/javascript" src="/bundles/javascript?v=7Z_YiSeMp6Gd33asxgxXLNOTqd5GXJe395FElrS2fLI1"></script>
+
+    <script type="text/javascript" src="/bundles/bootstrap?v=NzP9D5jO6GVMzY8_4Kfk811W0VrrhYdC5doOJzjbWJc1"></script>
+
+
+    
+
+</body>
+</html>
