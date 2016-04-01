@@ -132,16 +132,16 @@ content: url(http://i.imgur.com/MzQzXuf.png);
 font-size: 0!important;
 }
 
-.pagename a, .titlebox .whoaversename a[href$="/v/nfl"] {
+.pagename a, .titlebox .whoaversename a[href$="/v/NFL"] {
 font-size: 0!important;
 }
 
-.light .titlebox .whoaversename a[href$="/v/nfl"]::after {
+.light .titlebox .whoaversename a[href$="/v/NFL"]::after {
 content: url("http://i.imgur.com/Dg6I61W.png");
 margin-left: 0px;
 }
 
-.dark .titlebox .whoaversename a[href$="/v/nfl"]::after {
+.dark .titlebox .whoaversename a[href$="/v/NFL"]::after {
 content: url("http://i.imgur.com/Dg6I61W.png");
 margin-left: 0px;
 }
