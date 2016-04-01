@@ -157,25 +157,25 @@ font-size: 0px !important;
 }
 
 .light div.titlebox .subscribers span.number:after {
-font-size: 15px;
+font-size: 10px;
 content: " Bench Warmers";
 color: #11119C !important;
 }
 
 .light div.titlebox .users-online span.number:after {
-font-size: 15px;
+font-size: 10px;
 content: " Leading A Drive";
 color: #11119C !important;
 }
 
 div.titlebox .subscribers span.number:after {
-font-size: 15px;
+font-size: 10px;
 content: " Bench Warmers";
 color: #fff !important;
 }
 
 div.titlebox .users-online span.number:after {
-font-size: 15px;
+font-size: 10px;
 content: " Leading A Drive";
 color: #fff !important;
 }
