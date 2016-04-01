@@ -1,8 +1,3 @@
-@media (min-width: 871px) {
-
-
-/* Flair CSS */
-@import url("https://rawgit.com/LegoMyEg0/voat-nfl/master/flair.css");
 
 #header {
 outline: none;
