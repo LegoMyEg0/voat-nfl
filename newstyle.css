@@ -1258,13 +1258,6 @@ height: 20px;
 background: url('https://i.imgur.com/006WURl.png');
 }
 
-.dark .arrow-upvoted {
-cursor: pointer;
-width: 25px;
-height: 25px;
-background: url('http://i.imgur.com/1yGfFvP.png?1');
-}
-
 .dark .arrow-downvoted {
 cursor: pointer;
 width: 25px;
