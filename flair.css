@@ -1354,16 +1354,16 @@ a[href="/user/ShagginTurtles"]:not(.upvoatsGiven)::after {
     margin: 0px;  
     margin-left: 5px;
     background-color: transparent; 
-    background-image: url("http://i.imgur.com/HONUhIN.png"); 
-    width: 39px; 
-    height: 40px;
+    background-image: url("http://i.imgur.com/iNQbKCK.png"); 
+    width: 31px; 
+    height: 30px;
     vertical-align: middle;
 }
 
 @media (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
 	.sprite {
-		 background-image: url("http://i.imgur.com/HONUhIN.png");
-		 background-size: 39px 40px;
+		 background-image: url("http://i.imgur.com/iNQbKCK.png");
+		 background-size: 31px 30px;
 	}
 }
 /* Trophy */
