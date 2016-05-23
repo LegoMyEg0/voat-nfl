@@ -534,7 +534,7 @@ body {
 	} 
 	
 .link .usertext .md h3, .side .md h3 { 
-	background: #EA010D; 
+	background: #D2000B; 
 	border-radius: 9px 9px 0px 0px; 
 	color: #FFFFFF; 
 	margin: 20px 0px 0px; 
@@ -590,7 +590,7 @@ body {
 	border-right:0; 
 	border-left:0; 
 	} 
-.link .usertext .alert-h1, .alert-h2, .side .alert-h1, .alert-h2 {
+.link .usertext .alert-h1, .alert-h2, .alert-h3, .side .alert-h1, .alert-h2, .alert-h3 {
 	color:#A5ACAF
 	} 
 .link .usertext .md .spacer.spacersection, .side .spacer.spacersection { 
