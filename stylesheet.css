@@ -532,6 +532,16 @@ body {
 	padding: 5px 0px; 
 	text-align: center; 
 	} 
+	
+.link .usertext .md h3, .side .md h3 { 
+	background: #EA010D; 
+	border-radius: 9px 9px 0px 0px; 
+	color: #FFFFFF; 
+	margin: 20px 0px 0px; 
+	padding: 5px 0px; 
+	text-align: center; 
+	} 
+	
 .link .usertext .md ul, .side .md ul { 
 	background-color:rgba(255, 255, 255, 0); 
 	margin:0; 
