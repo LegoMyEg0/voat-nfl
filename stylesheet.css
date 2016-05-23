@@ -590,7 +590,7 @@ body {
 	border-right:0; 
 	border-left:0; 
 	} 
-.link .usertext .alert-h1, .alert-h2, .alert-h3, .side .alert-h1, .alert-h2, .alert-h3 {
+.link .usertext .alert-h1, .alert-h2, .side .alert-h1, .alert-h2, {
 	color:#A5ACAF
 	} 
 .link .usertext .md .spacer.spacersection, .side .spacer.spacersection { 
