@@ -451,19 +451,7 @@ body {
 }
 
 /* Upvotes and Downvotes */
-.arrow-upvote {
-  cursor: pointer;
-  width: 25px;
-  height: 22px;
-  background: url('http://i.imgur.com/XsUx0Lj.png');
- opacity: 0.5;
-}
-.arrow-upvoted {
-  cursor: pointer;
-  width: 25px;
-  height: 22px;
-  background: url('http://i.imgur.com/um4jIVT.png');
-}
+
 .arrow-downvote {
   cursor: pointer;
   width: 20px;
@@ -967,4 +955,306 @@ background: url(https://i.imgur.com/bD1KaCq.png?1)no-repeat center;
 	width: 40px;
         height: 30px;
         background-position: 0 -700px;
+}
+
+
+Putting Flairs In Comments
+
+/* ============== other logos and flair ========================= */
+a[href$="/BUF"]:before,
+a[href$="/NWE"]:before,
+a[href$="/NYJ"]:before,
+a[href$="/MIA"]:before,
+a[href$="/IND"]:before,
+a[href$="/HOU"]:before,
+a[href$="/JAX"]:before,
+a[href$="/TEN"]:before,
+a[href$="/BAL"]:before,
+a[href$="/PIT"]:before,
+a[href$="/CIN"]:before,
+a[href$="/CLE"]:before,
+a[href$="/DEN"]:before,
+a[href$="/OAK"]:before,
+a[href$="/SD"]:before,
+a[href$="/KC"]:before,
+a[href$="/DAL"]:before,
+a[href$="/PHI"]:before,
+a[href$="/NYG"]:before,
+a[href$="/WAS"]:before,
+a[href$="/SEA"]:before,
+a[href$="/ARI"]:before,
+a[href$="/LA"]:before,
+a[href$="/SF"]:before,
+a[href$="/CAR"]:before,
+a[href$="/NO"]:before,
+a[href$="/ATL"]:before,
+a[href$="/TB"]:before,
+a[href$="/GB"]:before,
+a[href$="/MIN"]:before,
+a[href$="/DET"]:before,
+a[href$="/CHI"]:before,
+a[href$="/NFL"]:before,
+a[href$="/NFC"]:before,
+a[href$="/AFC"]:before,
+a[href$="/METEOR"]:before
+{
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url(http://i.imgur.com/Cwsznh6.png);
+    background-position: -9999px -9999px;
+    background-color: transparent; 
+    vertical-align: middle;
+    content: "";
+}
+
+a[href$="/ARI"]:before
+{
+    background-position:0px 0px;
+    width: 20px;
+    height: 20px;
+}
+
+a[href$="/ATL"]:before
+{
+    background-position:0px -20px;
+    width: 20px;
+    height: 20px;
+}
+
+a[href$="/BAL"]:before
+{
+    background-position:0px -60px;
+    width: 20px;
+    height: 20px;
+}
+
+a[href$="/BUF"]:before
+{
+    background-position:0px -100px;
+    width: 20px;
+    height: 20px;
+}
+
+a[href$="/CAR"]:before
+{
+    background-position:0px -120px;
+    width: 20px;
+    height: 20px;
+}
+
+a[href$="/CHI"]:before
+{
+    background-position:0px -140px;
+    width: 20px;
+    height: 20px;
+}
+
+a[href$="/CIN"]:before
+{
+    background-position:0px -180px;
+    width: 20px;
+    height: 20px;
+}
+
+a[href$="/CLE"]:before
+{
+    background-position:0px -220px;
+    width: 20px;
+    height: 20px;
+}
+
+a[href$="/DAL"]:before
+{
+    background-position:0px -280px;
+    width: 20px;
+    height: 20px;
+}
+
+a[href$="/DEN"]:before
+{
+    background-position:0px -300px;
+    width: 20px;
+    height: 20px;
+}
+
+a[href$="/DET"]:before
+{
+    background-position:0px -340px;
+    width: 20px;
+    height: 20px;
+}
+
+a[href$="/GB"]:before
+{
+    background-position:0px -360px;
+    width: 20px;
+    height: 20px;
+}
+
+a[href$="/HOU"]:before
+{
+    background-position:0px -380px;
+    width: 20px;
+    height: 20px;
+}
+
+a[href$="/IND"]:before
+{
+    background-position:0px -400px;
+    width: 20px;
+    height: 20px;
+}
+
+a[href$="/JAX"]:before
+{
+    background-position:0px -440px;
+    width: 20px;
+    height: 20px;
+}
+
+a[href$="/KC"]:before
+{
+    background-position:0px -480px;
+    width: 20px;
+    height: 20px;
+}
+
+a[href$="/MIA"]:before
+{
+    background-position:0px -500px;
+    width: 20px;
+    height: 20px;
+}
+
+a[href$="/MIN"]:before
+{
+    background-position:0px -540px;
+    width: 20px;
+    height: 20px;
+}
+
+a[href$="/NWE"]:before
+{
+    background-position:0px -560px;
+    width: 20px;
+    height: 20px;
+}
+
+a[href$="/NO"]:before
+{
+    background-position:0px -600px;
+    width: 20px;
+    height: 20px;
+}
+
+a[href$="/NYG"]:before
+{
+    background-position:0px -640px;
+    width: 20px;
+    height: 20px;
+}
+
+a[href$="/NYJ"]:before
+{
+    background-position:0px -680px;
+    width: 20px;
+    height: 20px;
+}
+
+a[href$="/OAK"]:before
+{
+    background-position:0px -720px;
+    width: 20px;
+    height: 20px;
+}
+
+a[href$="/PHI"]:before
+{
+    background-position:0px -740px;
+    width: 20px;
+    height: 20px;
+}
+
+a[href$="/PIT"]:before
+{
+    background-position:0px -780px;
+    width: 20px;
+    height: 20px;
+}
+
+a[href$="/SD"]:before
+{
+    background-position:0px -820px;
+    width: 20px;
+    height: 20px;
+}
+
+a[href$="/SF"]:before
+{
+    background-position:0px -860px;
+    width: 20px;
+    height: 20px;
+}
+
+a[href$="/SEA"]:before
+{
+    background-position:0px -880px;
+    width: 20px;
+    height: 20px;
+}
+
+a[href$="/LA"]:before
+{
+    background-position:0px -900px;
+    width: 20px;
+    height: 20px;
+}
+
+a[href$="/TB"]:before
+{
+    background-position:0px -940px;
+    width: 20px;
+    height: 20px;
+}
+
+a[href$="/TEN"]:before
+{
+    background-position:0px -980px;
+    width: 20px;
+    height: 20px;
+}
+
+a[href$="/WAS"]:before
+{
+    background-position:0px -1020px;
+    width: 20px;
+    height: 20px;
+}
+
+a[href$="/AFC"]:before
+{
+    background-position:0px -1040px;
+    width: 20px;
+    height: 20px;
+}
+
+a[href$="/NFC"]:before
+{
+    background-position:0px -1060px;
+    width: 20px;
+    height: 20px;
+}
+
+a[href$="/NFL"]:before
+{
+    background-position:0px -1080px;
+    width: 20px;
+    height: 20px;
+}
+
+a[href$="/METEOR"]:before
+{
+    background-position:0px -1120px;
+    width: 20px;
+    height: 20px;
 }
