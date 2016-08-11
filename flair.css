@@ -260,6 +260,7 @@ a[href="/user/methodamericon"]:not(.upvoatsGiven)::after,
 a[href="/user/Billswinthesuperbowl"]:not(.upvoatsGiven)::after,
 a[href="/user/The_Ugliest_Man_Ever"]:not(.upvoatsGiven)::after,
 a[href="/user/myth2sbr"]:not(.upvoatsGiven)::after,
+a[href="/user/jesuspiece"]:not(.upvoatsGiven)::after,
 a[href="/user/KoalaEater"]:not(.upvoatsGiven)::after,
 a[href="/user/BloodPool"]:not(.upvoatsGiven)::after,
 a[href="/user/jard"]:not(.upvoatsGiven)::after,
@@ -598,6 +599,7 @@ a[href="/user/CaptNemo131"]:not(.upvoatsGiven)::after {
 	background-position: 0 -180px;
 }
 /* cincinnati alt */
+a[href="/user/jesuspiece"]:not(.upvoatsGiven)::after,
 a[href="/user/catfishjones"]:not(.upvoatsGiven)::after {
 	background-position: 0 -200px;
 }
