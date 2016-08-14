@@ -246,6 +246,7 @@ a[href="/user/russizm"]:not(.upvoatsGiven)::after {
 }
 
 /* ==== Start image flair ==== */
+a[href="/user/SocratesOP"]:not(.upvoatsGiven)::after,
 a[href="/user/madmenace"]:not(.upvoatsGiven)::after,
 a[href="/user/BLUFALCON78"]:not(.upvoatsGiven)::after,
 a[href="/user/Grumpy_Old_Man"]:not(.upvoatsGiven)::after,
@@ -571,6 +572,7 @@ a[href="/user/Dorago1991"]:not(.upvoatsGiven)::after {
 	background-position: 0 -100px;
 }
 /* carolina */
+a[href="/user/SocratesOP"]:not(.upvoatsGiven)::after,
 a[href="/user/madmenace"]:not(.upvoatsGiven)::after,
 a[href="/user/ILikeMyDogNotYours"]:not(.upvoatsGiven)::after,
 a[href="/user/Say_What"]:not(.upvoatsGiven)::after,
