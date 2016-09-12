@@ -246,6 +246,7 @@ a[href="/user/russizm"]:not(.upvoatsGiven)::after {
 }
 
 /* ==== Start image flair ==== */
+a[href="/user/Firinmahlazer"]:not(.upvoatsGiven)::after,
 a[href="/user/SocratesOP"]:not(.upvoatsGiven)::after,
 a[href="/user/madmenace"]:not(.upvoatsGiven)::after,
 a[href="/user/BLUFALCON78"]:not(.upvoatsGiven)::after,
@@ -751,6 +752,7 @@ a[href="/user/zoi"]:not(.upvoatsGiven)::after {
 	background-position: 0 -520px;
 }
 /* minnesota */
+a[href="/user/Firinmahlazer"]:not(.upvoatsGiven)::after,
 a[href="/user/methodamericon"]:not(.upvoatsGiven)::after,
 a[href="/user/KoalaEater"]:not(.upvoatsGiven)::after,
 a[href="/user/BeeboBaggins"]:not(.upvoatsGiven)::after,
@@ -969,6 +971,7 @@ a[href="/user/Spectre42"]:not(.upvoatsGiven)::after {
 }
 
 /* ===== Start goat flair ===== */
+a[href="/user/crazy_eyes"]:not(.upvoatsGiven)::after,
 a[href="/user/EndDrugAndOtherWars"]:not(.upvoatsGiven)::after,
 a[href="/user/microlyfe"]:not(.upvoatsGiven)::after,
 a[href="/user/fr0stbit3"]:not(.upvoatsGiven)::after,
@@ -1142,6 +1145,7 @@ a[href="/user/sLnTsRvC"]:not(.upvoatsGiven)::after {
 	background-position: 0 -713px;
 }
 /* packers goat */
+a[href="/user/crazy_eyes"]:not(.upvoatsGiven)::after,
 a[href="/user/wu-tang_clan"]:not(.upvoatsGiven)::after,
 a[href="/user/Redeyedjedi"]:not(.upvoatsGiven)::after,
 a[href="/user/tonsor"]:not(.upvoatsGiven)::after,
